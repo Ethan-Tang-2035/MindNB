@@ -1,0 +1,102 @@
+#desktop-files {position:fixed;inset:auto 20px 12px;display:flex;align-items:center;justify-content:flex-end;gap:16px;z-index:50;font:12px/1.3 system-ui,-apple-system,"PingFang SC",sans-serif;pointer-events:none}
+#desktop-files>* {pointer-events:auto}
+.desktop-actions {display:flex;align-items:center;gap:4px;padding:5px 6px;background:var(--ui-bg,#fffdf6);border:1px solid var(--ui-border,#e8e0cf);border-radius:14px;color:var(--ui-fg,#645c4e)}
+.desktop-actions .desktop-action {display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;min-width:58px;min-height:46px;padding:5px 10px;border:0;border-radius:9px;background:transparent;color:inherit;font:inherit;font-size:11px;cursor:pointer;box-sizing:border-box}
+.desktop-action svg {flex-shrink:0}
+.desktop-actions .desktop-action:hover {background:var(--ui-field);color:var(--ui-fg)}
+.desktop-actions .desktop-action:focus-visible,#desktop-save-retry:focus-visible {outline:2px solid #287eff;outline-offset:2px}
+.desktop-actions .desktop-action:disabled {opacity:.5;cursor:wait}
+.desktop-save-status {display:flex;align-items:center;justify-content:flex-end;gap:8px;max-width:40%;min-width:0}
+#desktop-save-state {display:block;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:#718069;padding:8px 0;font:inherit;font-size:11px}
+#desktop-save-retry {flex:none;border:1px solid var(--ui-border);border-radius:7px;background:var(--ui-bg);color:var(--ui-fg);font:inherit;padding:6px 8px;cursor:pointer}
+#desktop-save-state::before {content:'✓';font:16px system-ui;margin-right:7px}
+#desktop-save-state[data-failed=true] {color:#b43f2c}
+#desktop-save-state[data-failed=true]::before {content:'!'}
+body:has(#desktop-files) #zoom-bar,body:has(#desktop-files) #editor-doc-switch {bottom:16px!important}
+body:has(#desktop-files) #app.editor-modern #minimap {bottom:72px}
+body:has(#desktop-files) #app.editor-modern #toolbar>.editor-menu {max-height:calc(100dvh - 150px)}
+body:has(#desktop-files) #home {padding-bottom:88px;box-sizing:border-box;scroll-padding-bottom:88px}
+body.vault-missing #app {visibility:hidden}
+body.vault-missing #desktop-files {display:none}
+
+@media(max-width:800px){
+ #app.editor-modern #style-panel{position:fixed;right:0;top:70px;bottom:0;width:min(320px,90vw);height:auto!important;z-index:30}
+ #app.editor-modern #canvas,#app.editor-modern:not(.panel-hidden):has(#style-panel) #canvas{width:100%;height:100dvh!important;flex:1 1 auto}
+ #app.editor-modern #toolbar,#app.editor-modern.panel-hidden #toolbar{left:50%;max-width:calc(100vw - 16px);top:8px}
+ #app.editor-modern #editor-header{left:12px;top:62px;max-width:220px}
+ #app.editor-modern #editor-doc-title{display:none}
+ #desktop-files{gap:8px;inset:auto 10px 8px}
+ .desktop-actions .desktop-action{min-width:48px;padding:5px 7px}
+ .desktop-save-status{max-width:40%;flex-wrap:wrap;gap:2px}
+ #app.editor-modern #minimap{right:12px!important}
+}
+
+#desktop-welcome {display:none}
+body.vault-missing #desktop-welcome {display:flex;position:fixed;inset:0;z-index:60;overflow:auto;box-sizing:border-box;background:#f8f9f5;color:#283c32;padding:48px 40px;font-family:system-ui,-apple-system,"PingFang SC",sans-serif;align-items:center;justify-content:center}
+.welcome-layout {width:min(940px,100%);display:grid;grid-template-columns:1.05fr 1fr;gap:38px 72px;align-items:center;margin:auto}
+.welcome-brand {display:flex;align-items:center;gap:12px;font-size:19px;font-weight:650;letter-spacing:-.5px;margin-bottom:44px}
+.welcome-logo {width:36px;height:36px;object-fit:contain;border-radius:9px;flex-shrink:0}
+.welcome-intro h1 {font-size:clamp(30px,3.6vw,43px);line-height:1.42;letter-spacing:-1.5px;font-weight:650;margin:0 0 20px}
+.welcome-description {font-size:14px;line-height:1.95;color:#748075;margin:0}
+.welcome-map {width:100%;max-width:380px;margin-top:34px;display:block}
+.welcome-map text {font-family:inherit;font-size:13px;fill:#5b705c}
+.welcome-setup {box-sizing:border-box;background:#fff;border:1px solid #e5e9e1;border-radius:22px;padding:36px;box-shadow:0 12px 36px -24px #45604438}
+.welcome-folder {width:52px;height:52px;display:grid;place-items:center;border-radius:15px;background:#eff3e9;margin-bottom:24px}
+.welcome-folder svg {width:28px;height:28px;fill:none;stroke:#61785b;stroke-width:1.6;stroke-linejoin:round}
+.welcome-setup h2 {font-size:22px;font-weight:620;letter-spacing:-.5px;margin:0 0 12px}
+.welcome-setup>p {font-size:13px;line-height:1.85;color:#7b847b;margin:0}
+.welcome-primary {margin-top:28px;width:100%;display:flex;justify-content:space-between;align-items:center;border:0;border-radius:10px;padding:15px 18px;background:#344f3f;color:#fff;font-family:inherit;font-weight:600;font-size:14px;cursor:pointer;transition:background .15s,transform .15s}
+.welcome-primary:hover {background:#45634e;transform:translateY(-1px)}
+.welcome-primary:focus-visible {outline:3px solid #a6b99b;outline-offset:4px}
+.welcome-primary:disabled {opacity:.55;cursor:wait;transform:none}
+.welcome-setup .welcome-hint {font-size:11px;line-height:1.7;margin-top:12px;color:#8c948a}
+.welcome-migration {border-top:1px solid #edf0e9;margin-top:28px;padding-top:24px}
+.welcome-migration strong {font-size:12px;font-weight:550;color:#687366}
+.welcome-migration p {font-size:12px;line-height:1.9;color:#8b9388;margin:8px 0 0}
+.welcome-migration span {white-space:nowrap;color:#687366}
+.welcome-setup .welcome-error {color:#ad4433;margin-top:18px;font-size:12px;overflow-wrap:anywhere}
+.welcome-footer {grid-column:1/-1;display:flex;justify-content:center;gap:24px;font-size:11px;color:#9ca495;margin-top:12px}
+.welcome-footer span {display:flex;align-items:center;gap:7px}
+.welcome-footer i {width:5px;height:5px;border-radius:50%;background:#7e9973}
+@media(max-width:760px){
+ body.vault-missing #desktop-welcome {padding:32px 24px}
+ .welcome-layout {max-width:420px;grid-template-columns:1fr;gap:24px}
+ .welcome-brand {margin-bottom:24px}
+ .welcome-intro h1 {font-size:30px}
+ .welcome-description {font-size:13px}
+ .welcome-map {display:none}
+ .welcome-setup {padding:26px}
+ .welcome-folder {display:none}
+ .welcome-footer {margin-top:0}
+}
+@media(prefers-reduced-motion:reduce){.welcome-primary{transition:none}.welcome-primary:hover{transform:none}}
+
+@media(prefers-color-scheme:dark){
+ #desktop-save-state{color:#a4b79b}
+ #desktop-save-state[data-failed=true]{color:#ffb4a6}
+}
+
+#home-library-actions:empty {display:none}
+#home-library-actions {max-width:1160px;margin:0 auto 24px;padding:0 48px}
+#home-library-actions .desktop-actions {display:inline-flex;padding:4px;border-radius:12px;gap:6px}
+#home-library-actions .desktop-action {flex-direction:row;gap:8px;font-size:13px;min-height:38px;padding:8px 14px}
+.trash-dialog {width:min(720px,calc(100vw - 40px));max-height:calc(100dvh - 40px);box-sizing:border-box;overflow:auto}
+.trash-dialog h2 {margin:0 0 8px}
+.trash-dialog .trash-status {font-size:12px;margin:0 0 12px;min-height:18px}
+.trash-list {max-height:calc(100dvh - 240px);overflow:auto;min-height:60px}
+.trash-row {display:flex;align-items:center;gap:8px;min-height:56px;padding:6px 0;box-sizing:border-box;border-bottom:1px solid var(--ui-border)}
+.trash-row>div {flex:1;min-width:0}
+.trash-row strong {display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:13px;font-weight:500}
+.trash-row small {display:block;font-size:11px;color:var(--ui-muted);margin-top:3px}
+.trash-dialog .trash-row button {flex:none;padding:6px 9px;font-size:12px;min-height:30px}
+.trash-dialog .trash-delete {color:#b43f2c;background:transparent}
+.trash-footer {display:flex;align-items:center;justify-content:space-between;gap:12px;border-top:1px solid var(--ui-border);margin-top:12px;padding-top:12px}
+.trash-footer nav {display:flex;align-items:center;gap:10px;font-size:12px}
+.trash-footer button {font-size:12px;padding:6px 9px}
+.trash-dialog button:disabled {opacity:.4;cursor:default}
+@media(max-width:600px){#home-library-actions{padding:0 16px}.trash-dialog{padding:18px}.trash-footer{flex-wrap:wrap}.trash-row{gap:4px}}
+
+/* Status floats over the canvas; only the retry button captures pointer input. */
+body:has(#app.editor-modern) #desktop-files {left:calc(var(--canvas-left,56px) + 16px);right:auto;max-width:max(40px,calc(100vw - var(--canvas-left,56px) - var(--canvas-right,0px) - 256px))}
+body:has(#app.editor-modern) .desktop-save-status {max-width:100%;flex-wrap:nowrap;padding:0 10px;border:1px solid var(--ui-border);border-radius:12px;background:color-mix(in srgb,var(--ui-bg) 90%,transparent);box-shadow:0 2px 10px #0000000a;pointer-events:none}
+body:has(#app.editor-modern) #desktop-save-retry {pointer-events:auto}

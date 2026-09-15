@@ -1,0 +1,239 @@
+:root{--ui-bg:#f4f5f0;--ui-fg:#303a32;--ui-border:#dfe3d9;--ui-field:#eceedf;--ui-accent:#527ca2}
+@media(prefers-color-scheme:dark){:root{--ui-bg:#242925;--ui-fg:#edf0eb;--ui-border:#424940;--ui-field:#343b34;--ui-accent:#99c5ef}}
+#app.editor-modern #style-panel{background:var(--ui-bg)!important;color:var(--ui-fg)!important;border:0;border-left:1px solid var(--ui-border);border-radius:0;box-shadow:none;padding:20px;width:300px}
+#style-panel .context-heading{font-size:16px;margin:16px 0;order:0}
+#style-panel .panel-tabs{display:flex!important;position:sticky;top:0;z-index:4;background:var(--ui-field);border-radius:9px;padding:3px;gap:4px;margin-bottom:18px}
+#style-panel .panel-tab{flex:1;border:0;background:transparent;color:var(--ui-fg);height:34px;border-radius:7px;font:inherit}
+#style-panel .panel-tab.active{background:var(--ui-bg);box-shadow:0 1px 3px #0001}
+#style-panel .panel-group{border:0;border-bottom:1px solid var(--ui-border);padding:16px 0;margin:0}
+#style-panel summary{font:600 14px system-ui;cursor:pointer;padding:6px 0 12px}
+#style-panel input,#style-panel select,#style-panel .popover-trigger{background:var(--ui-field)!important;color:var(--ui-fg)!important;border:1px solid transparent!important;border-radius:7px;min-height:34px}
+#style-panel button{color:var(--ui-fg)}
+#style-panel .panel-section{border:0;padding-top:0}
+#app.editor-modern #node-toolbar{gap:2px;padding:5px;border:1px solid var(--ui-border);border-radius:12px;background:var(--ui-bg);box-shadow:0 5px 20px #00000012;min-width:0}
+#node-toolbar button{width:40px!important;height:40px!important;color:var(--ui-fg);border:0;border-radius:7px;background:transparent}
+#node-toolbar button:hover{background:var(--ui-field)}
+#node-toolbar svg{width:24px;height:24px}
+#node-child svg,#add-node-btn svg{transform:rotate(90deg)}
+#node-child{background:color-mix(in srgb,var(--ui-accent) 14%,transparent)!important;color:var(--ui-accent)!important}
+#node-toolbar button[hidden]{display:none!important}
+#context-menu{width:272px!important;max-height:calc(100vh - 90px);overflow:auto}
+.theme-color-choice{display:flex;align-items:center;gap:8px;font-size:12px;margin:8px 0;color:var(--ui-fg)}
+.theme-color-choice input{width:16px;height:16px;accent-color:var(--ui-accent,#55746a)}
+#context-menu button{height:36px;text-align:left;padding:8px 14px}
+#context-menu button:last-child{border-top:1px solid var(--ui-border);margin-top:6px}
+.editor-menu,#app.editor-modern #toolbar,#editor-header,#zoom-bar{background:var(--ui-bg)!important;color:var(--ui-fg)!important;border-color:var(--ui-border)!important}
+.editor-menu button{color:var(--ui-fg)!important}
+.media-dialog{width:440px;max-width:calc(100vw - 32px);border:1px solid var(--ui-border);border-radius:16px;padding:24px;background:var(--ui-bg);color:var(--ui-fg);max-height:85vh;overflow:auto}
+.media-dialog::backdrop{background:#101b1533}
+.media-dialog header,#node-note-panel header{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:18px}
+.media-dialog button,#node-note-panel button{min-height:36px;border:0;border-radius:7px;padding:8px 12px;background:var(--ui-field);color:var(--ui-fg);cursor:pointer}
+.media-dialog nav{display:flex;gap:8px;margin-bottom:20px}
+.media-dialog nav button[aria-selected=true]{color:var(--ui-accent);box-shadow:inset 0 -2px var(--ui-accent)}
+.media-upload{padding:30px 16px;border:1px dashed var(--ui-border);border-radius:10px;white-space:pre-line;text-align:center;line-height:2}
+.media-upload input{max-width:100%;margin-top:16px}
+.node-icon-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin:18px 0}
+.node-icon-grid button{height:54px}
+.media-dialog input:not([type=file]),#node-note-panel textarea{background:var(--ui-field);color:var(--ui-fg);border:1px solid var(--ui-border);border-radius:8px;padding:10px;box-sizing:border-box}
+#style-panel.note-open>:not(#node-note-panel){display:none!important}
+#node-note-panel textarea{width:100%;height:45vh;min-height:220px;font:14px/1.8 system-ui;resize:vertical}
+#node-note-panel p,#node-note-panel small{font:12px/1.7 system-ui;color:var(--ui-fg);opacity:.8}
+.note-tools{display:flex;gap:4px;margin-bottom:10px}
+.node-note-badge{position:absolute;background:var(--ui-bg);color:var(--ui-accent);border:0;border-radius:6px;width:28px;height:28px;z-index:6;cursor:pointer}
+.image-selection{position:absolute;border:2px solid var(--ui-accent);pointer-events:none;z-index:7;box-sizing:border-box}
+.image-selection button{position:absolute;width:28px;height:28px;background:transparent;border:0;pointer-events:auto;touch-action:none;cursor:nwse-resize}
+.image-selection button::after{content:'';position:absolute;inset:9px;border:2px solid var(--ui-accent);background:var(--ui-bg)}
+.image-selection .nw{left:-15px;top:-15px}.image-selection .ne{right:-15px;top:-15px;cursor:nesw-resize}.image-selection .sw{left:-15px;bottom:-15px;cursor:nesw-resize}.image-selection .se{right:-15px;bottom:-15px}
+.image-selection output{position:absolute;right:0;top:100%;white-space:nowrap;background:var(--ui-accent);color:white;font:11px system-ui;padding:4px;border-radius:4px;margin-top:8px}
+#style-panel .content-card{background:transparent;border:0;border-top:1px solid var(--ui-border);padding:14px 0}
+button:focus-visible,summary:focus-visible,input:focus-visible,textarea:focus-visible{outline:2px solid var(--ui-accent);outline-offset:3px}
+@media(max-width:800px){#app.editor-modern #style-panel{position:absolute;right:0;top:60px;bottom:0;z-index:15;max-width:85vw;box-shadow:-5px 0 25px #0002}#node-toolbar{position:fixed!important;top:auto!important;bottom:70px!important;left:50%!important;transform:translateX(-50%)}.image-selection button{width:44px;height:44px}.image-selection button::after{inset:17px}.image-selection .nw,.image-selection .sw{left:-23px}.image-selection .ne,.image-selection .se{right:-23px}.image-selection .nw,.image-selection .ne{top:-23px}.image-selection .sw,.image-selection .se{bottom:-23px}}
+#app.editor-modern #style-panel .canvas-sec,#app.editor-modern #style-panel .node-defaults-sec{border:0;border-bottom:1px solid var(--ui-border);border-radius:0;padding:16px 0;background:transparent;box-shadow:none;margin:0}
+#app.editor-modern #style-panel .panel-tabs{order:-1}
+#app.editor-modern #style-panel .panel-label{font:500 12px/1.5 system-ui;color:var(--ui-fg);opacity:.7}
+#app.editor-modern #style-panel .theme-card{border:1px solid transparent;background:transparent;border-radius:8px}
+#app.editor-modern #style-panel .theme-card.active{border-color:var(--ui-accent)}
+#app.editor-modern #style-panel .context-heading{margin:4px 0 12px}
+#app.editor-modern #style-panel{font:13px/1.5 system-ui}
+#style-panel [data-page]{min-height:0}
+#app.editor-modern #style-panel .panel-section>div{box-shadow:none}
+.media-dialog select{display:block;width:100%;height:38px;background:var(--ui-field);color:var(--ui-fg);border:0;border-radius:6px;margin:12px 0;padding:6px}
+#style-panel.content-selected .node-section,#style-panel.content-selected .object-section{display:none!important}
+#style-panel.content-selected #content-panel{display:block!important}
+.node-detail-actions{display:flex;gap:8px;margin-bottom:12px}.node-detail-actions button{border:0;background:var(--ui-field);padding:8px 14px;border-radius:7px}
+#canvas.file-drag-over{outline:3px solid var(--ui-accent);outline-offset:-5px}
+#context-menu button:nth-child(4),#context-menu button:nth-child(8){border-top:1px solid var(--ui-border);margin-top:5px}
+#app.editor-modern #style-panel fieldset{border:0;border-top:1px solid var(--ui-border);padding:12px 0;margin:12px 0}
+#app.editor-modern #style-panel .clear-field{display:flex;align-items:center;justify-content:space-between;gap:10px;margin:8px 0}
+#app.editor-modern #style-panel .clear-field input[type=number]{width:80px}
+#app.editor-modern #tool-select-btn.active{background:color-mix(in srgb,var(--ui-accent) 15%,var(--ui-bg));color:var(--ui-accent)}
+#app.editor-modern #style-panel .node-text-group{font-size:12px;padding:10px 0}
+#app.editor-modern #style-panel .node-text-group>.panel-sublabel{display:inline-block;width:38px;vertical-align:middle;margin:6px 0}
+#app.editor-modern #style-panel .node-text-group>.seg-row{display:inline-flex;width:calc(100% - 42px);margin:4px 0;vertical-align:middle;gap:3px}
+#app.editor-modern #style-panel .node-text-group>div:not(.seg-row):not(.panel-sublabel){display:flex;align-items:center;gap:8px;margin:5px 0;min-height:32px}
+#app.editor-modern #style-panel .node-text-group>div>.panel-sublabel{width:30px;flex:none;margin:0}
+#app.editor-modern #style-panel .node-text-group .font-control{display:flex;flex-direction:row;align-items:center;justify-content:space-between;gap:10px;margin:6px 0}
+#app.editor-modern #style-panel .node-text-group .font-control select{width:170px;max-width:68%}
+#app.editor-modern #style-panel .node-text-group .seg-btn{min-width:26px;min-height:30px;font-size:12px;padding:4px 7px}
+#app.editor-modern #style-panel .node-text-group .swatch{width:21px;height:21px}
+#app.editor-modern #style-panel .node-appearance-group>details{border:0;padding:0;margin:0}
+#app.editor-modern #style-panel .node-appearance-group>details>summary{font:400 13px system-ui;padding:10px 0}
+#app.editor-modern #style-panel .node-appearance-group>div{margin:6px 0}
+
+/* The document title is one rounded surface, including on dark paper. */
+#app.editor-modern #editor-header{padding:4px 12px 4px 4px;height:44px;box-sizing:border-box;border:1px solid var(--ui-border);border-radius:24px;gap:10px}
+#app.editor-modern #editor-header .tbar-btn{background:var(--ui-bg);color:var(--ui-fg);border:0;box-shadow:none}
+/* Six stable entry points; option collections live inside their picker. */
+#app.editor-modern #style-panel{padding:20px;width:320px;overflow-y:auto}
+#app.editor-modern #style-panel .panel-tabs{margin-bottom:8px}
+.canvas-settings .settings-section{padding:18px 0;border-bottom:1px solid var(--ui-border)}
+.canvas-settings h3{font:600 12px/1.5 system-ui;color:var(--ui-fg);opacity:.65;margin:0 0 12px}
+.setting-row{display:grid;grid-template-columns:62px minmax(0,1fr);align-items:center;gap:8px;margin:10px 0;font:13px system-ui}
+.setting-picker{position:relative;min-width:0}
+#app.editor-modern #style-panel .setting-trigger{display:flex;align-items:center;gap:8px;width:100%;height:38px;padding:0 10px;border:1px solid transparent;border-radius:8px;background:var(--ui-field);font:13px system-ui;text-align:left;white-space:nowrap}
+.setting-trigger>span:nth-child(2){overflow:hidden;text-overflow:ellipsis}
+.setting-chevron{margin-left:auto;flex:none}
+.setting-preview{width:32px;height:24px;display:flex;align-items:center;justify-content:center;flex:none}
+#style-panel .setting-preview svg{width:32px!important;height:24px!important;flex:none}
+.palette-dots{display:grid;grid-template-columns:repeat(2,10px);gap:3px}.palette-dots i{width:10px;height:10px;border-radius:50%;display:block}
+.paper-color{display:block;width:22px;height:22px;border-radius:6px;box-shadow:inset 0 0 0 1px #0002}
+.theme-preview{display:block;width:32px;height:24px;border-radius:4px}
+#style-panel .setting-menu{position:absolute;right:0;top:calc(100% + 5px);z-index:30;width:264px;max-width:calc(100vw - 48px);max-height:350px;overflow:auto;padding:6px;background:var(--ui-bg);border:1px solid var(--ui-border);border-radius:12px;box-shadow:0 10px 30px #0002}
+.setting-menu[hidden]{display:none!important}
+#style-panel .setting-menu button{display:flex;align-items:center;gap:10px;width:100%;min-height:38px;padding:7px 8px;border:0;border-radius:7px;background:transparent;font:13px system-ui;text-align:left}
+#style-panel .setting-menu button:hover,#style-panel .setting-menu button:focus-visible{background:var(--ui-field)}
+.setting-check{margin-left:auto;color:var(--ui-accent);visibility:hidden}.setting-menu button[aria-pressed=true] .setting-check{visibility:visible}
+.setting-menu-heading{font:600 11px system-ui;opacity:.6;padding:10px 8px 4px}
+#style-panel .setting-cards{display:grid;grid-template-columns:1fr 1fr;gap:6px}
+#style-panel .setting-cards button{flex-direction:column;gap:7px;position:relative;border:1px solid transparent;padding:10px 6px}
+#style-panel .setting-cards button[aria-pressed=true]{border-color:var(--ui-accent)}
+.setting-cards .setting-check{position:absolute;right:5px;top:5px}.setting-cards .setting-preview,.setting-cards .theme-preview{width:86px;height:46px;display:grid;place-items:center}
+#style-panel .setting-cards .setting-preview svg{width:70px!important;height:36px!important}
+.setting-segment{display:flex;padding:3px;border-radius:8px;background:var(--ui-field)}
+#style-panel .setting-segment button{flex:1;height:32px;background:transparent;border:0;border-radius:6px;font:13px system-ui}
+#style-panel .setting-segment button[aria-pressed=true]{background:var(--ui-bg);box-shadow:0 1px 3px #0001}
+#style-panel .canvas-settings>details{border:0;padding:18px 0}
+#style-panel .canvas-settings>details>summary{font:500 13px system-ui}
+#style-panel .canvas-settings .font-control{display:flex;align-items:center;justify-content:space-between;gap:8px}
+#style-panel .canvas-settings .font-control select{max-width:160px}
+@media(max-width:800px){#app.editor-modern #style-panel{width:320px;max-width:90vw}.setting-trigger{min-height:44px}#style-panel .setting-menu button{min-height:44px}}
+#style-panel .canvas-settings h3{font:600 12px/1.5 system-ui;margin:0 0 12px}
+#style-panel .canvas-settings .settings-section{padding:14px 0}
+#style-panel [data-page=canvas]>.panel-section{padding-top:0}
+#style-panel .setting-menu{position:fixed;right:auto;top:auto}
+#style-panel .setting-trigger:focus-visible{outline:2px solid var(--ui-accent);outline-offset:2px}
+@media(max-width:800px){
+  #app.editor-modern #style-panel{height:auto;max-height:none;bottom:66px}
+  #app.editor-modern:not(.panel-hidden):has(#style-panel) #canvas{height:100dvh}
+  #app.editor-modern:has(#style-panel) #zoom-bar{bottom:14px;right:12px}
+}
+
+/* Keep chrome geometry independent of the canvas and legacy handwritten controls. */
+#app.editor-modern{background:var(--ui-bg)}
+#app.editor-modern #toolbar{box-sizing:border-box;height:48px;box-shadow:none}
+#app.editor-modern #editor-header,#app.editor-modern #zoom-bar,#editor-doc-switch{box-shadow:none}
+#editor-doc-switch{background:var(--ui-bg);color:var(--ui-fg);border-color:var(--ui-border)}
+#app.editor-modern #toolbar>.tbar-btn{flex-shrink:0;color:var(--ui-fg)}
+#app.editor-modern #toolbar>.tbar-btn:hover{background:var(--ui-field)}
+#app.editor-modern #toolbar>.tbar-btn.active{background:color-mix(in srgb,var(--ui-accent) 16%,var(--ui-bg));color:var(--ui-accent)}
+#app.editor-modern #toolbar>.tbar-btn{border-color:var(--ui-border)}
+#app.editor-modern .editor-menu{border-color:var(--ui-border);box-shadow:0 4px 16px #00000010}
+#app.editor-modern .editor-menu button{justify-content:flex-start;box-sizing:border-box;gap:10px;min-height:38px;height:auto;padding:9px 10px;white-space:normal;overflow-wrap:anywhere}
+#app.editor-modern .editor-menu button:hover:not(:disabled){background:var(--ui-field)}
+#app.editor-modern .editor-menu svg{flex:none;width:20px;height:20px}
+#app.editor-modern #toolbar>.editor-menu{top:calc(100% + 8px);right:0;max-height:calc(100dvh - 150px);width:244px}
+#app.editor-modern #node-toolbar{width:max-content;height:auto;box-sizing:border-box;max-width:calc(100vw - 24px);box-shadow:none}
+#app.editor-modern #node-toolbar button{flex:0 0 36px;width:36px!important;min-width:36px;height:36px!important;display:grid;place-items:center;padding:6px}
+#app.editor-modern #node-toolbar svg{width:20px;height:20px}
+#app.editor-modern #ink-toolbar{top:120px;bottom:auto;left:16px;width:max-content;max-width:calc(100vw - 368px);box-sizing:border-box;padding:8px;gap:6px;border:1px solid var(--ui-border);background:var(--ui-bg);color:var(--ui-fg);box-shadow:none}
+#app.editor-modern.panel-hidden #ink-toolbar{max-width:calc(100vw - 32px)}
+#app.editor-modern #ink-toolbar button{border:1px solid transparent;box-sizing:border-box;width:36px;height:36px;padding:6px;color:var(--ui-fg);opacity:1}
+#app.editor-modern #ink-toolbar button:hover{background:var(--ui-field)}
+#app.editor-modern #ink-toolbar [aria-pressed=true]{background:var(--ui-field);border-color:var(--ui-accent);color:var(--ui-accent)}
+#ink-toolbar input[type=color]{width:32px;height:32px;padding:2px;border:1px solid var(--ui-border);border-radius:7px;background:var(--ui-field)}
+#app.editor-modern #zoom-bar button,#app.editor-modern #minimap button{color:var(--ui-fg)}
+#app.editor-modern #zoom-bar button.round{background:var(--ui-bg);border-color:var(--ui-border)}
+#app.editor-modern #minimap{background:var(--ui-bg);border-color:var(--ui-border);color:var(--ui-fg);box-shadow:none}
+.media-dialog{box-sizing:border-box;width:490px;max-height:calc(100dvh - 32px);font:14px/1.6 system-ui,-apple-system,'PingFang SC',sans-serif;overflow-wrap:anywhere}
+.media-dialog h2{font-size:22px;margin:0 0 18px}
+.media-dialog header>strong{min-width:0;overflow-wrap:anywhere}
+.media-dialog header>button{flex:none}
+.media-dialog>button+button{margin-left:8px}
+.media-dialog input:not([type=file]):not([type=checkbox]):not([type=color]){max-width:100%}
+.media-dialog button svg{display:block;margin:auto}
+.media-dialog :is(button,input,select):focus-visible{outline:2px solid var(--ui-accent);outline-offset:2px}
+.media-dialog :is(button,input,select){font:inherit}
+.media-dialog .dialog-actions{display:flex;flex-wrap:wrap;justify-content:flex-end;align-items:center;gap:10px;margin-top:24px}
+.media-dialog .dialog-actions button{min-width:76px}
+.media-dialog .dialog-primary{background:var(--ui-accent);color:#fff}
+.media-dialog .dialog-field{display:flex;flex-direction:column;gap:8px}
+.media-dialog .dialog-field input{width:100%;min-width:0}
+.media-dialog .document-restore-row{display:flex;align-items:center;gap:16px;margin:12px 0}
+.media-dialog .document-restore-row span{flex:1;min-width:0;overflow-wrap:anywhere}
+.media-dialog .document-restore-row button{flex:none}
+#app.editor-modern #editor-doc-title{border:0;background:transparent;color:inherit;padding:4px 0;min-width:0;text-align:left;font-size:15px;font-weight:650}
+#app.editor-modern #topics-menu{position:fixed}
+@media(max-width:1000px) and (min-width:801px){
+ #app.editor-modern #editor-doc-title{display:none}
+ #app.editor-modern #editor-header{width:44px;padding:3px;gap:0}
+}
+@media(max-width:800px){
+ #app.editor-modern #editor-header{width:44px;padding:3px;gap:0}
+ #app.editor-modern #style-panel{top:70px;bottom:78px;border:1px solid var(--ui-border);border-radius:14px 0 0 14px;box-shadow:none}
+ #app.editor-modern #node-toolbar{bottom:76px!important}
+ #app.editor-modern #ink-toolbar{max-width:calc(100vw - 32px)}
+ #app.editor-modern:not(.panel-hidden) #minimap{display:none}
+}
+@media(max-width:380px){
+ #app.editor-modern #toolbar>.tbar-btn{min-width:28px;padding:0 5px}
+ #app.editor-modern #toolbar{gap:2px;padding:6px}
+ #app.editor-modern #zoom-bar{gap:3px;padding:7px}
+ #editor-doc-switch{max-width:90px}
+}
+
+/* A visible node action row gets its own space above navigation controls. */
+#app.editor-modern:has(#style-panel.note-open) #node-toolbar{display:none}
+.media-dialog input[type=color]{box-sizing:border-box;width:36px;height:36px;padding:3px;margin-left:8px;vertical-align:middle}
+.media-dialog input[placeholder^="搜索图标"]{width:calc(100% - 44px);vertical-align:middle}
+#node-note-panel .note-tools{flex-wrap:wrap}
+#node-note-panel>button{margin:0 8px 8px 0}
+#node-note-panel>small{display:block}
+@media(max-width:800px){
+ #app.editor-modern:has(#node-toolbar:not([hidden])) #style-panel:not(.note-open){bottom:140px}
+}
+#app.editor-modern #toolbar>:is(#add-node-btn,#insert-menu-btn,#export-png-btn){border-left-color:var(--ui-border)}
+#style-panel .setting-menu{box-shadow:0 4px 16px #00000010}
+
+/* Document settings: one object per group, one label/control grid throughout. */
+#app.editor-modern #style-panel .canvas-settings .settings-scope{font:12px/1.7 system-ui;color:var(--ui-fg);opacity:.7;margin:4px 0 12px}
+#app.editor-modern #style-panel .canvas-settings>.settings-section{padding:0;border:0;border-bottom:1px solid var(--ui-border);margin:0}
+#app.editor-modern #style-panel .canvas-settings>.settings-section>summary{display:flex;align-items:center;gap:10px;list-style:none;padding:16px 0;font:600 13px/1.5 system-ui}
+#style-panel .settings-section>summary::-webkit-details-marker{display:none}
+#style-panel .settings-section>summary::after{content:'›';font:18px/1 system-ui;opacity:.6;flex:none;transform:rotate(0deg)}
+#style-panel .settings-section[open]>summary::after{transform:rotate(90deg)}
+#style-panel .settings-summary{margin-left:auto;max-width:165px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font:400 12px/1.5 system-ui;opacity:.6}
+#app.editor-modern #style-panel .canvas-settings .setting-row{display:grid;grid-template-columns:76px minmax(0,1fr);gap:10px;align-items:center;margin:0 0 10px;font:13px/1.5 system-ui}
+#app.editor-modern #style-panel .canvas-settings .setting-row[hidden],#app.editor-modern #style-panel .canvas-settings fieldset[hidden]{display:none}
+#app.editor-modern #style-panel .canvas-settings .setting-row>span{white-space:nowrap}
+#app.editor-modern #style-panel .canvas-settings .setting-row>select,#app.editor-modern #style-panel .canvas-settings .popover-trigger{box-sizing:border-box;width:100%;min-width:0;max-width:none;height:38px;min-height:38px;margin:0;padding:0 10px;border-radius:8px;font:13px system-ui;text-align:left}
+#app.editor-modern #style-panel .canvas-settings .popover-wrap{min-width:0;width:100%}
+#app.editor-modern #style-panel .canvas-settings .popover-trigger{display:flex;gap:8px;justify-content:flex-start;align-items:center}
+#app.editor-modern #style-panel .canvas-settings .popover-ic{width:30px;height:18px;flex:none}
+#app.editor-modern #style-panel .canvas-settings .popover-ic:empty{display:none}
+#app.editor-modern #style-panel .canvas-settings .popover-text{display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font:13px system-ui;min-width:0}
+#app.editor-modern #style-panel .canvas-settings .popover-chev{width:12px;height:12px;flex:none;margin-left:auto}
+#app.editor-modern #style-panel .canvas-settings fieldset{border:0;margin:4px 0 14px;padding:0;min-width:0}
+#app.editor-modern #style-panel .canvas-settings legend{font:500 12px/1.5 system-ui;opacity:.65;padding:4px 0 8px}
+#app.editor-modern #style-panel .canvas-settings .clear-field{display:grid;grid-template-columns:1fr 80px;align-items:center;gap:10px;margin:0 0 8px;font:13px/1.5 system-ui}
+#app.editor-modern #style-panel .canvas-settings .clear-field input[type=number]{box-sizing:border-box;height:36px;width:80px;min-width:0;text-align:right;padding:0 8px;font:13px system-ui}
+#app.editor-modern #style-panel .canvas-settings :is(select,input,button,summary):focus-visible{outline:2px solid var(--ui-accent);outline-offset:2px}
+@media(max-width:800px){
+ #app.editor-modern #style-panel .canvas-settings :is(.setting-trigger,.popover-trigger,.setting-row>select,.clear-field input[type=number]){height:44px;min-height:44px}
+ #app.editor-modern #style-panel .canvas-settings .setting-segment button{height:38px}
+}
+
+.custom-color-well{position:relative;display:inline-grid;flex:none;width:30px;height:28px;box-sizing:border-box;border:1px solid var(--ui-border);border-radius:5px;background:var(--ui-bg)}
+.custom-color-well input{position:absolute;inset:0;margin:0;cursor:pointer}
+.custom-color-well[data-inherited=true] input{opacity:0}
+.custom-color-well[data-inherited=true]::after{content:'';position:absolute;inset:5px;pointer-events:none;background:linear-gradient(135deg,transparent 46%,var(--ui-fg) 48%,var(--ui-fg) 52%,transparent 54%)}
+.custom-color-well:focus-within{outline:2px solid var(--ui-accent);outline-offset:2px}

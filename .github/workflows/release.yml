@@ -1,0 +1,174 @@
+name: Release preview builds
+on:
+  workflow_dispatch:
+  push:
+    tags: ['v*']
+permissions:
+  contents: read
+concurrency:
+  group: release-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  build:
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - os: macos-14
+            platform: mac
+            arch: arm64
+          - os: macos-15-intel
+            platform: mac
+            arch: x64
+          - os: windows-2022
+            platform: win
+            arch: x64
+          - os: ubuntu-24.04
+            platform: linux
+            arch: x64
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - name: Configure Windows desktop test resolution
+        if: runner.os == 'Windows'
+        shell: pwsh
+        run: Set-DisplayResolution -Width 1920 -Height 1080 -Force
+      - name: Configure Intel macOS desktop test resolution
+        if: runner.os == 'macOS' && matrix.arch == 'x64'
+        run: |
+          if [ -x "/Library/Application Support/VMware Tools/vmware-resolutionSet" ]; then
+            "/Library/Application Support/VMware Tools/vmware-resolutionSet" 1920 1080
+          fi
+          system_profiler SPDisplaysDataType
+      - name: Verify runner architecture (native helper must match Electron)
+        run: node -e "if (process.arch !== '${{ matrix.arch }}') process.exit(1)"
+      - run: npm run release:check
+      - run: npm run typecheck
+      - run: npm test
+      - run: npm run build:desktop
+      - name: Build preview installers (unsigned)
+        id: package
+        run: npx electron-builder --${{ matrix.platform }} --${{ matrix.arch }} --publish never
+        env:
+          CSC_IDENTITY_AUTO_DISCOVERY: 'false'
+      - name: Install Windows preview in an isolated directory
+        if: runner.os == 'Windows'
+        shell: pwsh
+        run: |
+          $installer = Get-ChildItem release/*.exe | Select-Object -First 1
+          $previewDir = Join-Path $env:RUNNER_TEMP 'MindNB-installed'
+          $installProcess = Start-Process -FilePath $installer.FullName -ArgumentList @('/S', "/D=$previewDir") -Wait -PassThru
+          if ($installProcess.ExitCode -ne 0) { throw "Installer exited with $($installProcess.ExitCode)" }
+          $previewExecutable = Join-Path $previewDir 'MindNB.exe'
+          if (!(Test-Path $previewExecutable)) { throw 'Installed executable not found' }
+          "MINDNB_PACKAGED_EXECUTABLE=$previewExecutable" | Out-File -FilePath $env:GITHUB_ENV -Encoding utf8 -Append
+          "MINDNB_PACKAGED_MCP=$(Join-Path $previewDir 'resources/mcp/mcp-server.mjs')" | Out-File -FilePath $env:GITHUB_ENV -Encoding utf8 -Append
+      - name: Install macOS preview from the DMG
+        if: runner.os == 'macOS'
+        run: |
+          preview_mount="$RUNNER_TEMP/mindnb-dmg"
+          hdiutil attach release/*.dmg -nobrowse -mountpoint "$preview_mount"
+          trap 'hdiutil detach "$preview_mount"' EXIT
+          ditto "$preview_mount/MindNB.app" "$RUNNER_TEMP/MindNB-installed.app"
+          echo "MINDNB_PACKAGED_EXECUTABLE=$RUNNER_TEMP/MindNB-installed.app/Contents/MacOS/MindNB" >> "$GITHUB_ENV"
+          echo "MINDNB_PACKAGED_MCP=$RUNNER_TEMP/MindNB-installed.app/Contents/Resources/mcp/mcp-server.mjs" >> "$GITHUB_ENV"
+      - name: Extract Linux AppImage for the runner without FUSE
+        if: runner.os == 'Linux'
+        run: |
+          chmod +x release/*.AppImage
+          release/*.AppImage --appimage-extract > /dev/null
+          echo "MINDNB_PACKAGED_EXECUTABLE=$GITHUB_WORKSPACE/squashfs-root/AppRun" >> "$GITHUB_ENV"
+          echo "MINDNB_PACKAGED_MCP=$GITHUB_WORKSPACE/squashfs-root/resources/mcp/mcp-server.mjs" >> "$GITHUB_ENV"
+      - name: Installed preview smoke test (macOS / Windows)
+        if: runner.os != 'Linux'
+        run: node scripts/smoke-packaged.mjs
+      - name: Extracted AppImage smoke test (Linux)
+        if: runner.os == 'Linux'
+        run: xvfb-run --auto-servernum node scripts/smoke-packaged.mjs
+      - name: Desktop regression tests (macOS / Windows)
+        if: runner.os != 'Linux'
+        run: npx playwright test --config playwright.desktop.config.ts
+      - name: Desktop regression tests (Linux)
+        if: runner.os == 'Linux'
+        run: xvfb-run --auto-servernum npx playwright test --config playwright.desktop.config.ts
+      - uses: actions/upload-artifact@v4
+        if: always() && steps.package.outcome == 'success'
+        with:
+          name: installers-${{ matrix.platform }}-${{ matrix.arch }}
+          retention-days: 1
+          if-no-files-found: error
+          path: |
+            release/*.dmg
+            release/*.zip
+            release/*.exe
+            release/*.AppImage
+      - uses: actions/upload-artifact@v4
+        if: failure()
+        with:
+          name: diagnostics-${{ matrix.platform }}-${{ matrix.arch }}
+          retention-days: 3
+          path: test-results/
+  source:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - run: npm run release:source
+      - uses: actions/upload-artifact@v4
+        with:
+          name: source
+          retention-days: 1
+          if-no-files-found: error
+          path: |
+            release/*-source.zip
+            release/*-source-manifest.txt
+  assemble:
+    needs: [build, source]
+    runs-on: ubuntu-24.04
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: installers-*
+          path: release
+          merge-multiple: true
+      - uses: actions/download-artifact@v4
+        with:
+          name: source
+          path: release
+      - run: node scripts/release-checksums.mjs
+      - uses: actions/upload-artifact@v4
+        with:
+          name: release-bundle
+          retention-days: 7
+          path: release/
+          if-no-files-found: error
+      - name: Create draft only for a version tag
+        if: github.ref_type == 'tag'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          RELEASE_TAG: ${{ github.ref_name }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          gh release create "$RELEASE_TAG" release/* --verify-tag --draft --prerelease --title "MindNB $RELEASE_TAG preview" --notes-file docs/open-source/release-notes.md

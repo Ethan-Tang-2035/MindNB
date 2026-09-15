@@ -1,0 +1,2728 @@
+{
+  "images": {
+    "image-1": {
+      "width": 1254,
+      "height": 1254,
+      "seed": 1
+    },
+    "image-2": {
+      "width": 1254,
+      "height": 1254,
+      "seed": 2
+    },
+    "image-3": {
+      "width": 1254,
+      "height": 1254,
+      "seed": 3
+    },
+    "image-4": {
+      "width": 1254,
+      "height": 1254,
+      "seed": 4
+    },
+    "image-5": {
+      "width": 1254,
+      "height": 1254,
+      "seed": 5
+    },
+    "image-6": {
+      "width": 1254,
+      "height": 1254,
+      "seed": 6
+    },
+    "image-7": {
+      "width": 1254,
+      "height": 1254,
+      "seed": 7
+    },
+    "image-8": {
+      "width": 1254,
+      "height": 1254,
+      "seed": 8
+    }
+  },
+  "document": {
+    "format": "mindnb-portable",
+    "version": 1,
+    "name": "合成图文回归样例",
+    "tree": {
+      "schemaVersion": 11,
+      "visualStyle": "clear",
+      "theme": "watercolor",
+      "paper": "#FCFAF4",
+      "paperStyle": "grid",
+      "paperDensity": "loose",
+      "ink": "#4B5047",
+      "font": "handwritten",
+      "layoutMode": "map",
+      "spacing": "comfortable",
+      "branchShape": "curve",
+      "branchLine": "solid",
+      "branchPalette": [
+        "#BA748B",
+        "#78967A",
+        "#C58B68",
+        "#9D85B6",
+        "#719DA6",
+        "#B29959",
+        "#B87671",
+        "#8A9871"
+      ],
+      "branchColorMode": "branch",
+      "lineWidth": 2,
+      "levelLineWidths": [
+        3,
+        2,
+        1.3
+      ],
+      "hierarchicalLines": true,
+      "root": {
+        "id": "mediterranean-week",
+        "text": "合成图文回归样例",
+        "children": [
+          {
+            "id": "monday",
+            "text": "示例 003 · 合成",
+            "children": [
+              {
+                "id": "monday-0",
+                "text": "示例 004 · 合成测试内容 可",
+                "children": [
+                  {
+                    "id": "monday-0-ingredients",
+                    "text": "示例 005 · 合成测试内容 可编辑结构与内容往返验证 可编辑结构与内容往返验证",
+                    "children": [],
+                    "seed": 7000,
+                    "style": {
+                      "shape": "rounded",
+                      "fill": "#FCFAF4",
+                      "borderColor": "#D9D9CB",
+                      "borderWidth": 1,
+                      "color": "#4B5047",
+                      "fontSize": 20,
+                      "width": 340,
+                      "align": "left"
+                    }
+                  },
+                  {
+                    "id": "monday-0-method",
+                    "text": "示例 006 ·",
+                    "children": [
+                      {
+                        "id": "monday-0-step1",
+                        "text": "示例 007 · 合成测试内容 可编辑结构与内容",
+                        "children": [],
+                        "seed": 7001,
+                        "style": {
+                          "shape": "rounded",
+                          "fill": "#FCFAF4",
+                          "borderColor": "#D9D9CB",
+                          "borderWidth": 1,
+                          "color": "#4B5047",
+                          "fontSize": 20,
+                          "width": 340,
+                          "align": "left"
+                        }
+                      },
+                      {
+                        "id": "monday-0-step2",
+                        "text": "示例 008 · 合成测试内容 ",
+                        "children": [],
+                        "seed": 7002,
+                        "style": {
+                          "shape": "rounded",
+                          "fill": "#FCFAF4",
+                          "borderColor": "#D9D9CB",
+                          "borderWidth": 1,
+                          "color": "#4B5047",
+                          "fontSize": 20,
+                          "width": 340,
+                          "align": "left"
+                        }
+                      }
+                    ],
+                    "seed": 7003,
+                    "style": {
+                      "shape": "rounded",
+                      "fill": "#F5E5EB",
+                      "borderColor": "#D9D9CB",
+                      "borderWidth": 1,
+                      "color": "#4B5047",
+                      "fontSize": 20,
+                      "width": 180,
+                      "align": "left"
+                    }
+                  },
+                  {
+                    "id": "monday-0-tip",
+                    "text": "示例 009 · 合成测试内容 可编辑结构与内容往返验",
+                    "children": [],
+                    "seed": 7004,
+                    "style": {
+                      "shape": "rounded",
+                      "fill": "#FCFAF4",
+                      "borderColor": "#D9D9CB",
+                      "borderWidth": 1,
+                      "color": "#4B5047",
+                      "fontSize": 20,
+                      "width": 340,
+                      "align": "left"
+                    }
+                  }
+                ],
+                "seed": 7005,
+                "collapsed": true,
+                "style": {
+                  "shape": "rounded",
+                  "fill": "#FCFAF4",
+                  "borderColor": "#BA748B",
+                  "borderWidth": 1.3,
+                  "color": "#4B5047",
+                  "fontSize": 22,
+                  "width": 324,
+                  "bold": false,
+                  "align": "center"
+                }
+              },
+              {
+                "id": "monday-1",
+                "text": "示例 010 · 合成测试内容 可编",
+                "children": [
+                  {
+                    "id": "monday-1-ingredients",
+                    "text": "示例 011 · 合成测试内容 可编辑结构与内容往返验证 可编辑结构与内容往返验证 可编辑结构与内容往返验证 可编辑结构与内容往返验证 可",
+                    "children": [],
+                    "seed": 7006,
+                    "style": {
+                      "shape": "rounded",
+                      "fill": "#FCFAF4",
+                      "borderColor": "#D9D9CB",
+                      "borderWidth": 1,
+                      "color": "#4B5047",
+                      "fontSize": 20,
+                      "width": 340,
+                      "align": "left"
+                    }
+                  },
+                  {
+                    "id": "monday-1-method",
+                    "text": "示例 012 ·",
+                    "children": [
+                      {
+                        "id": "monday-1-step1",
+                        "text": "示例 013 · 合成测试内容 可编辑结构与内容往返验证 ",
+                        "children": [],
+                        "seed": 7007,
+                        "style": {
+                          "shape": "rounded",
+                          "fill": "#FCFAF4",
+                          "borderColor": "#D9D9CB",
+                          "borderWidth": 1,
+                          "color": "#4B5047",
+                          "fontSize": 20,
+                          "width": 340,
+                          "align": "left"
+                        }
+                      },
+                      {
+                        "id": "monday-1-step2",
+                        "text": "示例 014 · 合成测试内容 可编辑结构与内容往返验证 可编辑结",
+                        "children": [],
+                        "seed": 7008,
+                        "style": {
+                          "shape": "rounded",
+                          "fill": "#FCFAF4",
+                          "borderColor": "#D9D9CB",
+                          "borderWidth": 1,
+                          "color": "#4B5047",
+                          "fontSize": 20,
+                          "width": 340,
+                          "align": "left"
+                        }
+                      }
+                    ],
+                    "seed": 7009,
+                    "style": {
+                      "shape": "rounded",
+                      "fill": "#F5E5EB",
+                      "borderColor": "#D9D9CB",
+                      "borderWidth": 1,
+                      "color": "#4B5047",
+                      "fontSize": 20,
+                      "width": 180,
+                      "align": "left"
+                    }
+                  },
+                  {
+                    "id": "monday-1-tip",
+                    "text": "示例 015 · 合成测试内容 可编辑结构与内容往",
+                    "children": [],
+                    "seed": 7010,
+                    "style": {
+                      "shape": "rounded",
+                      "fill": "#FCFAF4",
+                      "borderColor": "#D9D9CB",
+                      "borderWidth": 1,
+                      "color": "#4B5047",
+                      "fontSize": 20,
+                      "width": 340,
+                      "align": "left"
+                    }
+                  }
+                ],
+                "seed": 7011,
+                "collapsed": true,
+                "style": {
+                  "shape": "rounded",
+                  "fill": "#FCFAF4",
+                  "borderColor": "#BA748B",
+                  "borderWidth": 1.3,
+                  "color": "#4B5047",
+                  "fontSize": 22,
+                  "width": 324,
+                  "bold": false,
+                  "align": "center"
+                }
+              },
+              {
+                "id": "monday-2",
+                "text": "示例 016 · 合成测试内容 可编辑结构",
+                "children": [
+                  {
+                    "id": "monday-2-ingredients",
+                    "text": "示例 017 · 合成测试内容 可编辑结构与内容往返验证 可编辑结构与内容往返验证 可编辑结构与内容往返验证 可编",
+                    "children": [],
+                    "seed": 7012,
+                    "style": {
+                      "shape": "rounded",
+                      "fill": "#FCFAF4",
+                      "borderColor": "#D9D9CB",
+                      "borderWidth": 1,
+                      "color": "#4B5047",
+                      "fontSize": 20,
+                      "width": 340,
+                      "align": "left"
+                    }
+                  },
+                  {
+                    "id": "monday-2-method",
+                    "text": "示例 018 ·",
+                    "children": [
+                      {
+                        "id": "monday-2-step1",
+                        "text": "示例 019 · 合成测试内容 可编辑结构与内容往",
+                        "children": [],
+                        "seed": 7013,
+                        "style": {
+                          "shape": "rounded",
+                          "fill": "#FCFAF4",
+                          "borderColor": "#D9D9CB",
+                          "borderWidth": 1,
+                          "color": "#4B5047",
+                          "fontSize": 20,
+                          "width": 340,
+                          "align": "left"
+                        }
+                      },
+                      {
+                        "id": "monday-2-step2",
+                        "text": "示例 020 · 合成测试内容 可编辑结构",
+                        "children": [],
+                        "seed": 7014,
+                        "style": {
+                          "shape": "rounded",
+                          "fill": "#FCFAF4",
+                          "borderColor": "#D9D9CB",
+                          "borderWidth": 1,
+                          "color": "#4B5047",
+                          "fontSize": 20,
+                          "width": 340,
+                          "align": "left"
+                        }
+                      }
+                    ],
+                    "seed": 7015,
+                    "style": {
+                      "shape": "rounded",
+                      "fill": "#F5E5EB",
+                      "borderColor": "#D9D9CB",
+                      "borderWidth": 1,
+                      "color": "#4B5047",
+                      "fontSize": 20,
+                      "width": 180,
+                      "align": "left"
+                    }
+                  },
+                  {
+                    "id": "monday-2-tip",
+                    "text": "示例 021 · 合成测试内容 可编辑结构与内容往返",
+                    "children": [],
+                    "seed": 7016,
+                    "style": {
+                      "shape": "rounded",
+                      "fill": "#FCFAF4",
+                      "borderColor": "#D9D9CB",
+                      "borderWidth": 1,
+                      "color": "#4B5047",
+                      "fontSize": 20,
+                      "width": 340,
+                      "align": "left"
+                    }
+                  }
+                ],
+                "seed": 7017,
+                "collapsed": true,
+                "style": {
+                  "shape": "rounded",
+                  "fill": "#FCFAF4",
+                  "borderColor": "#BA748B",
+                  "borderWidth": 1.3,
+                  "color": "#4B5047",
+                  "fontSize": 22,
+                  "width": 324,
+                  "bold": false,
+                  "align": "center"
+                }
+              }
+            ],
+            "seed": 7019,
+            "sideOverride": "left",
+            "branchColor": "#BA748B",
+            "branchWidth": 3,
+            "contentLayout": "below",
+            "contents": [
+              {
+                "id": "image-monday",
+                "seed": 7018,
+                "kind": "image",
+                "src": "fixture:image-2",
+                "x": 0,
+                "y": 0,
+                "w": 190,
+                "h": 190,
+                "framed": false
+              }
+            ],
+            "style": {
+              "shape": "rounded",
+              "width": 216,
+              "fontSize": 26,
+              "fill": "#F5E5EB",
+              "borderColor": "#BA748B",
+              "borderWidth": 1.6,
+              "color": "#4B5047",
+              "bold": true,
+              "align": "center"
+            }
+          },
+          {
+            "id": "tuesday",
+            "text": "示例 022 · 合成",
+            "children": [
+              {
+                "id": "tuesday-0",
+                "text": "示例 023 · 合成测试内容 可编辑",
+                "children": [
+                  {
+                    "id": "tuesday-0-ingredients",
+                    "text": "示例 024 · 合成测试内容 可编辑结构与内容往返验证 可编辑结构与内容往返验证",
+                    "children": [],
+                    "seed": 7020,
+                    "style": {
+                      "shape": "rounded",
+                      "fill": "#FCFAF4",
+                      "borderColor": "#D9D9CB",
+                      "borderWidth": 1,
+                      "color": "#4B5047",
+                      "fontSize": 20,
+                      "width": 340,
+                      "align": "left"
+                    }
+                  },
+                  {
+                    "id": "tuesday-0-method",
+                    "text": "示例 025 ·",
+                    "children": [
+                      {
+                        "id": "tuesday-0-step1",
+                        "text": "示例 026 · 合成测试内容 可编辑结构",
+                        "children": [],
+                        "seed": 7021,
+                        "style": {
+                          "shape": "rounded",
+                          "fill": "#FCFAF4",
+                          "borderColor": "#D9D9CB",
+                          "borderWidth": 1,
+                          "color": "#4B5047",
+                          "fontSize": 20,
+                          "width": 340,
+                          "align": "left"
+                        }
+                      },
+                      {
+                        "id": "tuesday-0-step2",
+                        "text": "示例 027 · 合成测试内容",
+                        "children": [],
+                        "seed": 7022,
+                        "style": {
+                          "shape": "rounded",
+                          "fill": "#FCFAF4",
+                          "borderColor": "#D9D9CB",
+                          "borderWidth": 1,
+                          "color": "#4B5047",
+                          "fontSize": 20,
+                          "width": 340,
+                          "align": "left"
+                        }
+                      }
+                    ],
+                    "seed": 7023,
+                    "style": {
+                      "shape": "rounded",
+                      "fill": "#E8EFE4",
+                      "borderColor": "#D9D9CB",
+                      "borderWidth": 1,
+                      "color": "#4B5047",
+                      "fontSize": 20,
+                      "width": 180,
+                      "align": "left"
+                    }
+                  },
+                  {
+                    "id": "tuesday-0-tip",
+                    "text": "示例 028 · 合成测试内容 可编辑结",
+                    "children": [],
+                    "seed": 7024,
+                    "style": {
+                      "shape": "rounded",
+                      "fill": "#FCFAF4",
+                      "borderColor": "#D9D9CB",
+                      "borderWidth": 1,
+                      "color": "#4B5047",
+                      "fontSize": 20,
+                      "width": 340,
+                      "align": "left"
+                    }
+                  }
+                ],
+                "seed": 7025,
+                "collapsed": true,
+                "style": {
+                  "shape": "rounded",
+                  "fill": "#FCFAF4",
+                  "borderColor": "#78967A",
+                  "borderWidth": 1.3,
+                  "color": "#4B5047",
+                  "fontSize": 22,
+                  "width": 324,
+                  "bold": false,
+                  "align": "center"
+                }
+              },
+              {
+                "id": "tuesday-1",
+                "text": "示例 029 · 合成测试内容 可编辑",
+                "children": [
+                  {
+                    "id": "tuesday-1-ingredients",
+                    "text": "示例 030 · 合成测试内容 可编辑结构与内容往返验证 可编辑结构与内容往返验证 可编辑结构与内容往返验证 可编辑",
+                    "children": [],
+                    "seed": 7026,
+                    "style": {
+                      "shape": "rounded",
+                      "fill": "#FCFAF4",
+                      "borderColor": "#D9D9CB",
+                      "borderWidth": 1,
+                      "color": "#4B5047",
+                      "fontSize": 20,
+                      "width": 340,
+                      "align": "left"
+                    }
+                  },
+                  {
+                    "id": "tuesday-1-method",
+                    "text": "示例 031 ·",
+                    "children": [
+                      {
+                        "id": "tuesday-1-step1",
+                        "text": "示例 032 · 合成测试内容 可编辑结构与内",
+                        "children": [],
+                        "seed": 7027,
+                        "style": {
+                          "shape": "rounded",
+                          "fill": "#FCFAF4",
+                          "borderColor": "#D9D9CB",
+                          "borderWidth": 1,
+                          "color": "#4B5047",
+                          "fontSize": 20,
+                          "width": 340,
+                          "align": "left"
+                        }
+                      },
+                      {
+                        "id": "tuesday-1-step2",
+                        "text": "示例 033 · 合成测试内容 可编辑结构与内容往返验证 可编辑结构与",
+                        "children": [],
+                        "seed": 7028,
+                        "style": {
+                          "shape": "rounded",
+                          "fill": "#FCFAF4",
+                          "borderColor": "#D9D9CB",
+                          "borderWidth": 1,
+                          "color": "#4B5047",
+                          "fontSize": 20,
+                          "width": 340,
+                          "align": "left"
+                        }
+                      }
+                    ],
+                    "seed": 7029,
+                    "style": {
+                      "shape": "rounded",
+                      "fill": "#E8EFE4",
+                      "borderColor": "#D9D9CB",
+                      "borderWidth": 1,
+                      "color": "#4B5047",
+                      "fontSize": 20,
+                      "width": 180,
+                      "align": "left"
+                    }
+                  },
+                  {
+                    "id": "tuesday-1-tip",
+                    "text": "示例 034 · 合成测试内容 可编辑结构与内容往返",
+                    "children": [],
+                    "seed": 7030,
+                    "style": {
+                      "shape": "rounded",
+                      "fill": "#FCFAF4",
+                      "borderColor": "#D9D9CB",
+                      "borderWidth": 1,
+                      "color": "#4B5047",
+                      "fontSize": 20,
+                      "width": 340,
+                      "align": "left"
+                    }
+                  }
+                ],
+                "seed": 7031,
+                "collapsed": true,
+                "style": {
+                  "shape": "rounded",
+                  "fill": "#FCFAF4",
+                  "borderColor": "#78967A",
+                  "borderWidth": 1.3,
+                  "color": "#4B5047",
+                  "fontSize": 22,
+                  "width": 324,
+                  "bold": false,
+                  "align": "center"
+                }
+              },
+              {
+                "id": "tuesday-2",
+                "text": "示例 035 · 合成测试内容 可编辑",
+                "children": [
+                  {
+                    "id": "tuesday-2-ingredients",
+                    "text": "示例 036 · 合成测试内容 可编辑结构与内容往返验证 可编辑结构与内容往返验证 可编辑结构与内容往返验证 可编辑结构与内容往返验证 可编辑结构",
+                    "children": [],
+                    "seed": 7032,
+                    "style": {
+                      "shape": "rounded",
+                      "fill": "#FCFAF4",
+                      "borderColor": "#D9D9CB",
+                      "borderWidth": 1,
+                      "color": "#4B5047",
+                      "fontSize": 20,
+                      "width": 340,
+                      "align": "left"
+                    }
+                  },
+                  {
+                    "id": "tuesday-2-method",
+                    "text": "示例 037 ·",
+                    "children": [
+                      {
+                        "id": "tuesday-2-step1",
+                        "text": "示例 038 · 合成测试内容 可编辑结构与内容往返验",
+                        "children": [],
+                        "seed": 7033,
+                        "style": {
+                          "shape": "rounded",
+                          "fill": "#FCFAF4",
+                          "borderColor": "#D9D9CB",
+                          "borderWidth": 1,
+                          "color": "#4B5047",
+                          "fontSize": 20,
+                          "width": 340,
+                          "align": "left"
+                        }
+                      },
+                      {
+                        "id": "tuesday-2-step2",
+                        "text": "示例 039 · 合成测试内容 可编辑结构与内容往返",
+                        "children": [],
+                        "seed": 7034,
+                        "style": {
+                          "shape": "rounded",
+                          "fill": "#FCFAF4",
+                          "borderColor": "#D9D9CB",
+                          "borderWidth": 1,
+                          "color": "#4B5047",
+                          "fontSize": 20,
+                          "width": 340,
+                          "align": "left"
+                        }
+                      }
+                    ],
+                    "seed": 7035,
+                    "style": {
+                      "shape": "rounded",
+                      "fill": "#E8EFE4",
+                      "borderColor": "#D9D9CB",
+                      "borderWidth": 1,
+                      "color": "#4B5047",
+                      "fontSize": 20,
+                      "width": 180,
+                      "align": "left"
+                    }
+                  },
+                  {
+                    "id": "tuesday-2-tip",
+                    "text": "示例 040 · 合成测试内容 可编辑结构与内容",
+                    "children": [],
+                    "seed": 7036,
+                    "style": {
+                      "shape": "rounded",
+                      "fill": "#FCFAF4",
+                      "borderColor": "#D9D9CB",
+                      "borderWidth": 1,
+                      "color": "#4B5047",
+                      "fontSize": 20,
+                      "width": 340,
+                      "align": "left"
+                    }
+                  }
+                ],
+                "seed": 7037,
+                "collapsed": true,
+                "style": {
+                  "shape": "rounded",
+                  "fill": "#FCFAF4",
+                  "borderColor": "#78967A",
+                  "borderWidth": 1.3,
+                  "color": "#4B5047",
+                  "fontSize": 22,
+                  "width": 324,
+                  "bold": false,
+                  "align": "center"
+                }
+              }
+            ],
+            "seed": 7039,
+            "sideOverride": "left",
+            "branchColor": "#78967A",
+            "branchWidth": 3,
+            "contentLayout": "below",
+            "contents": [
+              {
+                "id": "image-tuesday",
+                "seed": 7038,
+                "kind": "image",
+                "src": "fixture:image-3",
+                "x": 0,
+                "y": 0,
+                "w": 190,
+                "h": 190,
+                "framed": false
+              }
+            ],
+            "style": {
+              "shape": "rounded",
+              "width": 216,
+              "fontSize": 26,
+              "fill": "#E8EFE4",
+              "borderColor": "#78967A",
+              "borderWidth": 1.6,
+              "color": "#4B5047",
+              "bold": true,
+              "align": "center"
+            }
+          },
+          {
+            "id": "wednesday",
+            "text": "示例 041 · 合成",
+            "children": [
+              {
+                "id": "wednesday-0",
+                "text": "示例 042 · 合成测试内容 可编辑",
+                "children": [
+                  {
+                    "id": "wednesday-0-ingredients",
+                    "text": "示例 043 · 合成测试内容 可编辑结构与内容往返验证 可编辑结构与内容往返验证 可",
+                    "children": [],
+                    "seed": 7040,
+                    "style": {
+                      "shape": "rounded",
+                      "fill": "#FCFAF4",
+                      "borderColor": "#D9D9CB",
+                      "borderWidth": 1,
+                      "color": "#4B5047",
+                      "fontSize": 20,
+                      "width": 340,
+                      "align": "left"
+                    }
+                  },
+                  {
+                    "id": "wednesday-0-method",
+                    "text": "示例 044 ·",
+                    "children": [
+                      {
+                        "id": "wednesday-0-step1",
+                        "text": "示例 045 · 合成测试内容 可编辑结构与内",
+                        "children": [],
+                        "seed": 7041,
+                        "style": {
+                          "shape": "rounded",
+                          "fill": "#FCFAF4",
+                          "borderColor": "#D9D9CB",
+                          "borderWidth": 1,
+                          "color": "#4B5047",
+                          "fontSize": 20,
+                          "width": 340,
+                          "align": "left"
+                        }
+                      },
+                      {
+                        "id": "wednesday-0-step2",
+                        "text": "示例 046 · 合成测试内容 可",
+                        "children": [],
+                        "seed": 7042,
+                        "style": {
+                          "shape": "rounded",
+                          "fill": "#FCFAF4",
+                          "borderColor": "#D9D9CB",
+                          "borderWidth": 1,
+                          "color": "#4B5047",
+                          "fontSize": 20,
+                          "width": 340,
+                          "align": "left"
+                        }
+                      }
+                    ],
+                    "seed": 7043,
+                    "style": {
+                      "shape": "rounded",
+                      "fill": "#F7ECE0",
+                      "borderColor": "#D9D9CB",
+                      "borderWidth": 1,
+                      "color": "#4B5047",
+                      "fontSize": 20,
+                      "width": 180,
+                      "align": "left"
+                    }
+                  },
+                  {
+                    "id": "wednesday-0-tip",
+                    "text": "示例 047 · 合成测试内容 可编辑结构与",
+                    "children": [],
+                    "seed": 7044,
+                    "style": {
+                      "shape": "rounded",
+                      "fill": "#FCFAF4",
+                      "borderColor": "#D9D9CB",
+                      "borderWidth": 1,
+                      "color": "#4B5047",
+                      "fontSize": 20,
+                      "width": 340,
+                      "align": "left"
+                    }
+                  }
+                ],
+                "seed": 7045,
+                "collapsed": true,
+                "style": {
+                  "shape": "rounded",
+                  "fill": "#FCFAF4",
+                  "borderColor": "#C58B68",
+                  "borderWidth": 1.3,
+                  "color": "#4B5047",
+                  "fontSize": 22,
+                  "width": 324,
+                  "bold": false,
+                  "align": "center"
+                }
+              },
+              {
+                "id": "wednesday-1",
+                "text": "示例 048 · 合成测试内容 可编辑",
+                "children": [
+                  {
+                    "id": "wednesday-1-ingredients",
+                    "text": "示例 049 · 合成测试内容 可编辑结构与内容往返验证 可编辑结构与内容往返验证 可编辑结构与内容往返验证 可",
+                    "children": [],
+                    "seed": 7046,
+                    "style": {
+                      "shape": "rounded",
+                      "fill": "#FCFAF4",
+                      "borderColor": "#D9D9CB",
+                      "borderWidth": 1,
+                      "color": "#4B5047",
+                      "fontSize": 20,
+                      "width": 340,
+                      "align": "left"
+                    }
+                  },
+                  {
+                    "id": "wednesday-1-method",
+                    "text": "示例 050 ·",
+                    "children": [
+                      {
+                        "id": "wednesday-1-step1",
+                        "text": "示例 051 · 合成测试内容 可编辑结构与内容往返验证",
+                        "children": [],
+                        "seed": 7047,
+                        "style": {
+                          "shape": "rounded",
+                          "fill": "#FCFAF4",
+                          "borderColor": "#D9D9CB",
+                          "borderWidth": 1,
+                          "color": "#4B5047",
+                          "fontSize": 20,
+                          "width": 340,
+                          "align": "left"
+                        }
+                      },
+                      {
+                        "id": "wednesday-1-step2",
+                        "text": "示例 052 · 合成测试内容 可编辑结构与内",
+                        "children": [],
+                        "seed": 7048,
+                        "style": {
+                          "shape": "rounded",
+                          "fill": "#FCFAF4",
+                          "borderColor": "#D9D9CB",
+                          "borderWidth": 1,
+                          "color": "#4B5047",
+                          "fontSize": 20,
+                          "width": 340,
+                          "align": "left"
+                        }
+                      }
+                    ],
+                    "seed": 7049,
+                    "style": {
+                      "shape": "rounded",
+                      "fill": "#F7ECE0",
+                      "borderColor": "#D9D9CB",
+                      "borderWidth": 1,
+                      "color": "#4B5047",
+                      "fontSize": 20,
+                      "width": 180,
+                      "align": "left"
+                    }
+                  },
+                  {
+                    "id": "wednesday-1-tip",
+                    "text": "示例 053 · 合成测试内容 可编辑结构与内容",
+                    "children": [],
+                    "seed": 7050,
+                    "style": {
+                      "shape": "rounded",
+                      "fill": "#FCFAF4",
+                      "borderColor": "#D9D9CB",
+                      "borderWidth": 1,
+                      "color": "#4B5047",
+                      "fontSize": 20,
+                      "width": 340,
+                      "align": "left"
+                    }
+                  }
+                ],
+                "seed": 7051,
+                "collapsed": true,
+                "style": {
+                  "shape": "rounded",
+                  "fill": "#FCFAF4",
+                  "borderColor": "#C58B68",
+                  "borderWidth": 1.3,
+                  "color": "#4B5047",
+                  "fontSize": 22,
+                  "width": 324,
+                  "bold": false,
+                  "align": "center"
+                }
+              },
+              {
+                "id": "wednesday-2",
+                "text": "示例 054 · 合成测试内容 可编辑结构",
+                "children": [
+                  {
+                    "id": "wednesday-2-ingredients",
+                    "text": "示例 055 · 合成测试内容 可编辑结构与内容往返验证 可编辑结构与内容往返验证 可编辑结构与内容往返验证 可编辑结构与",
+                    "children": [],
+                    "seed": 7052,
+                    "style": {
+                      "shape": "rounded",
+                      "fill": "#FCFAF4",
+                      "borderColor": "#D9D9CB",
+                      "borderWidth": 1,
+                      "color": "#4B5047",
+                      "fontSize": 20,
+                      "width": 340,
+                      "align": "left"
+                    }
+                  },
+                  {
+                    "id": "wednesday-2-method",
+                    "text": "示例 056 ·",
+                    "children": [
+                      {
+                        "id": "wednesday-2-step1",
+                        "text": "示例 057 · 合成测试内容 可编辑结构与内容往返验证 可编",
+                        "children": [],
+                        "seed": 7053,
+                        "style": {
+                          "shape": "rounded",
+                          "fill": "#FCFAF4",
+                          "borderColor": "#D9D9CB",
+                          "borderWidth": 1,
+                          "color": "#4B5047",
+                          "fontSize": 20,
+                          "width": 340,
+                          "align": "left"
+                        }
+                      },
+                      {
+                        "id": "wednesday-2-step2",
+                        "text": "示例 058 · 合成测试内容 可编辑结构与",
+                        "children": [],
+                        "seed": 7054,
+                        "style": {
+                          "shape": "rounded",
+                          "fill": "#FCFAF4",
+                          "borderColor": "#D9D9CB",
+                          "borderWidth": 1,
+                          "color": "#4B5047",
+                          "fontSize": 20,
+                          "width": 340,
+                          "align": "left"
+                        }
+                      }
+                    ],
+                    "seed": 7055,
+                    "style": {
+                      "shape": "rounded",
+                      "fill": "#F7ECE0",
+                      "borderColor": "#D9D9CB",
+                      "borderWidth": 1,
+                      "color": "#4B5047",
+                      "fontSize": 20,
+                      "width": 180,
+                      "align": "left"
+                    }
+                  },
+                  {
+                    "id": "wednesday-2-tip",
+                    "text": "示例 059 · 合成测试内容 可编辑结构与内容往返验证 ",
+                    "children": [],
+                    "seed": 7056,
+                    "style": {
+                      "shape": "rounded",
+                      "fill": "#FCFAF4",
+                      "borderColor": "#D9D9CB",
+                      "borderWidth": 1,
+                      "color": "#4B5047",
+                      "fontSize": 20,
+                      "width": 340,
+                      "align": "left"
+                    }
+                  }
+                ],
+                "seed": 7057,
+                "collapsed": true,
+                "style": {
+                  "shape": "rounded",
+                  "fill": "#FCFAF4",
+                  "borderColor": "#C58B68",
+                  "borderWidth": 1.3,
+                  "color": "#4B5047",
+                  "fontSize": 22,
+                  "width": 324,
+                  "bold": false,
+                  "align": "center"
+                }
+              }
+            ],
+            "seed": 7059,
+            "sideOverride": "left",
+            "branchColor": "#C58B68",
+            "branchWidth": 3,
+            "contentLayout": "below",
+            "contents": [
+              {
+                "id": "image-wednesday",
+                "seed": 7058,
+                "kind": "image",
+                "src": "fixture:image-4",
+                "x": 0,
+                "y": 0,
+                "w": 190,
+                "h": 190,
+                "framed": false
+              }
+            ],
+            "style": {
+              "shape": "rounded",
+              "width": 216,
+              "fontSize": 26,
+              "fill": "#F7ECE0",
+              "borderColor": "#C58B68",
+              "borderWidth": 1.6,
+              "color": "#4B5047",
+              "bold": true,
+              "align": "center"
+            }
+          },
+          {
+            "id": "thursday",
+            "text": "示例 060 · 合成",
+            "children": [
+              {
+                "id": "thursday-0",
+                "text": "示例 061 · 合成测试内容 可",
+                "children": [
+                  {
+                    "id": "thursday-0-ingredients",
+                    "text": "示例 062 · 合成测试内容 可编辑结构与内容往返验证 可编辑结构与内容往返",
+                    "children": [],
+                    "seed": 7060,
+                    "style": {
+                      "shape": "rounded",
+                      "fill": "#FCFAF4",
+                      "borderColor": "#D9D9CB",
+                      "borderWidth": 1,
+                      "color": "#4B5047",
+                      "fontSize": 20,
+                      "width": 340,
+                      "align": "left"
+                    }
+                  },
+                  {
+                    "id": "thursday-0-method",
+                    "text": "示例 063 ·",
+                    "children": [
+                      {
+                        "id": "thursday-0-step1",
+                        "text": "示例 064 · 合成测试内容 可",
+                        "children": [],
+                        "seed": 7061,
+                        "style": {
+                          "shape": "rounded",
+                          "fill": "#FCFAF4",
+                          "borderColor": "#D9D9CB",
+                          "borderWidth": 1,
+                          "color": "#4B5047",
+                          "fontSize": 20,
+                          "width": 340,
+                          "align": "left"
+                        }
+                      },
+                      {
+                        "id": "thursday-0-step2",
+                        "text": "示例 065 · 合成测试内容 可编辑结",
+                        "children": [],
+                        "seed": 7062,
+                        "style": {
+                          "shape": "rounded",
+                          "fill": "#FCFAF4",
+                          "borderColor": "#D9D9CB",
+                          "borderWidth": 1,
+                          "color": "#4B5047",
+                          "fontSize": 20,
+                          "width": 340,
+                          "align": "left"
+                        }
+                      }
+                    ],
+                    "seed": 7063,
+                    "style": {
+                      "shape": "rounded",
+                      "fill": "#EEE8F3",
+                      "borderColor": "#D9D9CB",
+                      "borderWidth": 1,
+                      "color": "#4B5047",
+                      "fontSize": 20,
+                      "width": 180,
+                      "align": "left"
+                    }
+                  },
+                  {
+                    "id": "thursday-0-tip",
+                    "text": "示例 066 · 合成测试内容 可编辑结构与内",
+                    "children": [],
+                    "seed": 7064,
+                    "style": {
+                      "shape": "rounded",
+                      "fill": "#FCFAF4",
+                      "borderColor": "#D9D9CB",
+                      "borderWidth": 1,
+                      "color": "#4B5047",
+                      "fontSize": 20,
+                      "width": 340,
+                      "align": "left"
+                    }
+                  }
+                ],
+                "seed": 7065,
+                "collapsed": true,
+                "style": {
+                  "shape": "rounded",
+                  "fill": "#FCFAF4",
+                  "borderColor": "#9D85B6",
+                  "borderWidth": 1.3,
+                  "color": "#4B5047",
+                  "fontSize": 22,
+                  "width": 324,
+                  "bold": false,
+                  "align": "center"
+                }
+              },
+              {
+                "id": "thursday-1",
+                "text": "示例 067 · 合成测试内容 可编辑结",
+                "children": [
+                  {
+                    "id": "thursday-1-ingredients",
+                    "text": "示例 068 · 合成测试内容 可编辑结构与内容往返验证 可编辑结构与内容往返验证 可编辑结构与内容往返验证 可编辑结构与内容往返验证 可编辑",
+                    "children": [],
+                    "seed": 7066,
+                    "style": {
+                      "shape": "rounded",
+                      "fill": "#FCFAF4",
+                      "borderColor": "#D9D9CB",
+                      "borderWidth": 1,
+                      "color": "#4B5047",
+                      "fontSize": 20,
+                      "width": 340,
+                      "align": "left"
+                    }
+                  },
+                  {
+                    "id": "thursday-1-method",
+                    "text": "示例 069 ·",
+                    "children": [
+                      {
+                        "id": "thursday-1-step1",
+                        "text": "示例 070 · 合成测试内容 可编辑结构与内容往返",
+                        "children": [],
+                        "seed": 7067,
+                        "style": {
+                          "shape": "rounded",
+                          "fill": "#FCFAF4",
+                          "borderColor": "#D9D9CB",
+                          "borderWidth": 1,
+                          "color": "#4B5047",
+                          "fontSize": 20,
+                          "width": 340,
+                          "align": "left"
+                        }
+                      },
+                      {
+                        "id": "thursday-1-step2",
+                        "text": "示例 071 · 合成测试内容 可编辑结构与内容往返验证",
+                        "children": [],
+                        "seed": 7068,
+                        "style": {
+                          "shape": "rounded",
+                          "fill": "#FCFAF4",
+                          "borderColor": "#D9D9CB",
+                          "borderWidth": 1,
+                          "color": "#4B5047",
+                          "fontSize": 20,
+                          "width": 340,
+                          "align": "left"
+                        }
+                      }
+                    ],
+                    "seed": 7069,
+                    "style": {
+                      "shape": "rounded",
+                      "fill": "#EEE8F3",
+                      "borderColor": "#D9D9CB",
+                      "borderWidth": 1,
+                      "color": "#4B5047",
+                      "fontSize": 20,
+                      "width": 180,
+                      "align": "left"
+                    }
+                  },
+                  {
+                    "id": "thursday-1-tip",
+                    "text": "示例 072 · 合成测试内容 可编辑结构与内容往返验证 可编辑结构与内容",
+                    "children": [],
+                    "seed": 7070,
+                    "style": {
+                      "shape": "rounded",
+                      "fill": "#FCFAF4",
+                      "borderColor": "#D9D9CB",
+                      "borderWidth": 1,
+                      "color": "#4B5047",
+                      "fontSize": 20,
+                      "width": 340,
+                      "align": "left"
+                    }
+                  }
+                ],
+                "seed": 7071,
+                "collapsed": true,
+                "style": {
+                  "shape": "rounded",
+                  "fill": "#FCFAF4",
+                  "borderColor": "#9D85B6",
+                  "borderWidth": 1.3,
+                  "color": "#4B5047",
+                  "fontSize": 22,
+                  "width": 324,
+                  "bold": false,
+                  "align": "center"
+                }
+              },
+              {
+                "id": "thursday-2",
+                "text": "示例 073 · 合成测试内容 可编辑结构",
+                "children": [
+                  {
+                    "id": "thursday-2-ingredients",
+                    "text": "示例 074 · 合成测试内容 可编辑结构与内容往返验证 可编辑结构与内容往返验证 可编辑结构与内容往返验证 可编辑结构",
+                    "children": [],
+                    "seed": 7072,
+                    "style": {
+                      "shape": "rounded",
+                      "fill": "#FCFAF4",
+                      "borderColor": "#D9D9CB",
+                      "borderWidth": 1,
+                      "color": "#4B5047",
+                      "fontSize": 20,
+                      "width": 340,
+                      "align": "left"
+                    }
+                  },
+                  {
+                    "id": "thursday-2-method",
+                    "text": "示例 075 ·",
+                    "children": [
+                      {
+                        "id": "thursday-2-step1",
+                        "text": "示例 076 · 合成测试内容 可编辑结构与内容往",
+                        "children": [],
+                        "seed": 7073,
+                        "style": {
+                          "shape": "rounded",
+                          "fill": "#FCFAF4",
+                          "borderColor": "#D9D9CB",
+                          "borderWidth": 1,
+                          "color": "#4B5047",
+                          "fontSize": 20,
+                          "width": 340,
+                          "align": "left"
+                        }
+                      },
+                      {
+                        "id": "thursday-2-step2",
+                        "text": "示例 077 · 合成测试内容 可编辑结构与内容往返验证 可编辑结构",
+                        "children": [],
+                        "seed": 7074,
+                        "style": {
+                          "shape": "rounded",
+                          "fill": "#FCFAF4",
+                          "borderColor": "#D9D9CB",
+                          "borderWidth": 1,
+                          "color": "#4B5047",
+                          "fontSize": 20,
+                          "width": 340,
+                          "align": "left"
+                        }
+                      }
+                    ],
+                    "seed": 7075,
+                    "style": {
+                      "shape": "rounded",
+                      "fill": "#EEE8F3",
+                      "borderColor": "#D9D9CB",
+                      "borderWidth": 1,
+                      "color": "#4B5047",
+                      "fontSize": 20,
+                      "width": 180,
+                      "align": "left"
+                    }
+                  },
+                  {
+                    "id": "thursday-2-tip",
+                    "text": "示例 078 · 合成测试内容 可编辑结构与内容往",
+                    "children": [],
+                    "seed": 7076,
+                    "style": {
+                      "shape": "rounded",
+                      "fill": "#FCFAF4",
+                      "borderColor": "#D9D9CB",
+                      "borderWidth": 1,
+                      "color": "#4B5047",
+                      "fontSize": 20,
+                      "width": 340,
+                      "align": "left"
+                    }
+                  }
+                ],
+                "seed": 7077,
+                "collapsed": true,
+                "style": {
+                  "shape": "rounded",
+                  "fill": "#FCFAF4",
+                  "borderColor": "#9D85B6",
+                  "borderWidth": 1.3,
+                  "color": "#4B5047",
+                  "fontSize": 22,
+                  "width": 324,
+                  "bold": false,
+                  "align": "center"
+                }
+              }
+            ],
+            "seed": 7079,
+            "sideOverride": "left",
+            "branchColor": "#9D85B6",
+            "branchWidth": 3,
+            "contentLayout": "below",
+            "contents": [
+              {
+                "id": "image-thursday",
+                "seed": 7078,
+                "kind": "image",
+                "src": "fixture:image-5",
+                "x": 0,
+                "y": 0,
+                "w": 190,
+                "h": 190,
+                "framed": false
+              }
+            ],
+            "style": {
+              "shape": "rounded",
+              "width": 216,
+              "fontSize": 26,
+              "fill": "#EEE8F3",
+              "borderColor": "#9D85B6",
+              "borderWidth": 1.6,
+              "color": "#4B5047",
+              "bold": true,
+              "align": "center"
+            }
+          },
+          {
+            "id": "friday",
+            "text": "周五 · 合成示例",
+            "children": [
+              {
+                "id": "friday-0",
+                "text": "示例 080 · 合成测试内容 可编辑结",
+                "children": [
+                  {
+                    "id": "friday-0-ingredients",
+                    "text": "示例 081 · 合成测试内容 可编辑结构与内容往返验证 可编辑结构与内容往返验证 可编辑结构与内容往",
+                    "children": [],
+                    "seed": 7080,
+                    "style": {
+                      "shape": "rounded",
+                      "fill": "#FCFAF4",
+                      "borderColor": "#D9D9CB",
+                      "borderWidth": 1,
+                      "color": "#4B5047",
+                      "fontSize": 20,
+                      "width": 340,
+                      "align": "left"
+                    }
+                  },
+                  {
+                    "id": "friday-0-method",
+                    "text": "示例 082 ·",
+                    "children": [
+                      {
+                        "id": "friday-0-step1",
+                        "text": "示例 083 · 合成测试内容 可编辑结构与内容",
+                        "children": [],
+                        "seed": 7081,
+                        "style": {
+                          "shape": "rounded",
+                          "fill": "#FCFAF4",
+                          "borderColor": "#D9D9CB",
+                          "borderWidth": 1,
+                          "color": "#4B5047",
+                          "fontSize": 20,
+                          "width": 340,
+                          "align": "left"
+                        }
+                      },
+                      {
+                        "id": "friday-0-step2",
+                        "text": "示例 084 · 合成测试内容 可编辑结构与",
+                        "children": [],
+                        "seed": 7082,
+                        "style": {
+                          "shape": "rounded",
+                          "fill": "#FCFAF4",
+                          "borderColor": "#D9D9CB",
+                          "borderWidth": 1,
+                          "color": "#4B5047",
+                          "fontSize": 20,
+                          "width": 340,
+                          "align": "left"
+                        }
+                      }
+                    ],
+                    "seed": 7083,
+                    "style": {
+                      "shape": "rounded",
+                      "fill": "#E7EFF0",
+                      "borderColor": "#D9D9CB",
+                      "borderWidth": 1,
+                      "color": "#4B5047",
+                      "fontSize": 20,
+                      "width": 180,
+                      "align": "left"
+                    }
+                  },
+                  {
+                    "id": "friday-0-tip",
+                    "text": "示例 085 · 合成测试内容 可编辑结构与",
+                    "children": [],
+                    "seed": 7084,
+                    "style": {
+                      "shape": "rounded",
+                      "fill": "#FCFAF4",
+                      "borderColor": "#D9D9CB",
+                      "borderWidth": 1,
+                      "color": "#4B5047",
+                      "fontSize": 20,
+                      "width": 340,
+                      "align": "left"
+                    }
+                  }
+                ],
+                "seed": 7085,
+                "collapsed": true,
+                "style": {
+                  "shape": "rounded",
+                  "fill": "#FCFAF4",
+                  "borderColor": "#719DA6",
+                  "borderWidth": 1.3,
+                  "color": "#4B5047",
+                  "fontSize": 22,
+                  "width": 324,
+                  "bold": false,
+                  "align": "center"
+                }
+              },
+              {
+                "id": "friday-1",
+                "text": "示例 086 · 合成测试内容 可编辑",
+                "children": [
+                  {
+                    "id": "friday-1-ingredients",
+                    "text": "示例 087 · 合成测试内容 可编辑结构与内容往返验证 可编辑结构与内容往返验证 可编辑结构与内容往返验证 可编辑",
+                    "children": [],
+                    "seed": 7086,
+                    "style": {
+                      "shape": "rounded",
+                      "fill": "#FCFAF4",
+                      "borderColor": "#D9D9CB",
+                      "borderWidth": 1,
+                      "color": "#4B5047",
+                      "fontSize": 20,
+                      "width": 340,
+                      "align": "left"
+                    }
+                  },
+                  {
+                    "id": "friday-1-method",
+                    "text": "示例 088 ·",
+                    "children": [
+                      {
+                        "id": "friday-1-step1",
+                        "text": "示例 089 · 合成测试内容 可编辑结构与内容往返验证",
+                        "children": [],
+                        "seed": 7087,
+                        "style": {
+                          "shape": "rounded",
+                          "fill": "#FCFAF4",
+                          "borderColor": "#D9D9CB",
+                          "borderWidth": 1,
+                          "color": "#4B5047",
+                          "fontSize": 20,
+                          "width": 340,
+                          "align": "left"
+                        }
+                      },
+                      {
+                        "id": "friday-1-step2",
+                        "text": "示例 090 · 合成测试内容 可编辑结构与内容往返验证",
+                        "children": [],
+                        "seed": 7088,
+                        "style": {
+                          "shape": "rounded",
+                          "fill": "#FCFAF4",
+                          "borderColor": "#D9D9CB",
+                          "borderWidth": 1,
+                          "color": "#4B5047",
+                          "fontSize": 20,
+                          "width": 340,
+                          "align": "left"
+                        }
+                      }
+                    ],
+                    "seed": 7089,
+                    "style": {
+                      "shape": "rounded",
+                      "fill": "#E7EFF0",
+                      "borderColor": "#D9D9CB",
+                      "borderWidth": 1,
+                      "color": "#4B5047",
+                      "fontSize": 20,
+                      "width": 180,
+                      "align": "left"
+                    }
+                  },
+                  {
+                    "id": "friday-1-tip",
+                    "text": "示例 091 · 合成测试内容 可编辑结构与内容往返",
+                    "children": [],
+                    "seed": 7090,
+                    "style": {
+                      "shape": "rounded",
+                      "fill": "#FCFAF4",
+                      "borderColor": "#D9D9CB",
+                      "borderWidth": 1,
+                      "color": "#4B5047",
+                      "fontSize": 20,
+                      "width": 340,
+                      "align": "left"
+                    }
+                  }
+                ],
+                "seed": 7091,
+                "collapsed": true,
+                "style": {
+                  "shape": "rounded",
+                  "fill": "#FCFAF4",
+                  "borderColor": "#719DA6",
+                  "borderWidth": 1.3,
+                  "color": "#4B5047",
+                  "fontSize": 22,
+                  "width": 324,
+                  "bold": false,
+                  "align": "center"
+                }
+              },
+              {
+                "id": "friday-2",
+                "text": "示例 092 · 合成测试内容 可编辑结",
+                "children": [
+                  {
+                    "id": "friday-2-ingredients",
+                    "text": "示例 093 · 合成测试内容 可编辑结构与内容往返验证 可编辑结构与内容往返验证 可编辑结构与内容往返验证 可编辑",
+                    "children": [],
+                    "seed": 7092,
+                    "style": {
+                      "shape": "rounded",
+                      "fill": "#FCFAF4",
+                      "borderColor": "#D9D9CB",
+                      "borderWidth": 1,
+                      "color": "#4B5047",
+                      "fontSize": 20,
+                      "width": 340,
+                      "align": "left"
+                    }
+                  },
+                  {
+                    "id": "friday-2-method",
+                    "text": "示例 094 ·",
+                    "children": [
+                      {
+                        "id": "friday-2-step1",
+                        "text": "示例 095 · 合成测试内容 可编辑结构与内容往返验",
+                        "children": [],
+                        "seed": 7093,
+                        "style": {
+                          "shape": "rounded",
+                          "fill": "#FCFAF4",
+                          "borderColor": "#D9D9CB",
+                          "borderWidth": 1,
+                          "color": "#4B5047",
+                          "fontSize": 20,
+                          "width": 340,
+                          "align": "left"
+                        }
+                      },
+                      {
+                        "id": "friday-2-step2",
+                        "text": "示例 096 · 合成测试内容 可编辑结构与内容往返",
+                        "children": [],
+                        "seed": 7094,
+                        "style": {
+                          "shape": "rounded",
+                          "fill": "#FCFAF4",
+                          "borderColor": "#D9D9CB",
+                          "borderWidth": 1,
+                          "color": "#4B5047",
+                          "fontSize": 20,
+                          "width": 340,
+                          "align": "left"
+                        }
+                      }
+                    ],
+                    "seed": 7095,
+                    "style": {
+                      "shape": "rounded",
+                      "fill": "#E7EFF0",
+                      "borderColor": "#D9D9CB",
+                      "borderWidth": 1,
+                      "color": "#4B5047",
+                      "fontSize": 20,
+                      "width": 180,
+                      "align": "left"
+                    }
+                  },
+                  {
+                    "id": "friday-2-tip",
+                    "text": "示例 097 · 合成测试内容 可编辑结构与内容往返验证",
+                    "children": [],
+                    "seed": 7096,
+                    "style": {
+                      "shape": "rounded",
+                      "fill": "#FCFAF4",
+                      "borderColor": "#D9D9CB",
+                      "borderWidth": 1,
+                      "color": "#4B5047",
+                      "fontSize": 20,
+                      "width": 340,
+                      "align": "left"
+                    }
+                  }
+                ],
+                "seed": 7097,
+                "collapsed": true,
+                "style": {
+                  "shape": "rounded",
+                  "fill": "#FCFAF4",
+                  "borderColor": "#719DA6",
+                  "borderWidth": 1.3,
+                  "color": "#4B5047",
+                  "fontSize": 22,
+                  "width": 324,
+                  "bold": false,
+                  "align": "center"
+                }
+              }
+            ],
+            "seed": 7099,
+            "sideOverride": "right",
+            "branchColor": "#719DA6",
+            "branchWidth": 3,
+            "contentLayout": "below",
+            "contents": [
+              {
+                "id": "image-friday",
+                "seed": 7098,
+                "kind": "image",
+                "src": "fixture:image-6",
+                "x": 0,
+                "y": 0,
+                "w": 190,
+                "h": 190,
+                "framed": false
+              }
+            ],
+            "style": {
+              "shape": "rounded",
+              "width": 216,
+              "fontSize": 26,
+              "fill": "#E7EFF0",
+              "borderColor": "#719DA6",
+              "borderWidth": 1.6,
+              "color": "#4B5047",
+              "bold": true,
+              "align": "center"
+            }
+          },
+          {
+            "id": "saturday",
+            "text": "示例 098 · 合成",
+            "children": [
+              {
+                "id": "saturday-0",
+                "text": "示例 099 · 合成测试内容 可编辑结",
+                "children": [
+                  {
+                    "id": "saturday-0-ingredients",
+                    "text": "示例 100 · 合成测试内容 可编辑结构与内容往返验证 可编辑结构与内容往返验证 可编辑结构与内容往返验证 可编辑结构与",
+                    "children": [],
+                    "seed": 7100,
+                    "style": {
+                      "shape": "rounded",
+                      "fill": "#FCFAF4",
+                      "borderColor": "#D9D9CB",
+                      "borderWidth": 1,
+                      "color": "#4B5047",
+                      "fontSize": 20,
+                      "width": 340,
+                      "align": "left"
+                    }
+                  },
+                  {
+                    "id": "saturday-0-method",
+                    "text": "示例 101 ·",
+                    "children": [
+                      {
+                        "id": "saturday-0-step1",
+                        "text": "示例 102 · 合成测试内容 可编辑结构与内容往返验证",
+                        "children": [],
+                        "seed": 7101,
+                        "style": {
+                          "shape": "rounded",
+                          "fill": "#FCFAF4",
+                          "borderColor": "#D9D9CB",
+                          "borderWidth": 1,
+                          "color": "#4B5047",
+                          "fontSize": 20,
+                          "width": 340,
+                          "align": "left"
+                        }
+                      },
+                      {
+                        "id": "saturday-0-step2",
+                        "text": "示例 103 · 合成测试内容 可编辑结构与内",
+                        "children": [],
+                        "seed": 7102,
+                        "style": {
+                          "shape": "rounded",
+                          "fill": "#FCFAF4",
+                          "borderColor": "#D9D9CB",
+                          "borderWidth": 1,
+                          "color": "#4B5047",
+                          "fontSize": 20,
+                          "width": 340,
+                          "align": "left"
+                        }
+                      }
+                    ],
+                    "seed": 7103,
+                    "style": {
+                      "shape": "rounded",
+                      "fill": "#F4EFDD",
+                      "borderColor": "#D9D9CB",
+                      "borderWidth": 1,
+                      "color": "#4B5047",
+                      "fontSize": 20,
+                      "width": 180,
+                      "align": "left"
+                    }
+                  },
+                  {
+                    "id": "saturday-0-tip",
+                    "text": "示例 104 · 合成测试内容 可编辑结构与内容往返验",
+                    "children": [],
+                    "seed": 7104,
+                    "style": {
+                      "shape": "rounded",
+                      "fill": "#FCFAF4",
+                      "borderColor": "#D9D9CB",
+                      "borderWidth": 1,
+                      "color": "#4B5047",
+                      "fontSize": 20,
+                      "width": 340,
+                      "align": "left"
+                    }
+                  }
+                ],
+                "seed": 7105,
+                "collapsed": true,
+                "style": {
+                  "shape": "rounded",
+                  "fill": "#FCFAF4",
+                  "borderColor": "#B29959",
+                  "borderWidth": 1.3,
+                  "color": "#4B5047",
+                  "fontSize": 22,
+                  "width": 324,
+                  "bold": false,
+                  "align": "center"
+                }
+              },
+              {
+                "id": "saturday-1",
+                "text": "示例 105 · 合成测试内容 可编辑结",
+                "children": [
+                  {
+                    "id": "saturday-1-ingredients",
+                    "text": "示例 106 · 合成测试内容 可编辑结构与内容往返验证 可编辑结构与内容往返验证 可编辑结构与内容往返验证 ",
+                    "children": [],
+                    "seed": 7106,
+                    "style": {
+                      "shape": "rounded",
+                      "fill": "#FCFAF4",
+                      "borderColor": "#D9D9CB",
+                      "borderWidth": 1,
+                      "color": "#4B5047",
+                      "fontSize": 20,
+                      "width": 340,
+                      "align": "left"
+                    }
+                  },
+                  {
+                    "id": "saturday-1-method",
+                    "text": "示例 107 ·",
+                    "children": [
+                      {
+                        "id": "saturday-1-step1",
+                        "text": "示例 108 · 合成测试内容 可编辑结构",
+                        "children": [],
+                        "seed": 7107,
+                        "style": {
+                          "shape": "rounded",
+                          "fill": "#FCFAF4",
+                          "borderColor": "#D9D9CB",
+                          "borderWidth": 1,
+                          "color": "#4B5047",
+                          "fontSize": 20,
+                          "width": 340,
+                          "align": "left"
+                        }
+                      },
+                      {
+                        "id": "saturday-1-step2",
+                        "text": "示例 109 · 合成测试内容 可编辑结构与内容往返验",
+                        "children": [],
+                        "seed": 7108,
+                        "style": {
+                          "shape": "rounded",
+                          "fill": "#FCFAF4",
+                          "borderColor": "#D9D9CB",
+                          "borderWidth": 1,
+                          "color": "#4B5047",
+                          "fontSize": 20,
+                          "width": 340,
+                          "align": "left"
+                        }
+                      }
+                    ],
+                    "seed": 7109,
+                    "style": {
+                      "shape": "rounded",
+                      "fill": "#F4EFDD",
+                      "borderColor": "#D9D9CB",
+                      "borderWidth": 1,
+                      "color": "#4B5047",
+                      "fontSize": 20,
+                      "width": 180,
+                      "align": "left"
+                    }
+                  },
+                  {
+                    "id": "saturday-1-tip",
+                    "text": "示例 110 · 合成测试内容 可编辑结构与内容往",
+                    "children": [],
+                    "seed": 7110,
+                    "style": {
+                      "shape": "rounded",
+                      "fill": "#FCFAF4",
+                      "borderColor": "#D9D9CB",
+                      "borderWidth": 1,
+                      "color": "#4B5047",
+                      "fontSize": 20,
+                      "width": 340,
+                      "align": "left"
+                    }
+                  }
+                ],
+                "seed": 7111,
+                "collapsed": true,
+                "style": {
+                  "shape": "rounded",
+                  "fill": "#FCFAF4",
+                  "borderColor": "#B29959",
+                  "borderWidth": 1.3,
+                  "color": "#4B5047",
+                  "fontSize": 22,
+                  "width": 324,
+                  "bold": false,
+                  "align": "center"
+                }
+              },
+              {
+                "id": "saturday-2",
+                "text": "示例 111 · 合成测试内容 可编辑结构",
+                "children": [
+                  {
+                    "id": "saturday-2-ingredients",
+                    "text": "示例 112 · 合成测试内容 可编辑结构与内容往返验证 可编辑结构与内容往返验证 可编辑结构与内容往返验证 可编辑结构与",
+                    "children": [],
+                    "seed": 7112,
+                    "style": {
+                      "shape": "rounded",
+                      "fill": "#FCFAF4",
+                      "borderColor": "#D9D9CB",
+                      "borderWidth": 1,
+                      "color": "#4B5047",
+                      "fontSize": 20,
+                      "width": 340,
+                      "align": "left"
+                    }
+                  },
+                  {
+                    "id": "saturday-2-method",
+                    "text": "示例 113 ·",
+                    "children": [
+                      {
+                        "id": "saturday-2-step1",
+                        "text": "示例 114 · 合成测试内容 可编辑结构与内容往返验",
+                        "children": [],
+                        "seed": 7113,
+                        "style": {
+                          "shape": "rounded",
+                          "fill": "#FCFAF4",
+                          "borderColor": "#D9D9CB",
+                          "borderWidth": 1,
+                          "color": "#4B5047",
+                          "fontSize": 20,
+                          "width": 340,
+                          "align": "left"
+                        }
+                      },
+                      {
+                        "id": "saturday-2-step2",
+                        "text": "示例 115 · 合成测试内容 可编辑结",
+                        "children": [],
+                        "seed": 7114,
+                        "style": {
+                          "shape": "rounded",
+                          "fill": "#FCFAF4",
+                          "borderColor": "#D9D9CB",
+                          "borderWidth": 1,
+                          "color": "#4B5047",
+                          "fontSize": 20,
+                          "width": 340,
+                          "align": "left"
+                        }
+                      }
+                    ],
+                    "seed": 7115,
+                    "style": {
+                      "shape": "rounded",
+                      "fill": "#F4EFDD",
+                      "borderColor": "#D9D9CB",
+                      "borderWidth": 1,
+                      "color": "#4B5047",
+                      "fontSize": 20,
+                      "width": 180,
+                      "align": "left"
+                    }
+                  },
+                  {
+                    "id": "saturday-2-tip",
+                    "text": "示例 116 · 合成测试内容 可编辑结构与内容往返",
+                    "children": [],
+                    "seed": 7116,
+                    "style": {
+                      "shape": "rounded",
+                      "fill": "#FCFAF4",
+                      "borderColor": "#D9D9CB",
+                      "borderWidth": 1,
+                      "color": "#4B5047",
+                      "fontSize": 20,
+                      "width": 340,
+                      "align": "left"
+                    }
+                  }
+                ],
+                "seed": 7117,
+                "collapsed": true,
+                "style": {
+                  "shape": "rounded",
+                  "fill": "#FCFAF4",
+                  "borderColor": "#B29959",
+                  "borderWidth": 1.3,
+                  "color": "#4B5047",
+                  "fontSize": 22,
+                  "width": 324,
+                  "bold": false,
+                  "align": "center"
+                }
+              }
+            ],
+            "seed": 7119,
+            "sideOverride": "right",
+            "branchColor": "#B29959",
+            "branchWidth": 3,
+            "contentLayout": "below",
+            "contents": [
+              {
+                "id": "image-saturday",
+                "seed": 7118,
+                "kind": "image",
+                "src": "fixture:image-7",
+                "x": 0,
+                "y": 0,
+                "w": 190,
+                "h": 190,
+                "framed": false
+              }
+            ],
+            "style": {
+              "shape": "rounded",
+              "width": 216,
+              "fontSize": 26,
+              "fill": "#F4EFDD",
+              "borderColor": "#B29959",
+              "borderWidth": 1.6,
+              "color": "#4B5047",
+              "bold": true,
+              "align": "center"
+            }
+          },
+          {
+            "id": "sunday",
+            "text": "示例 117 · 合成测",
+            "children": [
+              {
+                "id": "sunday-0",
+                "text": "示例 118 · 合成测试内容 可编辑",
+                "children": [
+                  {
+                    "id": "sunday-0-ingredients",
+                    "text": "示例 119 · 合成测试内容 可编辑结构与内容往返验证 可编辑结构与内容往返验证 ",
+                    "children": [],
+                    "seed": 7120,
+                    "style": {
+                      "shape": "rounded",
+                      "fill": "#FCFAF4",
+                      "borderColor": "#D9D9CB",
+                      "borderWidth": 1,
+                      "color": "#4B5047",
+                      "fontSize": 20,
+                      "width": 340,
+                      "align": "left"
+                    }
+                  },
+                  {
+                    "id": "sunday-0-method",
+                    "text": "示例 120 ·",
+                    "children": [
+                      {
+                        "id": "sunday-0-step1",
+                        "text": "示例 121 · 合成测试内容 可编辑结构与内容",
+                        "children": [],
+                        "seed": 7121,
+                        "style": {
+                          "shape": "rounded",
+                          "fill": "#FCFAF4",
+                          "borderColor": "#D9D9CB",
+                          "borderWidth": 1,
+                          "color": "#4B5047",
+                          "fontSize": 20,
+                          "width": 340,
+                          "align": "left"
+                        }
+                      },
+                      {
+                        "id": "sunday-0-step2",
+                        "text": "示例 122 · 合成测试内容 ",
+                        "children": [],
+                        "seed": 7122,
+                        "style": {
+                          "shape": "rounded",
+                          "fill": "#FCFAF4",
+                          "borderColor": "#D9D9CB",
+                          "borderWidth": 1,
+                          "color": "#4B5047",
+                          "fontSize": 20,
+                          "width": 340,
+                          "align": "left"
+                        }
+                      }
+                    ],
+                    "seed": 7123,
+                    "style": {
+                      "shape": "rounded",
+                      "fill": "#F4E6E1",
+                      "borderColor": "#D9D9CB",
+                      "borderWidth": 1,
+                      "color": "#4B5047",
+                      "fontSize": 20,
+                      "width": 180,
+                      "align": "left"
+                    }
+                  },
+                  {
+                    "id": "sunday-0-tip",
+                    "text": "示例 123 · 合成测试内容 可编辑结构与",
+                    "children": [],
+                    "seed": 7124,
+                    "style": {
+                      "shape": "rounded",
+                      "fill": "#FCFAF4",
+                      "borderColor": "#D9D9CB",
+                      "borderWidth": 1,
+                      "color": "#4B5047",
+                      "fontSize": 20,
+                      "width": 340,
+                      "align": "left"
+                    }
+                  }
+                ],
+                "seed": 7125,
+                "collapsed": true,
+                "style": {
+                  "shape": "rounded",
+                  "fill": "#FCFAF4",
+                  "borderColor": "#B87671",
+                  "borderWidth": 1.3,
+                  "color": "#4B5047",
+                  "fontSize": 22,
+                  "width": 324,
+                  "bold": false,
+                  "align": "center"
+                }
+              },
+              {
+                "id": "sunday-1",
+                "text": "示例 124 · 合成测试内容 可编辑结",
+                "children": [
+                  {
+                    "id": "sunday-1-ingredients",
+                    "text": "示例 125 · 合成测试内容 可编辑结构与内容往返验证 可编辑结构与内容往返验证 可编辑结构与内容往返验证 可编辑结构与内容往返验证 可编辑",
+                    "children": [],
+                    "seed": 7126,
+                    "style": {
+                      "shape": "rounded",
+                      "fill": "#FCFAF4",
+                      "borderColor": "#D9D9CB",
+                      "borderWidth": 1,
+                      "color": "#4B5047",
+                      "fontSize": 20,
+                      "width": 340,
+                      "align": "left"
+                    }
+                  },
+                  {
+                    "id": "sunday-1-method",
+                    "text": "示例 126 ·",
+                    "children": [
+                      {
+                        "id": "sunday-1-step1",
+                        "text": "示例 127 · 合成测试内容 可编辑结构与内容往返",
+                        "children": [],
+                        "seed": 7127,
+                        "style": {
+                          "shape": "rounded",
+                          "fill": "#FCFAF4",
+                          "borderColor": "#D9D9CB",
+                          "borderWidth": 1,
+                          "color": "#4B5047",
+                          "fontSize": 20,
+                          "width": 340,
+                          "align": "left"
+                        }
+                      },
+                      {
+                        "id": "sunday-1-step2",
+                        "text": "示例 128 · 合成测试内容 可编辑结构与内容往返验证 可编",
+                        "children": [],
+                        "seed": 7128,
+                        "style": {
+                          "shape": "rounded",
+                          "fill": "#FCFAF4",
+                          "borderColor": "#D9D9CB",
+                          "borderWidth": 1,
+                          "color": "#4B5047",
+                          "fontSize": 20,
+                          "width": 340,
+                          "align": "left"
+                        }
+                      }
+                    ],
+                    "seed": 7129,
+                    "style": {
+                      "shape": "rounded",
+                      "fill": "#F4E6E1",
+                      "borderColor": "#D9D9CB",
+                      "borderWidth": 1,
+                      "color": "#4B5047",
+                      "fontSize": 20,
+                      "width": 180,
+                      "align": "left"
+                    }
+                  },
+                  {
+                    "id": "sunday-1-tip",
+                    "text": "示例 129 · 合成测试内容 可编辑结构与内容往返验证 可编辑结",
+                    "children": [],
+                    "seed": 7130,
+                    "style": {
+                      "shape": "rounded",
+                      "fill": "#FCFAF4",
+                      "borderColor": "#D9D9CB",
+                      "borderWidth": 1,
+                      "color": "#4B5047",
+                      "fontSize": 20,
+                      "width": 340,
+                      "align": "left"
+                    }
+                  }
+                ],
+                "seed": 7131,
+                "collapsed": true,
+                "style": {
+                  "shape": "rounded",
+                  "fill": "#FCFAF4",
+                  "borderColor": "#B87671",
+                  "borderWidth": 1.3,
+                  "color": "#4B5047",
+                  "fontSize": 22,
+                  "width": 324,
+                  "bold": false,
+                  "align": "center"
+                }
+              },
+              {
+                "id": "sunday-2",
+                "text": "示例 130 · 合成测试内容 可编辑结构",
+                "children": [
+                  {
+                    "id": "sunday-2-ingredients",
+                    "text": "示例 131 · 合成测试内容 可编辑结构与内容往返验证 可编辑结构与内容往返验证 可编辑结构与内容往返验证 可编辑结构与内容往",
+                    "children": [],
+                    "seed": 7132,
+                    "style": {
+                      "shape": "rounded",
+                      "fill": "#FCFAF4",
+                      "borderColor": "#D9D9CB",
+                      "borderWidth": 1,
+                      "color": "#4B5047",
+                      "fontSize": 20,
+                      "width": 340,
+                      "align": "left"
+                    }
+                  },
+                  {
+                    "id": "sunday-2-method",
+                    "text": "示例 132 ·",
+                    "children": [
+                      {
+                        "id": "sunday-2-step1",
+                        "text": "示例 133 · 合成测试内容 可编辑结构与内容往返验证 可编",
+                        "children": [],
+                        "seed": 7133,
+                        "style": {
+                          "shape": "rounded",
+                          "fill": "#FCFAF4",
+                          "borderColor": "#D9D9CB",
+                          "borderWidth": 1,
+                          "color": "#4B5047",
+                          "fontSize": 20,
+                          "width": 340,
+                          "align": "left"
+                        }
+                      },
+                      {
+                        "id": "sunday-2-step2",
+                        "text": "示例 134 · 合成测试内容 可编辑结构与内容往返",
+                        "children": [],
+                        "seed": 7134,
+                        "style": {
+                          "shape": "rounded",
+                          "fill": "#FCFAF4",
+                          "borderColor": "#D9D9CB",
+                          "borderWidth": 1,
+                          "color": "#4B5047",
+                          "fontSize": 20,
+                          "width": 340,
+                          "align": "left"
+                        }
+                      }
+                    ],
+                    "seed": 7135,
+                    "style": {
+                      "shape": "rounded",
+                      "fill": "#F4E6E1",
+                      "borderColor": "#D9D9CB",
+                      "borderWidth": 1,
+                      "color": "#4B5047",
+                      "fontSize": 20,
+                      "width": 180,
+                      "align": "left"
+                    }
+                  },
+                  {
+                    "id": "sunday-2-tip",
+                    "text": "示例 135 · 合成测试内容 可编辑结构与内容往返验证 可编辑结构与",
+                    "children": [],
+                    "seed": 7136,
+                    "style": {
+                      "shape": "rounded",
+                      "fill": "#FCFAF4",
+                      "borderColor": "#D9D9CB",
+                      "borderWidth": 1,
+                      "color": "#4B5047",
+                      "fontSize": 20,
+                      "width": 340,
+                      "align": "left"
+                    }
+                  }
+                ],
+                "seed": 7137,
+                "collapsed": true,
+                "style": {
+                  "shape": "rounded",
+                  "fill": "#FCFAF4",
+                  "borderColor": "#B87671",
+                  "borderWidth": 1.3,
+                  "color": "#4B5047",
+                  "fontSize": 22,
+                  "width": 324,
+                  "bold": false,
+                  "align": "center"
+                }
+              }
+            ],
+            "seed": 7139,
+            "sideOverride": "right",
+            "branchColor": "#B87671",
+            "branchWidth": 3,
+            "contentLayout": "below",
+            "contents": [
+              {
+                "id": "image-sunday",
+                "seed": 7138,
+                "kind": "image",
+                "src": "fixture:image-8",
+                "x": 0,
+                "y": 0,
+                "w": 190,
+                "h": 190,
+                "framed": false
+              }
+            ],
+            "style": {
+              "shape": "rounded",
+              "width": 216,
+              "fontSize": 26,
+              "fill": "#F4E6E1",
+              "borderColor": "#B87671",
+              "borderWidth": 1.6,
+              "color": "#4B5047",
+              "bold": true,
+              "align": "center"
+            }
+          },
+          {
+            "id": "guide",
+            "text": "示例 136 · 合成测试内容",
+            "children": [
+              {
+                "id": "guide-0",
+                "text": "示例 137 · 合成测试内容",
+                "children": [
+                  {
+                    "id": "guide-0-0",
+                    "text": "示例 138 · 合成测试内容 可编辑结构与内容往返验证 可编辑结构与内容往返验证 可编辑结构与内容往返验证",
+                    "children": [],
+                    "seed": 7140,
+                    "style": {
+                      "shape": "rounded",
+                      "fill": "#FCFAF4",
+                      "borderColor": "#D9D9CB",
+                      "borderWidth": 1,
+                      "color": "#4B5047",
+                      "fontSize": 20,
+                      "width": 340,
+                      "align": "left"
+                    }
+                  },
+                  {
+                    "id": "guide-0-1",
+                    "text": "示例 139 · 合成测试内容 可编辑结构与内容往返验证 可编辑结构与内容往返验证 可编辑结构与内容往返验证 可编辑结构",
+                    "children": [],
+                    "seed": 7141,
+                    "style": {
+                      "shape": "rounded",
+                      "fill": "#FCFAF4",
+                      "borderColor": "#D9D9CB",
+                      "borderWidth": 1,
+                      "color": "#4B5047",
+                      "fontSize": 20,
+                      "width": 340,
+                      "align": "left"
+                    }
+                  },
+                  {
+                    "id": "guide-0-2",
+                    "text": "示例 140 · 合成测试内容 可编辑结构与内容往返验证 可编辑结构与内容往返验证 可编辑结",
+                    "children": [],
+                    "seed": 7142,
+                    "style": {
+                      "shape": "rounded",
+                      "fill": "#FCFAF4",
+                      "borderColor": "#D9D9CB",
+                      "borderWidth": 1,
+                      "color": "#4B5047",
+                      "fontSize": 20,
+                      "width": 340,
+                      "align": "left"
+                    }
+                  },
+                  {
+                    "id": "guide-0-3",
+                    "text": "示例 141 · 合成测试内容 可编辑结构与内容往返验证 可编辑结构与内容往返验证 可编辑结构与内容往返验证",
+                    "children": [],
+                    "seed": 7143,
+                    "style": {
+                      "shape": "rounded",
+                      "fill": "#FCFAF4",
+                      "borderColor": "#D9D9CB",
+                      "borderWidth": 1,
+                      "color": "#4B5047",
+                      "fontSize": 20,
+                      "width": 340,
+                      "align": "left"
+                    }
+                  }
+                ],
+                "seed": 7144,
+                "collapsed": true,
+                "style": {
+                  "shape": "rounded",
+                  "fill": "#FCFAF4",
+                  "borderColor": "#D9D9CB",
+                  "borderWidth": 1,
+                  "color": "#4B5047",
+                  "fontSize": 22,
+                  "width": 324,
+                  "align": "center"
+                }
+              },
+              {
+                "id": "guide-1",
+                "text": "示例 142 · 合成测试内容",
+                "children": [
+                  {
+                    "id": "guide-1-0",
+                    "text": "示例 143 · 合成测试内容 可编辑结构与内容往返验证 可编辑结构与内容往返验证 可编辑结构与内容往返验证 可编辑结构与内容往返验证 可编辑结构与内容往返验证 可编辑结构与内容往返验证 可编辑结",
+                    "children": [],
+                    "seed": 7145,
+                    "style": {
+                      "shape": "rounded",
+                      "fill": "#FCFAF4",
+                      "borderColor": "#D9D9CB",
+                      "borderWidth": 1,
+                      "color": "#4B5047",
+                      "fontSize": 20,
+                      "width": 340,
+                      "align": "left"
+                    }
+                  },
+                  {
+                    "id": "guide-1-1",
+                    "text": "示例 144 · 合成测试内容 可编辑结构与内容往返验证 可编辑结构与内容往返验证 可编辑结构与内容往返验证 可编辑结构与内容往返验证 可编辑结构与内容往返验证 可编辑结构与内",
+                    "children": [],
+                    "seed": 7146,
+                    "style": {
+                      "shape": "rounded",
+                      "fill": "#FCFAF4",
+                      "borderColor": "#D9D9CB",
+                      "borderWidth": 1,
+                      "color": "#4B5047",
+                      "fontSize": 20,
+                      "width": 340,
+                      "align": "left"
+                    }
+                  },
+                  {
+                    "id": "guide-1-2",
+                    "text": "示例 145 · 合成测试内容 可编辑结构与内容往返验证 可编辑结构与内容往返验证 可编辑结构与内容往返验证 可编辑结构与内容往返验证 可编辑结构与内容往返验证 可编辑结构与",
+                    "children": [],
+                    "seed": 7147,
+                    "style": {
+                      "shape": "rounded",
+                      "fill": "#FCFAF4",
+                      "borderColor": "#D9D9CB",
+                      "borderWidth": 1,
+                      "color": "#4B5047",
+                      "fontSize": 20,
+                      "width": 340,
+                      "align": "left"
+                    }
+                  },
+                  {
+                    "id": "guide-1-3",
+                    "text": "示例 146 · 合成测试内容 可编辑结构与内容往返验证 可编辑结构与内容往返验证 可编辑结构与内容往返验证 可编辑结构与内容往",
+                    "children": [],
+                    "seed": 7148,
+                    "style": {
+                      "shape": "rounded",
+                      "fill": "#FCFAF4",
+                      "borderColor": "#D9D9CB",
+                      "borderWidth": 1,
+                      "color": "#4B5047",
+                      "fontSize": 20,
+                      "width": 340,
+                      "align": "left"
+                    }
+                  }
+                ],
+                "seed": 7149,
+                "collapsed": true,
+                "style": {
+                  "shape": "rounded",
+                  "fill": "#FCFAF4",
+                  "borderColor": "#D9D9CB",
+                  "borderWidth": 1,
+                  "color": "#4B5047",
+                  "fontSize": 22,
+                  "width": 324,
+                  "align": "center"
+                }
+              },
+              {
+                "id": "guide-2",
+                "text": "示例 147 · 合成测试内容 ",
+                "children": [
+                  {
+                    "id": "guide-2-0",
+                    "text": "示例 148 · 合成测试内容 可编辑结构与内容往返验证 可编辑结构与内容往返验证 可编辑结构与",
+                    "children": [],
+                    "seed": 7150,
+                    "style": {
+                      "shape": "rounded",
+                      "fill": "#FCFAF4",
+                      "borderColor": "#D9D9CB",
+                      "borderWidth": 1,
+                      "color": "#4B5047",
+                      "fontSize": 20,
+                      "width": 340,
+                      "align": "left"
+                    }
+                  },
+                  {
+                    "id": "guide-2-1",
+                    "text": "示例 149 · 合成测试内容 可编辑结构与内容往返验证 可编辑结构与内容往返验证 可编辑结构与内容往返验证 可编辑结构与内容往返验证 ",
+                    "children": [],
+                    "seed": 7151,
+                    "style": {
+                      "shape": "rounded",
+                      "fill": "#FCFAF4",
+                      "borderColor": "#D9D9CB",
+                      "borderWidth": 1,
+                      "color": "#4B5047",
+                      "fontSize": 20,
+                      "width": 340,
+                      "align": "left"
+                    }
+                  },
+                  {
+                    "id": "guide-2-2",
+                    "text": "示例 150 · 合成测试内容 可编辑结构与内容往返验证 可编辑结构与内容往返验证 可编辑结构与内容往返验证 可编辑结构与内容往",
+                    "children": [],
+                    "seed": 7152,
+                    "style": {
+                      "shape": "rounded",
+                      "fill": "#FCFAF4",
+                      "borderColor": "#D9D9CB",
+                      "borderWidth": 1,
+                      "color": "#4B5047",
+                      "fontSize": 20,
+                      "width": 340,
+                      "align": "left"
+                    }
+                  },
+                  {
+                    "id": "guide-2-3",
+                    "text": "示例 151 · 合成测试内容 可编辑结构与内容往返验证 可编辑结构与内容往返验证 可编辑结构与内容往",
+                    "children": [],
+                    "seed": 7153,
+                    "style": {
+                      "shape": "rounded",
+                      "fill": "#FCFAF4",
+                      "borderColor": "#D9D9CB",
+                      "borderWidth": 1,
+                      "color": "#4B5047",
+                      "fontSize": 20,
+                      "width": 340,
+                      "align": "left"
+                    }
+                  }
+                ],
+                "seed": 7154,
+                "collapsed": true,
+                "style": {
+                  "shape": "rounded",
+                  "fill": "#FCFAF4",
+                  "borderColor": "#D9D9CB",
+                  "borderWidth": 1,
+                  "color": "#4B5047",
+                  "fontSize": 22,
+                  "width": 324,
+                  "align": "center"
+                }
+              }
+            ],
+            "seed": 7155,
+            "sideOverride": "right",
+            "branchColor": "#8A9871",
+            "style": {
+              "shape": "rounded",
+              "width": 248,
+              "fontSize": 26,
+              "color": "#4B5047",
+              "fill": "#EDF0E2",
+              "borderColor": "#8A9871",
+              "borderWidth": 1.6,
+              "bold": true
+            }
+          }
+        ],
+        "seed": 7157,
+        "style": {
+          "shape": "rounded",
+          "width": 430,
+          "fontSize": 34,
+          "color": "#6E5D61",
+          "fill": "#F5E7E9",
+          "borderColor": "#C6939D",
+          "borderLine": "double",
+          "borderWidth": 1.8,
+          "bold": true,
+          "align": "center"
+        },
+        "contents": [
+          {
+            "id": "image-botanical",
+            "seed": 7156,
+            "kind": "image",
+            "src": "fixture:image-1",
+            "x": 0,
+            "y": 0,
+            "w": 220,
+            "h": 220,
+            "framed": false
+          }
+        ],
+        "contentLayout": "below",
+        "note": {
+          "version": 1,
+          "markdown": "合成回归样例：仅用于验证布局、编辑、导出和重新打开。"
+        }
+      }
+    }
+  }
+}

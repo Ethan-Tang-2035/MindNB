@@ -1,0 +1,138 @@
+{
+  "name": "mindnb",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "build:desktop": "npm run build && node scripts/build-desktop.mjs",
+    "desktop": "npm run build:desktop && electron .",
+    "package:desktop": "npm run build:desktop && electron-builder",
+    "test:desktop": "npm run build:desktop && playwright test --config playwright.desktop.config.ts",
+    "test:pages": "npm run build:desktop && playwright test --config playwright.desktop.config.ts tests/desktop/paper-pages.e2e.ts && playwright test --config playwright.web.config.ts tests/web/paper-pages.e2e.ts",
+    "test:textbox": "vitest run src/text-box.test.ts && playwright test --config playwright.web.config.ts tests/web/text-box.e2e.ts && npm run build:desktop && playwright test --config playwright.desktop.config.ts tests/desktop/text-box.e2e.ts",
+    "build:mcp": "node scripts/build-mcp.mjs",
+    "mcp": "node dist-desktop/mcp-server.mjs",
+    "clean": "node scripts/clean.mjs",
+    "test:web": "playwright test --config playwright.web.config.ts",
+    "release:check": "node scripts/release-check.mjs",
+    "release:source": "node scripts/export-source.mjs",
+    "release:checksums": "node scripts/release-checksums.mjs",
+    "licenses:generate": "node scripts/generate-licenses.mjs"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^26.4.1",
+    "electron": "^44.3.0",
+    "electron-builder": "^26.15.3",
+    "esbuild": "^0.28.2",
+    "typescript": "^7.0.2",
+    "vite": "^8.2.2",
+    "vitest": "^4.1.11"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.30.0",
+    "@vercel/blob": "^2.8.0",
+    "docx": "^9.7.1",
+    "exceljs": "^4.4.0",
+    "fflate": "^0.8.3",
+    "jspdf": "^4.2.1",
+    "lucide": "^1.41.0",
+    "lxgw-wenkai-webfont": "^1.7.0",
+    "zod": "^4.6.5"
+  },
+  "overrides": {
+    "exceljs": {
+      "uuid": "^11.1.1",
+      "unzipper": "0.12.5"
+    }
+  },
+  "main": "dist-desktop/main.cjs",
+  "description": "Turn ideas into clear mind maps with visual notes, connected branches, and local-first desktop storage.",
+  "author": "MindNB contributors",
+  "build": {
+    "appId": "app.mindnb.desktop",
+    "productName": "MindNB",
+    "directories": {
+      "output": "release"
+    },
+    "files": [
+      "dist/**/*",
+      "dist-desktop/*.cjs",
+      "package.json",
+      "!**/node_modules/**"
+    ],
+    "extraResources": [
+      {
+        "from": "dist-desktop/native",
+        "to": "native"
+      },
+      {
+        "from": "dist-desktop/mcp-server.mjs",
+        "to": "mcp/mcp-server.mjs"
+      },
+      {
+        "from": "LICENSE",
+        "to": "licenses/LICENSE"
+      },
+      {
+        "from": "THIRD_PARTY_NOTICES.md",
+        "to": "licenses/THIRD_PARTY_NOTICES.md"
+      },
+      {
+        "from": "dist-desktop/THIRD-PARTY-LICENSES.txt",
+        "to": "licenses/THIRD-PARTY-LICENSES.txt"
+      }
+    ],
+    "fileAssociations": [
+      {
+        "ext": "mindnb",
+        "name": "MindNB Document",
+        "role": "Editor"
+      }
+    ],
+    "mac": {
+      "target": [
+        "dmg",
+        "zip"
+      ],
+      "category": "public.app-category.productivity",
+      "hardenedRuntime": true,
+      "icon": "build/icons/icon.icns"
+    },
+    "win": {
+      "target": [
+        "nsis",
+        "zip"
+      ],
+      "icon": "build/icons/icon.ico"
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "installerIcon": "build/icons/icon.ico",
+      "uninstallerIcon": "build/icons/icon.ico"
+    },
+    "icon": "build/icons/icon.png",
+    "artifactName": "${productName}-${version}-${os}-${arch}.${ext}",
+    "linux": {
+      "target": [
+        "AppImage"
+      ],
+      "category": "Office",
+      "icon": "build/icons/icon.png"
+    }
+  },
+  "license": "AGPL-3.0-only",
+  "engines": {
+    "node": ">=24"
+  },
+  "homepage": "https://github.com/Ethan-Tang-2035/MindNB",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ethan-Tang-2035/MindNB.git"
+  }
+}

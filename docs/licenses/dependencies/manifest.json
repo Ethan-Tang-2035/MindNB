@@ -1,0 +1,37 @@
+{
+  "@esbuild/darwin-arm64@0.28.2": {
+    "file": "esbuild__darwin-arm64-0.28.2.txt",
+    "url": "https://raw.githubusercontent.com/evanw/esbuild/609683d892977362a0f99026cb74b96263d728a9/LICENSE.md",
+    "sha256": "b40ec5baec7bb34fa5b1c09521fa3cd52d5fad7adafed74932a2010d3612a681",
+    "npmVersion": "0.28.2",
+    "gitRef": "609683d892977362a0f99026cb74b96263d728a9"
+  },
+  "@rolldown/binding-darwin-arm64@1.2.7": {
+    "file": "rolldown__binding-darwin-arm64-1.2.7.txt",
+    "url": "https://raw.githubusercontent.com/rolldown/rolldown/v1.2.7/LICENSE",
+    "sha256": "23ecfff35a5a2e80d92142f75228912c3b1abc4b5a8337a821ff4397e2f9f734",
+    "npmVersion": "1.2.7",
+    "gitRef": "v1.2.7"
+  },
+  "filelist@1.0.6": {
+    "file": "filelist-1.0.6.txt",
+    "url": "https://raw.githubusercontent.com/mde/filelist/v1.0.6/LICENSE",
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "npmVersion": "1.0.6",
+    "gitRef": "v1.0.6"
+  },
+  "jake@10.9.4": {
+    "file": "jake-10.9.4.txt",
+    "url": "https://raw.githubusercontent.com/jakejs/jake/v10.9.4/LICENSE",
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+    "npmVersion": "10.9.4",
+    "gitRef": "v10.9.4"
+  },
+  "saxes@5.0.1": {
+    "file": "saxes-5.0.1.txt",
+    "url": "https://raw.githubusercontent.com/lddubeau/saxes/v5.0.1/LICENSE",
+    "sha256": "0fac2374380621b22e6b50451057721a9c52935b02d16d106a9f04897f061d0e",
+    "npmVersion": "5.0.1",
+    "gitRef": "v5.0.1"
+  }
+}

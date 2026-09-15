@@ -1,0 +1,22 @@
+{
+  "MIT": {
+    "url": "https://raw.githubusercontent.com/spdx/license-list-data/v3.27.0/text/MIT.txt",
+    "sha256": "b05785f9f18e6716bab63424b11454513b9943a222595b70411009202fc592b5"
+  },
+  "BSD-2-Clause": {
+    "url": "https://raw.githubusercontent.com/spdx/license-list-data/v3.27.0/text/BSD-2-Clause.txt",
+    "sha256": "f32fb3b417a194167cfad068223fc975ba96c5960513a10f66a3c28720aec1df"
+  },
+  "Apache-2.0": {
+    "url": "https://raw.githubusercontent.com/spdx/license-list-data/v3.27.0/text/Apache-2.0.txt",
+    "sha256": "074e6e32c86a4c0ef8b3ed25b721ca23aca83df277cd88106ef7177c354615ff"
+  },
+  "WTFPL": {
+    "url": "https://raw.githubusercontent.com/spdx/license-list-data/v3.27.0/text/WTFPL.txt",
+    "sha256": "13d8825a59e5e546d41e8711405d0f335a9934362a47c04a3b4280fa7932dc4a"
+  },
+  "ISC": {
+    "url": "https://raw.githubusercontent.com/spdx/license-list-data/v3.27.0/text/ISC.txt",
+    "sha256": "f2ec607f67bb0dd3053b49835b02110d5cd0f8eb6da3aac4dc0b142a6b299be9"
+  }
+}

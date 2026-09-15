@@ -1,0 +1,80 @@
+/* Editor chrome follows the approved clear-handwritten reference. Map ink is SVG. */
+#app.editor-modern { --editor-ink:#182338; --editor-border:#e1e5ed; --editor-paper:#fcfbf7; color:var(--editor-ink); font-family:system-ui,-apple-system,'PingFang SC',sans-serif; }
+.editor-modern button,.editor-modern select,.editor-modern input { font-family:inherit; }
+.editor-modern button { cursor:pointer; }
+#app.editor-modern #style-panel { width:320px; padding:52px 22px 28px; border-left:1px solid var(--editor-border); box-shadow:-4px 0 16px #25324b06; font-family:inherit; }
+#app.editor-modern #style-panel .context-heading { font-size:20px; line-height:28px; margin:0 0 18px; font-weight:650; }
+#app.editor-modern #toolbar { top:12px; left:calc((100% - 320px) * .61); height:48px; padding:6px 8px; gap:4px; border:1px solid var(--editor-border); border-radius:15px; background:#fffffff5; box-shadow:0 4px 14px #24304a0b; color:var(--editor-ink); }
+#app.editor-modern.panel-hidden #toolbar { left:58%; }
+#app.editor-modern #toolbar > .tbar-btn { height:34px; min-width:34px; padding:0 9px; color:var(--editor-ink); font-family:inherit; font-size:13px; border:0; background:transparent; display:flex; gap:8px; align-items:center; justify-content:center; white-space:nowrap; }
+#app.editor-modern #toolbar > .tbar-btn:hover { background:#f0f3f7; }
+#app.editor-modern #toolbar > .tbar-btn.active { background:#ffe7a2; color:#514226; }
+#app.editor-modern #toolbar > #add-node-btn,#app.editor-modern #toolbar > #insert-menu-btn,#app.editor-modern #toolbar > #export-png-btn { border-left:1px solid #e6e9f0; border-radius:0; padding-left:14px; }
+#app.editor-modern #editor-header { position:fixed; top:17px; left:24px; z-index:7; display:flex; align-items:center; gap:14px; max-width:calc((100% - 320px) * .35); height:36px; }
+#editor-header .tbar-btn { border:1px solid var(--editor-border); border-radius:50%; width:36px; min-width:36px; height:36px; display:grid; place-items:center; background:#fff; color:var(--editor-ink); box-shadow:0 2px 8px #24304a08; padding:0; opacity:1; }
+#editor-doc-title { font-size:15px; font-weight:650; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; }
+#editor-doc-switch { position:fixed; bottom:22px; left:24px; z-index:5; border:1px solid var(--editor-border); background:#fff; color:var(--editor-ink); border-radius:24px; padding:12px 22px; max-width:280px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap; box-shadow:0 4px 14px #24304a09; font-size:14px; }
+#app.editor-modern #zoom-bar { bottom:22px; right:340px; display:flex; align-items:center; gap:8px; padding:7px 10px; border:1px solid var(--editor-border); border-radius:28px; background:#fff; box-shadow:0 3px 12px #24304a08; font-family:inherit; }
+#app.editor-modern.panel-hidden #zoom-bar { right:22px; }
+#app.editor-modern #zoom-bar button { border:0; border-radius:18px; background:transparent; height:30px; min-width:30px; padding:0 8px; color:var(--editor-ink); font-family:inherit; font-size:14px; }
+#app.editor-modern #zoom-bar button.round { border:1px solid #e4e8ef; background:#fcfdff; font-size:20px; padding:0; }
+#app.editor-modern #zoom-pct { border:0; background:none; font-family:inherit; font-size:13px; min-width:48px; }
+#app.editor-modern #minimap { display:none; border:1px solid var(--editor-border); border-radius:14px; background:#fff; box-shadow:0 3px 12px #24304a0b; }
+#app.editor-modern #minimap.user-visible { display:block; }
+#app.editor-modern .editor-menu { background:#fff; border:1px solid var(--editor-border); border-radius:12px; box-shadow:0 10px 30px #24304a1a; font-family:inherit; }
+#app.editor-modern .editor-menu button { font:14px system-ui,-apple-system,'PingFang SC',sans-serif; color:var(--editor-ink); height:38px; }
+#app.editor-modern .editor-menu button:hover { background:#f2f5fa; }
+#toolbar-more-menu { position:absolute; top:calc(100% + 8px); right:0; left:auto; width:244px; }
+#app.editor-modern #toolbar-more-menu[hidden] { display:none; }
+#app.editor-modern #node-toolbar { border:1px solid var(--editor-border); background:#fff; border-radius:12px; box-shadow:0 6px 22px #24304a16; }
+#app.editor-modern #node-editor { border:2px solid #388bea; border-radius:10px; }
+#app.editor-modern :is(.seg-btn,.shape-btn,.theme-card,.popover-trigger,.font-control select,.font-control input,.doc-name-input) { border:1px solid var(--editor-border); border-radius:8px; }
+#app.editor-modern :is(.panel-divider,.canvas-sec) { border-color:var(--editor-border); border-style:solid; }
+#app.editor-modern .popover-panel { border:1px solid var(--editor-border); background:#fff; box-shadow:0 10px 30px #24304a16; }
+#app.editor-modern button:focus-visible,#app.editor-modern select:focus-visible,#app.editor-modern input:focus-visible { outline:2px solid #3489ed; outline-offset:3px; }
+.clear-inspector[hidden],.clear-inspector [hidden] { display:none!important; }
+.clear-tabs { display:flex; height:38px; border-radius:12px; background:#edf0f5; padding:2px; margin-bottom:22px; }
+.clear-tabs button { flex:1; border:0; border-radius:10px; background:transparent; color:#263349; font-size:14px; }
+.clear-tabs button[aria-selected=true] { color:#1879ed; background:#e8f2ff; box-shadow:0 0 0 1px #d6e1ed,0 1px 4px #1728430b; font-weight:650; }
+.clear-section-label { font-size:14px; margin:0 0 10px; }
+.clear-theme-card { display:flex; align-items:center; gap:10px; border:1px solid var(--editor-border); border-radius:12px; height:78px; padding:7px; margin-bottom:20px; }
+.clear-theme-card svg { width:80px; height:64px; flex:none; }
+.clear-theme-card > div { flex:1; min-width:0; }
+.clear-theme-card small { display:block; color:#8590a4; font-size:12px; white-space:nowrap; }
+.clear-inspector select { appearance:none; background:#fff var(--select-chevron) no-repeat right 10px center; color:#182338; border:1px solid var(--editor-border); border-radius:9px; padding:7px 28px 7px 12px; font-size:14px; min-width:0; height:36px; }
+.clear-theme-card select { font-size:15px; font-weight:600; width:100%; border:0; background-color:transparent; padding-left:0; height:30px; }
+.clear-field { display:flex; align-items:center; justify-content:space-between; gap:12px; margin:0 0 16px; font-size:14px; }
+.clear-field > span { flex:none; }
+.clear-field > select { width:166px; }
+.clear-inspector fieldset { border:0; margin:22px 0 24px; padding:0; min-width:0; }
+.clear-inspector legend { padding:0; font-size:14px; margin-bottom:16px; }
+.clear-inspector fieldset .clear-field { margin:0 0 8px; padding-left:14px; font-size:13px; }
+.clear-inspector input[type=number] { width:68px; height:34px; border:1px solid var(--editor-border); border-radius:9px; background:#fff; padding:0 8px 0 13px; color:#182338; font-size:14px; }
+.clear-color-row { display:flex; gap:8px; }
+.clear-color-row input[type=color] { appearance:none; width:26px; height:26px; border:0; border-radius:50%; padding:0; background:none; cursor:pointer; overflow:hidden; }
+.clear-color-row input[type=color]::-webkit-color-swatch-wrapper { padding:0; }
+.clear-color-row input[type=color]::-webkit-color-swatch { border:0; border-radius:50%; }
+.clear-switch { appearance:none; width:46px; height:27px; border-radius:20px; background:#c7ced9; position:relative; border:0; cursor:pointer; margin:0; }
+.clear-switch:checked { background:#1682ff; }
+.clear-switch:after { content:''; position:absolute; width:23px; height:23px; border-radius:50%; background:white; left:2px; top:2px; box-shadow:0 1px 3px #18233826; transition:transform .12s; }
+.clear-switch:checked:after { transform:translateX(19px); }
+.clear-hint { color:#8792a5; font-size:12px; margin:0; line-height:1.7; }
+.clear-style > .clear-field { margin-bottom:24px; }
+.clear-style > .clear-field:has(.clear-switch) { margin-bottom:7px; }
+.clear-layout { padding-top:12px; }
+@media(max-width:1150px) { #app.editor-modern #toolbar { left:calc((100% - 320px) * .66); } .tbar-label { display:none; } #app.editor-modern #editor-header { max-width:220px; } }
+@media(max-width:800px) { #app.editor-modern #style-panel { width:280px; padding:62px 16px 20px; } #app.editor-modern #toolbar { left:calc((100% - 280px) / 2); } #app.editor-modern #zoom-bar { right:296px; } #editor-doc-title { display:none; } #app.editor-modern #editor-header { top:72px; left:16px; } #editor-doc-switch { max-width:150px; } }
+@media(max-width:600px) { #app.editor-modern #toolbar,#app.editor-modern.panel-hidden #toolbar { left:50%; top:10px; width:max-content; max-width:calc(100% - 20px); } #app.editor-modern #style-panel { position:fixed; right:0; top:64px; bottom:74px; width:min(320px,100%); border:1px solid var(--editor-border); border-radius:16px 0 0 16px; } #app.editor-modern #zoom-bar { right:12px; bottom:14px; } #editor-doc-switch { left:12px; bottom:14px; font-size:12px; padding:9px 12px; max-width:112px; } #app.editor-modern #toolbar > .tbar-btn { min-width:30px; padding:0 6px; } }
+@media(prefers-reduced-motion:reduce) { .clear-switch:after { transition:none; } }
+/* Override legacy ID selectors and keep the inspector within a laptop viewport. */
+#app.editor-modern #style-panel .clear-inspector select { border:1px solid var(--editor-border); border-radius:9px; background-color:#fff; font-family:inherit; color:#182338; height:36px; padding:6px 26px 6px 12px; font-size:14px; }
+#app.editor-modern #style-panel .clear-theme-card select { border:0; height:28px; font-weight:600; padding-left:0; background-color:transparent; }
+#app.editor-modern #style-panel .clear-theme-card { height:78px; }
+#app.editor-modern .clear-inspector fieldset { margin:20px 0; }
+#app.editor-modern .clear-inspector legend { margin-bottom:12px; }
+#app.editor-modern .clear-inspector fieldset .clear-field { margin-bottom:7px; }
+#app.editor-modern .clear-style > .clear-field { margin-bottom:20px; }
+#app.editor-modern .clear-style > .clear-field:has(.clear-switch) { margin-bottom:6px; }
+#app.editor-modern .clear-inspector input[type=number] { width:68px; height:32px; }
+#app.editor-modern .clear-inspector select { max-width:166px; }
+#app.editor-modern #style-panel .clear-theme-card select { max-width:100%; }

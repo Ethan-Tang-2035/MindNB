@@ -1,0 +1,3 @@
+Open Doodles figures by Pablo Stanley: CC0 1.0. https://www.opendoodles.com/about
+Original setting drawings and compositions authored for mindnb; source: scripts/build-scenes.py.
+30 distinct settings, not recolored figure variants.

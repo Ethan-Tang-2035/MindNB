@@ -1,0 +1,13 @@
+.action-tooltip {
+  position: fixed; inset: auto; margin: 0; padding: 7px 10px;
+  max-width: min(300px, calc(100vw - 16px)); box-sizing: border-box;
+  border: 0; border-radius: 7px; background: #26322d; color: #fff;
+  font: 12px/1.5 system-ui, sans-serif; overflow-wrap: anywhere;
+  box-shadow: 0 3px 12px #0002; pointer-events: none;
+}
+.editor-menu button, .menu-pop .menu-item {
+  display: flex; align-items: center; gap: 10px;
+}
+.editor-menu button > svg, .menu-pop .menu-item > svg { flex: 0 0 20px; }
+#zoom-bar button, #minimap header button, .card-menu { display: inline-flex; align-items: center; justify-content: center; }
+[data-tooltip]:focus-visible { outline: 2px solid var(--ui-accent, #55746a); outline-offset: 3px; }

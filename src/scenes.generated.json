@@ -1,0 +1,542 @@
+[
+  {
+    "id": "scene-dashboard",
+    "name": "数据分析",
+    "category": "工作",
+    "tags": [
+      "数据分析",
+      "工作",
+      "场景",
+      "手绘",
+      "dashboard"
+    ],
+    "scene": true,
+    "stroke": [],
+    "src": "/illustrations/scenes/dashboard.svg",
+    "source": "https://opendoodles.s3-us-west-1.amazonaws.com/sitting.svg",
+    "license": "CC0-1.0 (Open Doodles figure); original project setting and composition",
+    "composition": "dashboard"
+  },
+  {
+    "id": "scene-presentation",
+    "name": "方案汇报",
+    "category": "工作",
+    "tags": [
+      "方案汇报",
+      "工作",
+      "场景",
+      "手绘",
+      "presentation"
+    ],
+    "scene": true,
+    "stroke": [],
+    "src": "/illustrations/scenes/presentation.svg",
+    "source": "https://opendoodles.s3-us-west-1.amazonaws.com/strolling.svg",
+    "license": "CC0-1.0 (Open Doodles figure); original project setting and composition",
+    "composition": "presentation"
+  },
+  {
+    "id": "scene-kanban",
+    "name": "项目看板",
+    "category": "工作",
+    "tags": [
+      "项目看板",
+      "工作",
+      "场景",
+      "手绘",
+      "kanban"
+    ],
+    "scene": true,
+    "stroke": [],
+    "src": "/illustrations/scenes/kanban.svg",
+    "source": "https://opendoodles.s3-us-west-1.amazonaws.com/sleek.svg",
+    "license": "CC0-1.0 (Open Doodles figure); original project setting and composition",
+    "composition": "kanban"
+  },
+  {
+    "id": "scene-coding",
+    "name": "程序开发",
+    "category": "工作",
+    "tags": [
+      "程序开发",
+      "工作",
+      "场景",
+      "手绘",
+      "coding"
+    ],
+    "scene": true,
+    "stroke": [],
+    "src": "/illustrations/scenes/coding.svg",
+    "source": "https://opendoodles.s3-us-west-1.amazonaws.com/sitting.svg",
+    "license": "CC0-1.0 (Open Doodles figure); original project setting and composition",
+    "composition": "coding"
+  },
+  {
+    "id": "scene-meeting",
+    "name": "团队会议",
+    "category": "工作",
+    "tags": [
+      "团队会议",
+      "工作",
+      "场景",
+      "手绘",
+      "meeting"
+    ],
+    "scene": true,
+    "stroke": [],
+    "src": "/illustrations/scenes/meeting.svg",
+    "source": "https://opendoodles.s3-us-west-1.amazonaws.com/sitting.svg",
+    "license": "CC0-1.0 (Open Doodles figure); original project setting and composition",
+    "composition": "meeting"
+  },
+  {
+    "id": "scene-shipping",
+    "name": "订单发货",
+    "category": "工作",
+    "tags": [
+      "订单发货",
+      "工作",
+      "场景",
+      "手绘",
+      "shipping"
+    ],
+    "scene": true,
+    "stroke": [],
+    "src": "/illustrations/scenes/shipping.svg",
+    "source": "https://opendoodles.s3-us-west-1.amazonaws.com/unboxing.svg",
+    "license": "CC0-1.0 (Open Doodles figure); original project setting and composition",
+    "composition": "shipping"
+  },
+  {
+    "id": "scene-classroom",
+    "name": "课堂学习",
+    "category": "学习",
+    "tags": [
+      "课堂学习",
+      "学习",
+      "场景",
+      "手绘",
+      "classroom"
+    ],
+    "scene": true,
+    "stroke": [],
+    "src": "/illustrations/scenes/classroom.svg",
+    "source": "https://opendoodles.s3-us-west-1.amazonaws.com/reading.svg",
+    "license": "CC0-1.0 (Open Doodles figure); original project setting and composition",
+    "composition": "classroom"
+  },
+  {
+    "id": "scene-library",
+    "name": "图书馆阅读",
+    "category": "学习",
+    "tags": [
+      "图书馆阅读",
+      "学习",
+      "场景",
+      "手绘",
+      "library"
+    ],
+    "scene": true,
+    "stroke": [],
+    "src": "/illustrations/scenes/library.svg",
+    "source": "https://opendoodles.s3-us-west-1.amazonaws.com/sitting-reading.svg",
+    "license": "CC0-1.0 (Open Doodles figure); original project setting and composition",
+    "composition": "library"
+  },
+  {
+    "id": "scene-laboratory",
+    "name": "科学实验",
+    "category": "学习",
+    "tags": [
+      "科学实验",
+      "学习",
+      "场景",
+      "手绘",
+      "laboratory"
+    ],
+    "scene": true,
+    "stroke": [],
+    "src": "/illustrations/scenes/laboratory.svg",
+    "source": "https://opendoodles.s3-us-west-1.amazonaws.com/sleek.svg",
+    "license": "CC0-1.0 (Open Doodles figure); original project setting and composition",
+    "composition": "laboratory"
+  },
+  {
+    "id": "scene-astronomy",
+    "name": "天文观测",
+    "category": "学习",
+    "tags": [
+      "天文观测",
+      "学习",
+      "场景",
+      "手绘",
+      "astronomy"
+    ],
+    "scene": true,
+    "stroke": [],
+    "src": "/illustrations/scenes/astronomy.svg",
+    "source": "https://opendoodles.s3-us-west-1.amazonaws.com/strolling.svg",
+    "license": "CC0-1.0 (Open Doodles figure); original project setting and composition",
+    "composition": "astronomy"
+  },
+  {
+    "id": "scene-music",
+    "name": "音乐练习",
+    "category": "学习",
+    "tags": [
+      "音乐练习",
+      "学习",
+      "场景",
+      "手绘",
+      "music"
+    ],
+    "scene": true,
+    "stroke": [],
+    "src": "/illustrations/scenes/music.svg",
+    "source": "https://opendoodles.s3-us-west-1.amazonaws.com/sitting.svg",
+    "license": "CC0-1.0 (Open Doodles figure); original project setting and composition",
+    "composition": "music"
+  },
+  {
+    "id": "scene-painting",
+    "name": "绘画创作",
+    "category": "学习",
+    "tags": [
+      "绘画创作",
+      "学习",
+      "场景",
+      "手绘",
+      "painting"
+    ],
+    "scene": true,
+    "stroke": [],
+    "src": "/illustrations/scenes/painting.svg",
+    "source": "https://opendoodles.s3-us-west-1.amazonaws.com/sleek.svg",
+    "license": "CC0-1.0 (Open Doodles figure); original project setting and composition",
+    "composition": "painting"
+  },
+  {
+    "id": "scene-kitchen",
+    "name": "烹饪晚餐",
+    "category": "生活",
+    "tags": [
+      "烹饪晚餐",
+      "生活",
+      "场景",
+      "手绘",
+      "kitchen"
+    ],
+    "scene": true,
+    "stroke": [],
+    "src": "/illustrations/scenes/kitchen.svg",
+    "source": "https://opendoodles.s3-us-west-1.amazonaws.com/strolling.svg",
+    "license": "CC0-1.0 (Open Doodles figure); original project setting and composition",
+    "composition": "kitchen"
+  },
+  {
+    "id": "scene-cafe",
+    "name": "咖啡休息",
+    "category": "生活",
+    "tags": [
+      "咖啡休息",
+      "生活",
+      "场景",
+      "手绘",
+      "cafe"
+    ],
+    "scene": true,
+    "stroke": [],
+    "src": "/illustrations/scenes/cafe.svg",
+    "source": "https://opendoodles.s3-us-west-1.amazonaws.com/coffee.svg",
+    "license": "CC0-1.0 (Open Doodles figure); original project setting and composition",
+    "composition": "cafe"
+  },
+  {
+    "id": "scene-garden",
+    "name": "花园种植",
+    "category": "生活",
+    "tags": [
+      "花园种植",
+      "生活",
+      "场景",
+      "手绘",
+      "garden"
+    ],
+    "scene": true,
+    "stroke": [],
+    "src": "/illustrations/scenes/garden.svg",
+    "source": "https://opendoodles.s3-us-west-1.amazonaws.com/plant.svg",
+    "license": "CC0-1.0 (Open Doodles figure); original project setting and composition",
+    "composition": "garden"
+  },
+  {
+    "id": "scene-home",
+    "name": "居家阅读",
+    "category": "生活",
+    "tags": [
+      "居家阅读",
+      "生活",
+      "场景",
+      "手绘",
+      "home"
+    ],
+    "scene": true,
+    "stroke": [],
+    "src": "/illustrations/scenes/home.svg",
+    "source": "https://opendoodles.s3-us-west-1.amazonaws.com/reading-side.svg",
+    "license": "CC0-1.0 (Open Doodles figure); original project setting and composition",
+    "composition": "home"
+  },
+  {
+    "id": "scene-gym",
+    "name": "力量训练",
+    "category": "生活",
+    "tags": [
+      "力量训练",
+      "生活",
+      "场景",
+      "手绘",
+      "gym"
+    ],
+    "scene": true,
+    "stroke": [],
+    "src": "/illustrations/scenes/gym.svg",
+    "source": "https://opendoodles.s3-us-west-1.amazonaws.com/sprinting.svg",
+    "license": "CC0-1.0 (Open Doodles figure); original project setting and composition",
+    "composition": "gym"
+  },
+  {
+    "id": "scene-park",
+    "name": "公园遛狗",
+    "category": "生活",
+    "tags": [
+      "公园遛狗",
+      "生活",
+      "场景",
+      "手绘",
+      "park"
+    ],
+    "scene": true,
+    "stroke": [],
+    "src": "/illustrations/scenes/park.svg",
+    "source": "https://opendoodles.s3-us-west-1.amazonaws.com/petting.svg",
+    "license": "CC0-1.0 (Open Doodles figure); original project setting and composition",
+    "composition": "park"
+  },
+  {
+    "id": "scene-beach",
+    "name": "海边度假",
+    "category": "旅行",
+    "tags": [
+      "海边度假",
+      "旅行",
+      "场景",
+      "手绘",
+      "beach"
+    ],
+    "scene": true,
+    "stroke": [],
+    "src": "/illustrations/scenes/beach.svg",
+    "source": "https://opendoodles.s3-us-west-1.amazonaws.com/bikini.svg",
+    "license": "CC0-1.0 (Open Doodles figure); original project setting and composition",
+    "composition": "beach"
+  },
+  {
+    "id": "scene-camping",
+    "name": "野外露营",
+    "category": "旅行",
+    "tags": [
+      "野外露营",
+      "旅行",
+      "场景",
+      "手绘",
+      "camping"
+    ],
+    "scene": true,
+    "stroke": [],
+    "src": "/illustrations/scenes/camping.svg",
+    "source": "https://opendoodles.s3-us-west-1.amazonaws.com/sitting.svg",
+    "license": "CC0-1.0 (Open Doodles figure); original project setting and composition",
+    "composition": "camping"
+  },
+  {
+    "id": "scene-airport",
+    "name": "机场出发",
+    "category": "旅行",
+    "tags": [
+      "机场出发",
+      "旅行",
+      "场景",
+      "手绘",
+      "airport"
+    ],
+    "scene": true,
+    "stroke": [],
+    "src": "/illustrations/scenes/airport.svg",
+    "source": "https://opendoodles.s3-us-west-1.amazonaws.com/strolling.svg",
+    "license": "CC0-1.0 (Open Doodles figure); original project setting and composition",
+    "composition": "airport"
+  },
+  {
+    "id": "scene-railway",
+    "name": "铁路旅行",
+    "category": "旅行",
+    "tags": [
+      "铁路旅行",
+      "旅行",
+      "场景",
+      "手绘",
+      "railway"
+    ],
+    "scene": true,
+    "stroke": [],
+    "src": "/illustrations/scenes/railway.svg",
+    "source": "https://opendoodles.s3-us-west-1.amazonaws.com/strolling.svg",
+    "license": "CC0-1.0 (Open Doodles figure); original project setting and composition",
+    "composition": "railway"
+  },
+  {
+    "id": "scene-hiking",
+    "name": "山间徒步",
+    "category": "旅行",
+    "tags": [
+      "山间徒步",
+      "旅行",
+      "场景",
+      "手绘",
+      "hiking"
+    ],
+    "scene": true,
+    "stroke": [],
+    "src": "/illustrations/scenes/hiking.svg",
+    "source": "https://opendoodles.s3-us-west-1.amazonaws.com/sprinting.svg",
+    "license": "CC0-1.0 (Open Doodles figure); original project setting and composition",
+    "composition": "hiking"
+  },
+  {
+    "id": "scene-city",
+    "name": "城市漫游",
+    "category": "旅行",
+    "tags": [
+      "城市漫游",
+      "旅行",
+      "场景",
+      "手绘",
+      "city"
+    ],
+    "scene": true,
+    "stroke": [],
+    "src": "/illustrations/scenes/city.svg",
+    "source": "https://opendoodles.s3-us-west-1.amazonaws.com/selfie.svg",
+    "license": "CC0-1.0 (Open Doodles figure); original project setting and composition",
+    "composition": "city"
+  },
+  {
+    "id": "scene-mentoring",
+    "name": "导师辅导",
+    "category": "人物",
+    "tags": [
+      "导师辅导",
+      "人物",
+      "场景",
+      "手绘",
+      "mentoring"
+    ],
+    "scene": true,
+    "stroke": [],
+    "src": "/illustrations/scenes/mentoring.svg",
+    "source": "https://opendoodles.s3-us-west-1.amazonaws.com/sitting-reading.svg",
+    "license": "CC0-1.0 (Open Doodles figure); original project setting and composition",
+    "composition": "mentoring"
+  },
+  {
+    "id": "scene-birthday",
+    "name": "生日聚会",
+    "category": "人物",
+    "tags": [
+      "生日聚会",
+      "人物",
+      "场景",
+      "手绘",
+      "birthday"
+    ],
+    "scene": true,
+    "stroke": [],
+    "src": "/illustrations/scenes/birthday.svg",
+    "source": "https://opendoodles.s3-us-west-1.amazonaws.com/loving.svg",
+    "license": "CC0-1.0 (Open Doodles figure); original project setting and composition",
+    "composition": "birthday"
+  },
+  {
+    "id": "scene-celebration",
+    "name": "团队庆功",
+    "category": "人物",
+    "tags": [
+      "团队庆功",
+      "人物",
+      "场景",
+      "手绘",
+      "celebration"
+    ],
+    "scene": true,
+    "stroke": [],
+    "src": "/illustrations/scenes/celebration.svg",
+    "source": "https://opendoodles.s3-us-west-1.amazonaws.com/jumping.svg",
+    "license": "CC0-1.0 (Open Doodles figure); original project setting and composition",
+    "composition": "celebration"
+  },
+  {
+    "id": "scene-clinic",
+    "name": "健康咨询",
+    "category": "人物",
+    "tags": [
+      "健康咨询",
+      "人物",
+      "场景",
+      "手绘",
+      "clinic"
+    ],
+    "scene": true,
+    "stroke": [],
+    "src": "/illustrations/scenes/clinic.svg",
+    "source": "https://opendoodles.s3-us-west-1.amazonaws.com/sitting.svg",
+    "license": "CC0-1.0 (Open Doodles figure); original project setting and composition",
+    "composition": "clinic"
+  },
+  {
+    "id": "scene-family",
+    "name": "家庭团聚",
+    "category": "人物",
+    "tags": [
+      "家庭团聚",
+      "人物",
+      "场景",
+      "手绘",
+      "family"
+    ],
+    "scene": true,
+    "stroke": [],
+    "src": "/illustrations/scenes/family.svg",
+    "source": "https://opendoodles.s3-us-west-1.amazonaws.com/loving.svg",
+    "license": "CC0-1.0 (Open Doodles figure); original project setting and composition",
+    "composition": "family"
+  },
+  {
+    "id": "scene-yoga",
+    "name": "清晨冥想",
+    "category": "人物",
+    "tags": [
+      "清晨冥想",
+      "人物",
+      "场景",
+      "手绘",
+      "yoga"
+    ],
+    "scene": true,
+    "stroke": [],
+    "src": "/illustrations/scenes/yoga.svg",
+    "source": "https://opendoodles.s3-us-west-1.amazonaws.com/meditating.svg",
+    "license": "CC0-1.0 (Open Doodles figure); original project setting and composition",
+    "composition": "yoga"
+  }
+]

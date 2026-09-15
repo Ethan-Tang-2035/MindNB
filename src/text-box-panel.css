@@ -1,0 +1,5 @@
+.text-box-panel[hidden],.text-box-panel [hidden]{display:none!important}
+.text-property{display:grid;grid-template-columns:78px minmax(0,1fr);align-items:center;gap:8px;margin:10px 0;font-size:12px}
+.text-property input,.text-property select{box-sizing:border-box;min-width:0;width:100%;height:32px;padding:4px 7px;border:1px solid var(--panel-border,#d8ddd6);border-radius:6px;background:transparent;color:inherit;font:inherit}
+.text-box-panel details details{border:0;margin:8px 0;padding:0}.text-box-panel details details>summary{font-size:12px}
+.text-identity-actions{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0}.text-identity-actions button{padding:7px 10px;border:1px solid var(--panel-border,#d8ddd6);border-radius:6px;background:transparent;color:inherit;font-size:12px;cursor:pointer}.text-identity-actions button:disabled{opacity:.45;cursor:default}.text-identity-actions p{width:100%;margin:0;line-height:1.6}

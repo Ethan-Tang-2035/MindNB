@@ -1,0 +1,3954 @@
+[
+  {
+    "id": "fluent-briefcase",
+    "name": "公文包",
+    "category": "工作",
+    "tags": [
+      "工作",
+      "Briefcase",
+      "公文包",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/briefcase.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Briefcase/Flat/briefcase_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-laptop",
+    "name": "笔记本电脑",
+    "category": "工作",
+    "tags": [
+      "工作",
+      "Laptop",
+      "笔记本电脑",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/laptop.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Laptop/Flat/laptop_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-desktop-computer",
+    "name": "台式电脑",
+    "category": "工作",
+    "tags": [
+      "工作",
+      "Desktop computer",
+      "台式电脑",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/desktop-computer.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Desktop%20computer/Flat/desktop_computer_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-keyboard",
+    "name": "键盘",
+    "category": "工作",
+    "tags": [
+      "工作",
+      "Keyboard",
+      "键盘",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/keyboard.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Keyboard/Flat/keyboard_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-computer-mouse",
+    "name": "鼠标",
+    "category": "工作",
+    "tags": [
+      "工作",
+      "Computer mouse",
+      "鼠标",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/computer-mouse.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Computer%20mouse/Flat/computer_mouse_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-printer",
+    "name": "打印机",
+    "category": "工作",
+    "tags": [
+      "工作",
+      "Printer",
+      "打印机",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/printer.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Printer/Flat/printer_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-telephone",
+    "name": "电话",
+    "category": "工作",
+    "tags": [
+      "工作",
+      "Telephone",
+      "电话",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/telephone.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Telephone/Flat/telephone_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-mobile-phone",
+    "name": "手机",
+    "category": "工作",
+    "tags": [
+      "工作",
+      "Mobile phone",
+      "手机",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/mobile-phone.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Mobile%20phone/Flat/mobile_phone_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-fax-machine",
+    "name": "传真机",
+    "category": "工作",
+    "tags": [
+      "工作",
+      "Fax machine",
+      "传真机",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/fax-machine.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Fax%20machine/Flat/fax_machine_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-file-folder",
+    "name": "文件夹",
+    "category": "工作",
+    "tags": [
+      "工作",
+      "File folder",
+      "文件夹",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/file-folder.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/File%20folder/Flat/file_folder_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-open-file-folder",
+    "name": "打开文件夹",
+    "category": "工作",
+    "tags": [
+      "工作",
+      "Open file folder",
+      "打开文件夹",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/open-file-folder.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Open%20file%20folder/Flat/open_file_folder_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-card-index-dividers",
+    "name": "分类文件",
+    "category": "工作",
+    "tags": [
+      "工作",
+      "Card index dividers",
+      "分类文件",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/card-index-dividers.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Card%20index%20dividers/Flat/card_index_dividers_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-clipboard",
+    "name": "剪贴板",
+    "category": "工作",
+    "tags": [
+      "工作",
+      "Clipboard",
+      "剪贴板",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/clipboard.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Clipboard/Flat/clipboard_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-calendar",
+    "name": "日历",
+    "category": "工作",
+    "tags": [
+      "工作",
+      "Calendar",
+      "日历",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/calendar.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Calendar/Flat/calendar_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-spiral-calendar",
+    "name": "日程",
+    "category": "工作",
+    "tags": [
+      "工作",
+      "Spiral calendar",
+      "日程",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/spiral-calendar.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Spiral%20calendar/Flat/spiral_calendar_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-bar-chart",
+    "name": "柱状图",
+    "category": "工作",
+    "tags": [
+      "工作",
+      "Bar chart",
+      "柱状图",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/bar-chart.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Bar%20chart/Flat/bar_chart_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-chart-increasing",
+    "name": "增长趋势",
+    "category": "工作",
+    "tags": [
+      "工作",
+      "Chart increasing",
+      "增长趋势",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/chart-increasing.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Chart%20increasing/Flat/chart_increasing_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-chart-decreasing",
+    "name": "下降趋势",
+    "category": "工作",
+    "tags": [
+      "工作",
+      "Chart decreasing",
+      "下降趋势",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/chart-decreasing.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Chart%20decreasing/Flat/chart_decreasing_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-chart-increasing-with-yen",
+    "name": "财务增长",
+    "category": "工作",
+    "tags": [
+      "工作",
+      "Chart increasing with yen",
+      "财务增长",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/chart-increasing-with-yen.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Chart%20increasing%20with%20yen/Flat/chart_increasing_with_yen_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-money-bag",
+    "name": "资金",
+    "category": "工作",
+    "tags": [
+      "工作",
+      "Money bag",
+      "资金",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/money-bag.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Money%20bag/Flat/money_bag_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-dollar-banknote",
+    "name": "美元",
+    "category": "工作",
+    "tags": [
+      "工作",
+      "Dollar banknote",
+      "美元",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/dollar-banknote.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Dollar%20banknote/Flat/dollar_banknote_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-credit-card",
+    "name": "信用卡",
+    "category": "工作",
+    "tags": [
+      "工作",
+      "Credit card",
+      "信用卡",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/credit-card.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Credit%20card/Flat/credit_card_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-bank",
+    "name": "银行",
+    "category": "工作",
+    "tags": [
+      "工作",
+      "Bank",
+      "银行",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/bank.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Bank/Flat/bank_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-office-building",
+    "name": "办公楼",
+    "category": "工作",
+    "tags": [
+      "工作",
+      "Office building",
+      "办公楼",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/office-building.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Office%20building/Flat/office_building_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-factory",
+    "name": "工厂",
+    "category": "工作",
+    "tags": [
+      "工作",
+      "Factory",
+      "工厂",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/factory.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Factory/Flat/factory_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-handshake",
+    "name": "合作握手",
+    "category": "工作",
+    "tags": [
+      "工作",
+      "Handshake",
+      "合作握手",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/handshake.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Handshake/Flat/handshake_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-light-bulb",
+    "name": "灵感灯泡",
+    "category": "工作",
+    "tags": [
+      "工作",
+      "Light bulb",
+      "灵感灯泡",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/light-bulb.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Light%20bulb/Flat/light_bulb_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-gear",
+    "name": "设置齿轮",
+    "category": "工作",
+    "tags": [
+      "工作",
+      "Gear",
+      "设置齿轮",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/gear.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Gear/Flat/gear_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-toolbox",
+    "name": "工具箱",
+    "category": "工作",
+    "tags": [
+      "工作",
+      "Toolbox",
+      "工具箱",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/toolbox.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Toolbox/Flat/toolbox_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-hammer-and-wrench",
+    "name": "工具维修",
+    "category": "工作",
+    "tags": [
+      "工作",
+      "Hammer and wrench",
+      "工具维修",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/hammer-and-wrench.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Hammer%20and%20wrench/Flat/hammer_and_wrench_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-package",
+    "name": "包裹",
+    "category": "工作",
+    "tags": [
+      "工作",
+      "Package",
+      "包裹",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/package.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Package/Flat/package_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-inbox-tray",
+    "name": "收件箱",
+    "category": "工作",
+    "tags": [
+      "工作",
+      "Inbox tray",
+      "收件箱",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/inbox-tray.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Inbox%20tray/Flat/inbox_tray_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-outbox-tray",
+    "name": "发件箱",
+    "category": "工作",
+    "tags": [
+      "工作",
+      "Outbox tray",
+      "发件箱",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/outbox-tray.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Outbox%20tray/Flat/outbox_tray_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-envelope",
+    "name": "信封",
+    "category": "工作",
+    "tags": [
+      "工作",
+      "Envelope",
+      "信封",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/envelope.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Envelope/Flat/envelope_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-memo",
+    "name": "备忘录",
+    "category": "工作",
+    "tags": [
+      "工作",
+      "Memo",
+      "备忘录",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/memo.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Memo/Flat/memo_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-pushpin",
+    "name": "图钉",
+    "category": "工作",
+    "tags": [
+      "工作",
+      "Pushpin",
+      "图钉",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/pushpin.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Pushpin/Flat/pushpin_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-paperclip",
+    "name": "回形针",
+    "category": "工作",
+    "tags": [
+      "工作",
+      "Paperclip",
+      "回形针",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/paperclip.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Paperclip/Flat/paperclip_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-scissors",
+    "name": "剪刀",
+    "category": "工作",
+    "tags": [
+      "工作",
+      "Scissors",
+      "剪刀",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/scissors.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Scissors/Flat/scissors_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-locked",
+    "name": "上锁",
+    "category": "工作",
+    "tags": [
+      "工作",
+      "Locked",
+      "上锁",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/locked.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Locked/Flat/locked_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-key",
+    "name": "钥匙",
+    "category": "工作",
+    "tags": [
+      "工作",
+      "Key",
+      "钥匙",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/key.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Key/Flat/key_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-books",
+    "name": "书籍",
+    "category": "学习",
+    "tags": [
+      "学习",
+      "Books",
+      "书籍",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/books.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Books/Flat/books_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-open-book",
+    "name": "读书",
+    "category": "学习",
+    "tags": [
+      "学习",
+      "Open book",
+      "读书",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/open-book.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Open%20book/Flat/open_book_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-closed-book",
+    "name": "课本",
+    "category": "学习",
+    "tags": [
+      "学习",
+      "Closed book",
+      "课本",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/closed-book.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Closed%20book/Flat/closed_book_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-notebook",
+    "name": "笔记本",
+    "category": "学习",
+    "tags": [
+      "学习",
+      "Notebook",
+      "笔记本",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/notebook.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Notebook/Flat/notebook_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-notebook-with-decorative-cover",
+    "name": "学习手册",
+    "category": "学习",
+    "tags": [
+      "学习",
+      "Notebook with decorative cover",
+      "学习手册",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/notebook-with-decorative-cover.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Notebook%20with%20decorative%20cover/Flat/notebook_with_decorative_cover_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-ledger",
+    "name": "账簿",
+    "category": "学习",
+    "tags": [
+      "学习",
+      "Ledger",
+      "账簿",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/ledger.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Ledger/Flat/ledger_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-pencil",
+    "name": "铅笔",
+    "category": "学习",
+    "tags": [
+      "学习",
+      "Pencil",
+      "铅笔",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/pencil.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Pencil/Flat/pencil_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-pen",
+    "name": "钢笔",
+    "category": "学习",
+    "tags": [
+      "学习",
+      "Pen",
+      "钢笔",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/pen.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Pen/Flat/pen_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-paintbrush",
+    "name": "画笔",
+    "category": "学习",
+    "tags": [
+      "学习",
+      "Paintbrush",
+      "画笔",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/paintbrush.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Paintbrush/Flat/paintbrush_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-crayon",
+    "name": "蜡笔",
+    "category": "学习",
+    "tags": [
+      "学习",
+      "Crayon",
+      "蜡笔",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/crayon.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Crayon/Flat/crayon_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-graduation-cap",
+    "name": "毕业帽",
+    "category": "学习",
+    "tags": [
+      "学习",
+      "Graduation cap",
+      "毕业帽",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/graduation-cap.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Graduation%20cap/Flat/graduation_cap_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-school",
+    "name": "学校",
+    "category": "学习",
+    "tags": [
+      "学习",
+      "School",
+      "学校",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/school.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/School/Flat/school_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-backpack",
+    "name": "背包",
+    "category": "学习",
+    "tags": [
+      "学习",
+      "Backpack",
+      "背包",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/backpack.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Backpack/Flat/backpack_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-microscope",
+    "name": "显微镜",
+    "category": "学习",
+    "tags": [
+      "学习",
+      "Microscope",
+      "显微镜",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/microscope.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Microscope/Flat/microscope_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-telescope",
+    "name": "望远镜",
+    "category": "学习",
+    "tags": [
+      "学习",
+      "Telescope",
+      "望远镜",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/telescope.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Telescope/Flat/telescope_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-test-tube",
+    "name": "试管",
+    "category": "学习",
+    "tags": [
+      "学习",
+      "Test tube",
+      "试管",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/test-tube.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Test%20tube/Flat/test_tube_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-petri-dish",
+    "name": "培养皿",
+    "category": "学习",
+    "tags": [
+      "学习",
+      "Petri dish",
+      "培养皿",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/petri-dish.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Petri%20dish/Flat/petri_dish_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-dna",
+    "name": "基因",
+    "category": "学习",
+    "tags": [
+      "学习",
+      "Dna",
+      "基因",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/dna.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Dna/Flat/dna_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-abacus",
+    "name": "算盘",
+    "category": "学习",
+    "tags": [
+      "学习",
+      "Abacus",
+      "算盘",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/abacus.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Abacus/Flat/abacus_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-straight-ruler",
+    "name": "直尺",
+    "category": "学习",
+    "tags": [
+      "学习",
+      "Straight ruler",
+      "直尺",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/straight-ruler.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Straight%20ruler/Flat/straight_ruler_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-triangular-ruler",
+    "name": "三角尺",
+    "category": "学习",
+    "tags": [
+      "学习",
+      "Triangular ruler",
+      "三角尺",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/triangular-ruler.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Triangular%20ruler/Flat/triangular_ruler_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-artist-palette",
+    "name": "调色盘",
+    "category": "学习",
+    "tags": [
+      "学习",
+      "Artist palette",
+      "调色盘",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/artist-palette.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Artist%20palette/Flat/artist_palette_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-musical-score",
+    "name": "乐谱",
+    "category": "学习",
+    "tags": [
+      "学习",
+      "Musical score",
+      "乐谱",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/musical-score.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Musical%20score/Flat/musical_score_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-musical-keyboard",
+    "name": "钢琴",
+    "category": "学习",
+    "tags": [
+      "学习",
+      "Musical keyboard",
+      "钢琴",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/musical-keyboard.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Musical%20keyboard/Flat/musical_keyboard_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-guitar",
+    "name": "吉他",
+    "category": "学习",
+    "tags": [
+      "学习",
+      "Guitar",
+      "吉他",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/guitar.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Guitar/Flat/guitar_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-violin",
+    "name": "小提琴",
+    "category": "学习",
+    "tags": [
+      "学习",
+      "Violin",
+      "小提琴",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/violin.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Violin/Flat/violin_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-globe-showing-asia-australia",
+    "name": "地球",
+    "category": "学习",
+    "tags": [
+      "学习",
+      "Globe showing asia-australia",
+      "地球",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/globe-showing-asia-australia.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Globe%20showing%20asia-australia/Flat/globe_showing_asia-australia_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-globe-with-meridians",
+    "name": "经纬地球",
+    "category": "学习",
+    "tags": [
+      "学习",
+      "Globe with meridians",
+      "经纬地球",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/globe-with-meridians.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Globe%20with%20meridians/Flat/globe_with_meridians_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-magnifying-glass-tilted-left",
+    "name": "放大镜",
+    "category": "学习",
+    "tags": [
+      "学习",
+      "Magnifying glass tilted left",
+      "放大镜",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/magnifying-glass-tilted-left.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Magnifying%20glass%20tilted%20left/Flat/magnifying_glass_tilted_left_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-bookmark",
+    "name": "书签",
+    "category": "学习",
+    "tags": [
+      "学习",
+      "Bookmark",
+      "书签",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/bookmark.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Bookmark/Flat/bookmark_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-scroll",
+    "name": "卷轴",
+    "category": "学习",
+    "tags": [
+      "学习",
+      "Scroll",
+      "卷轴",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/scroll.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Scroll/Flat/scroll_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-page-facing-up",
+    "name": "文稿",
+    "category": "学习",
+    "tags": [
+      "学习",
+      "Page facing up",
+      "文稿",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/page-facing-up.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Page%20facing%20up/Flat/page_facing_up_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-page-with-curl",
+    "name": "笔记页",
+    "category": "学习",
+    "tags": [
+      "学习",
+      "Page with curl",
+      "笔记页",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/page-with-curl.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Page%20with%20curl/Flat/page_with_curl_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-bookmark-tabs",
+    "name": "标签页",
+    "category": "学习",
+    "tags": [
+      "学习",
+      "Bookmark tabs",
+      "标签页",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/bookmark-tabs.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Bookmark%20tabs/Flat/bookmark_tabs_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-brain",
+    "name": "大脑",
+    "category": "学习",
+    "tags": [
+      "学习",
+      "Brain",
+      "大脑",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/brain.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Brain/Flat/brain_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-atom-symbol",
+    "name": "原子",
+    "category": "学习",
+    "tags": [
+      "学习",
+      "Atom symbol",
+      "原子",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/atom-symbol.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Atom%20symbol/Flat/atom_symbol_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-balance-scale",
+    "name": "天平",
+    "category": "学习",
+    "tags": [
+      "学习",
+      "Balance scale",
+      "天平",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/balance-scale.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Balance%20scale/Flat/balance_scale_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-hourglass-not-done",
+    "name": "时间学习",
+    "category": "学习",
+    "tags": [
+      "学习",
+      "Hourglass not done",
+      "时间学习",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/hourglass-not-done.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Hourglass%20not%20done/Flat/hourglass_not_done_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-alarm-clock",
+    "name": "闹钟",
+    "category": "学习",
+    "tags": [
+      "学习",
+      "Alarm clock",
+      "闹钟",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/alarm-clock.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Alarm%20clock/Flat/alarm_clock_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-artist",
+    "name": "画家",
+    "category": "人物",
+    "tags": [
+      "人物",
+      "Artist",
+      "画家",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/artist.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Artist/Dark/Flat/artist_flat_dark.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-astronaut",
+    "name": "宇航员",
+    "category": "人物",
+    "tags": [
+      "人物",
+      "Astronaut",
+      "宇航员",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/astronaut.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Astronaut/Dark/Flat/astronaut_flat_dark.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-cook",
+    "name": "厨师",
+    "category": "人物",
+    "tags": [
+      "人物",
+      "Cook",
+      "厨师",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/cook.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Cook/Dark/Flat/cook_flat_dark.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-farmer",
+    "name": "农民",
+    "category": "人物",
+    "tags": [
+      "人物",
+      "Farmer",
+      "农民",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/farmer.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Farmer/Dark/Flat/farmer_flat_dark.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-firefighter",
+    "name": "消防员",
+    "category": "人物",
+    "tags": [
+      "人物",
+      "Firefighter",
+      "消防员",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/firefighter.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Firefighter/Dark/Flat/firefighter_flat_dark.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-health-worker",
+    "name": "医护人员",
+    "category": "人物",
+    "tags": [
+      "人物",
+      "Health worker",
+      "医护人员",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/health-worker.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Health%20worker/Dark/Flat/health_worker_flat_dark.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-judge",
+    "name": "法官",
+    "category": "人物",
+    "tags": [
+      "人物",
+      "Judge",
+      "法官",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/judge.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Judge/Dark/Flat/judge_flat_dark.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-mechanic",
+    "name": "技工",
+    "category": "人物",
+    "tags": [
+      "人物",
+      "Mechanic",
+      "技工",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/mechanic.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Mechanic/Dark/Flat/mechanic_flat_dark.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-office-worker",
+    "name": "上班族",
+    "category": "人物",
+    "tags": [
+      "人物",
+      "Office worker",
+      "上班族",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/office-worker.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Office%20worker/Dark/Flat/office_worker_flat_dark.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-pilot",
+    "name": "飞行员",
+    "category": "人物",
+    "tags": [
+      "人物",
+      "Pilot",
+      "飞行员",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/pilot.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Pilot/Dark/Flat/pilot_flat_dark.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-scientist",
+    "name": "科学家",
+    "category": "人物",
+    "tags": [
+      "人物",
+      "Scientist",
+      "科学家",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/scientist.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Scientist/Dark/Flat/scientist_flat_dark.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-singer",
+    "name": "歌手",
+    "category": "人物",
+    "tags": [
+      "人物",
+      "Singer",
+      "歌手",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/singer.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Singer/Dark/Flat/singer_flat_dark.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-student",
+    "name": "学生",
+    "category": "人物",
+    "tags": [
+      "人物",
+      "Student",
+      "学生",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/student.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Student/Dark/Flat/student_flat_dark.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-teacher",
+    "name": "教师",
+    "category": "人物",
+    "tags": [
+      "人物",
+      "Teacher",
+      "教师",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/teacher.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Teacher/Dark/Flat/teacher_flat_dark.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-technologist",
+    "name": "程序员",
+    "category": "人物",
+    "tags": [
+      "人物",
+      "Technologist",
+      "程序员",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/technologist.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Technologist/Dark/Flat/technologist_flat_dark.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-factory-worker",
+    "name": "工人",
+    "category": "人物",
+    "tags": [
+      "人物",
+      "Factory worker",
+      "工人",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/factory-worker.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Factory%20worker/Dark/Flat/factory_worker_flat_dark.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-construction-worker",
+    "name": "建筑工人",
+    "category": "人物",
+    "tags": [
+      "人物",
+      "Construction worker",
+      "建筑工人",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/construction-worker.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Construction%20worker/Dark/Flat/construction_worker_flat_dark.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-police-officer",
+    "name": "警察",
+    "category": "人物",
+    "tags": [
+      "人物",
+      "Police officer",
+      "警察",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/police-officer.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Police%20officer/Dark/Flat/police_officer_flat_dark.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-detective",
+    "name": "侦探",
+    "category": "人物",
+    "tags": [
+      "人物",
+      "Detective",
+      "侦探",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/detective.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Detective/Dark/Flat/detective_flat_dark.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-baby",
+    "name": "婴儿",
+    "category": "人物",
+    "tags": [
+      "人物",
+      "Baby",
+      "婴儿",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/baby.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Baby/Dark/Flat/baby_flat_dark.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-child",
+    "name": "儿童",
+    "category": "人物",
+    "tags": [
+      "人物",
+      "Child",
+      "儿童",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/child.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Child/Dark/Flat/child_flat_dark.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-person",
+    "name": "成年人",
+    "category": "人物",
+    "tags": [
+      "人物",
+      "Person",
+      "成年人",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/person.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Person/Dark/Flat/person_flat_dark.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-older-person",
+    "name": "长者",
+    "category": "人物",
+    "tags": [
+      "人物",
+      "Older person",
+      "长者",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/older-person.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Older%20person/Dark/Flat/older_person_flat_dark.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-person-running",
+    "name": "跑步",
+    "category": "人物",
+    "tags": [
+      "人物",
+      "Person running",
+      "跑步",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/person-running.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Person%20running/Dark/Flat/person_running_flat_dark.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-person-walking",
+    "name": "步行",
+    "category": "人物",
+    "tags": [
+      "人物",
+      "Person walking",
+      "步行",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/person-walking.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Person%20walking/Dark/Flat/person_walking_flat_dark.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-person-biking",
+    "name": "骑行",
+    "category": "人物",
+    "tags": [
+      "人物",
+      "Person biking",
+      "骑行",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/person-biking.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Person%20biking/Dark/Flat/person_biking_flat_dark.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-person-in-lotus-position",
+    "name": "冥想",
+    "category": "人物",
+    "tags": [
+      "人物",
+      "Person in lotus position",
+      "冥想",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/person-in-lotus-position.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Person%20in%20lotus%20position/Dark/Flat/person_in_lotus_position_flat_dark.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-person-swimming",
+    "name": "游泳",
+    "category": "人物",
+    "tags": [
+      "人物",
+      "Person swimming",
+      "游泳",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/person-swimming.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Person%20swimming/Dark/Flat/person_swimming_flat_dark.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-person-lifting-weights",
+    "name": "举重",
+    "category": "人物",
+    "tags": [
+      "人物",
+      "Person lifting weights",
+      "举重",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/person-lifting-weights.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Person%20lifting%20weights/Dark/Flat/person_lifting_weights_flat_dark.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-person-climbing",
+    "name": "攀岩",
+    "category": "人物",
+    "tags": [
+      "人物",
+      "Person climbing",
+      "攀岩",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/person-climbing.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Person%20climbing/Dark/Flat/person_climbing_flat_dark.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-person-raising-hand",
+    "name": "举手",
+    "category": "人物",
+    "tags": [
+      "人物",
+      "Person raising hand",
+      "举手",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/person-raising-hand.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Person%20raising%20hand/Dark/Flat/person_raising_hand_flat_dark.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-person-shrugging",
+    "name": "耸肩",
+    "category": "人物",
+    "tags": [
+      "人物",
+      "Person shrugging",
+      "耸肩",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/person-shrugging.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Person%20shrugging/Dark/Flat/person_shrugging_flat_dark.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-person-facepalming",
+    "name": "捂脸",
+    "category": "人物",
+    "tags": [
+      "人物",
+      "Person facepalming",
+      "捂脸",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/person-facepalming.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Person%20facepalming/Dark/Flat/person_facepalming_flat_dark.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-person-gesturing-ok",
+    "name": "同意手势",
+    "category": "人物",
+    "tags": [
+      "人物",
+      "Person gesturing ok",
+      "同意手势",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/person-gesturing-ok.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Person%20gesturing%20ok/Dark/Flat/person_gesturing_ok_flat_dark.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-grinning-face",
+    "name": "开心",
+    "category": "人物",
+    "tags": [
+      "人物",
+      "Grinning face",
+      "开心",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/grinning-face.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Grinning%20face/Flat/grinning_face_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-thinking-face",
+    "name": "思考",
+    "category": "人物",
+    "tags": [
+      "人物",
+      "Thinking face",
+      "思考",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/thinking-face.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Thinking%20face/Flat/thinking_face_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-smiling-face",
+    "name": "微笑",
+    "category": "人物",
+    "tags": [
+      "人物",
+      "Smiling face",
+      "微笑",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/smiling-face.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Smiling%20face/Flat/smiling_face_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-face-with-tears-of-joy",
+    "name": "大笑",
+    "category": "人物",
+    "tags": [
+      "人物",
+      "Face with tears of joy",
+      "大笑",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/face-with-tears-of-joy.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Face%20with%20tears%20of%20joy/Flat/face_with_tears_of_joy_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-sleeping-face",
+    "name": "睡眠",
+    "category": "人物",
+    "tags": [
+      "人物",
+      "Sleeping face",
+      "睡眠",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/sleeping-face.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Sleeping%20face/Flat/sleeping_face_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-face-with-thermometer",
+    "name": "生病",
+    "category": "人物",
+    "tags": [
+      "人物",
+      "Face with thermometer",
+      "生病",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/face-with-thermometer.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Face%20with%20thermometer/Flat/face_with_thermometer_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-star-struck",
+    "name": "惊喜",
+    "category": "人物",
+    "tags": [
+      "人物",
+      "Star-struck",
+      "惊喜",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/star-struck.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Star-struck/Flat/star-struck_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-house",
+    "name": "房子",
+    "category": "生活",
+    "tags": [
+      "生活",
+      "House",
+      "房子",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/house.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/House/Flat/house_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-house-with-garden",
+    "name": "家园",
+    "category": "生活",
+    "tags": [
+      "生活",
+      "House with garden",
+      "家园",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/house-with-garden.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/House%20with%20garden/Flat/house_with_garden_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-bed",
+    "name": "床",
+    "category": "生活",
+    "tags": [
+      "生活",
+      "Bed",
+      "床",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/bed.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Bed/Flat/bed_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-couch-and-lamp",
+    "name": "沙发",
+    "category": "生活",
+    "tags": [
+      "生活",
+      "Couch and lamp",
+      "沙发",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/couch-and-lamp.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Couch%20and%20lamp/Flat/couch_and_lamp_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-bathtub",
+    "name": "浴缸",
+    "category": "生活",
+    "tags": [
+      "生活",
+      "Bathtub",
+      "浴缸",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/bathtub.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Bathtub/Flat/bathtub_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-shower",
+    "name": "淋浴",
+    "category": "生活",
+    "tags": [
+      "生活",
+      "Shower",
+      "淋浴",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/shower.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Shower/Flat/shower_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-toothbrush",
+    "name": "牙刷",
+    "category": "生活",
+    "tags": [
+      "生活",
+      "Toothbrush",
+      "牙刷",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/toothbrush.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Toothbrush/Flat/toothbrush_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-soap",
+    "name": "香皂",
+    "category": "生活",
+    "tags": [
+      "生活",
+      "Soap",
+      "香皂",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/soap.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Soap/Flat/soap_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-basket",
+    "name": "篮子",
+    "category": "生活",
+    "tags": [
+      "生活",
+      "Basket",
+      "篮子",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/basket.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Basket/Flat/basket_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-shopping-cart",
+    "name": "购物车",
+    "category": "生活",
+    "tags": [
+      "生活",
+      "Shopping cart",
+      "购物车",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/shopping-cart.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Shopping%20cart/Flat/shopping_cart_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-shopping-bags",
+    "name": "购物袋",
+    "category": "生活",
+    "tags": [
+      "生活",
+      "Shopping bags",
+      "购物袋",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/shopping-bags.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Shopping%20bags/Flat/shopping_bags_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-t-shirt",
+    "name": "上衣",
+    "category": "生活",
+    "tags": [
+      "生活",
+      "T-shirt",
+      "上衣",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/t-shirt.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/T-shirt/Flat/t-shirt_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-jeans",
+    "name": "牛仔裤",
+    "category": "生活",
+    "tags": [
+      "生活",
+      "Jeans",
+      "牛仔裤",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/jeans.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Jeans/Flat/jeans_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-dress",
+    "name": "裙子",
+    "category": "生活",
+    "tags": [
+      "生活",
+      "Dress",
+      "裙子",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/dress.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Dress/Flat/dress_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-running-shoe",
+    "name": "运动鞋",
+    "category": "生活",
+    "tags": [
+      "生活",
+      "Running shoe",
+      "运动鞋",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/running-shoe.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Running%20shoe/Flat/running_shoe_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-umbrella",
+    "name": "雨伞",
+    "category": "生活",
+    "tags": [
+      "生活",
+      "Umbrella",
+      "雨伞",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/umbrella.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Umbrella/Flat/umbrella_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-hot-beverage",
+    "name": "咖啡热饮",
+    "category": "生活",
+    "tags": [
+      "生活",
+      "Hot beverage",
+      "咖啡热饮",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/hot-beverage.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Hot%20beverage/Flat/hot_beverage_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-teacup-without-handle",
+    "name": "茶",
+    "category": "生活",
+    "tags": [
+      "生活",
+      "Teacup without handle",
+      "茶",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/teacup-without-handle.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Teacup%20without%20handle/Flat/teacup_without_handle_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-cooking",
+    "name": "煎蛋",
+    "category": "生活",
+    "tags": [
+      "生活",
+      "Cooking",
+      "煎蛋",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/cooking.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Cooking/Flat/cooking_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-steaming-bowl",
+    "name": "面条",
+    "category": "生活",
+    "tags": [
+      "生活",
+      "Steaming bowl",
+      "面条",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/steaming-bowl.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Steaming%20bowl/Flat/steaming_bowl_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-cooked-rice",
+    "name": "米饭",
+    "category": "生活",
+    "tags": [
+      "生活",
+      "Cooked rice",
+      "米饭",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/cooked-rice.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Cooked%20rice/Flat/cooked_rice_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-bread",
+    "name": "面包",
+    "category": "生活",
+    "tags": [
+      "生活",
+      "Bread",
+      "面包",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/bread.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Bread/Flat/bread_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-birthday-cake",
+    "name": "生日蛋糕",
+    "category": "生活",
+    "tags": [
+      "生活",
+      "Birthday cake",
+      "生日蛋糕",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/birthday-cake.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Birthday%20cake/Flat/birthday_cake_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-red-apple",
+    "name": "苹果",
+    "category": "生活",
+    "tags": [
+      "生活",
+      "Red apple",
+      "苹果",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/red-apple.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Red%20apple/Flat/red_apple_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-banana",
+    "name": "香蕉",
+    "category": "生活",
+    "tags": [
+      "生活",
+      "Banana",
+      "香蕉",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/banana.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Banana/Flat/banana_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-avocado",
+    "name": "牛油果",
+    "category": "生活",
+    "tags": [
+      "生活",
+      "Avocado",
+      "牛油果",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/avocado.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Avocado/Flat/avocado_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-broccoli",
+    "name": "西兰花",
+    "category": "生活",
+    "tags": [
+      "生活",
+      "Broccoli",
+      "西兰花",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/broccoli.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Broccoli/Flat/broccoli_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-carrot",
+    "name": "胡萝卜",
+    "category": "生活",
+    "tags": [
+      "生活",
+      "Carrot",
+      "胡萝卜",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/carrot.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Carrot/Flat/carrot_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-pizza",
+    "name": "披萨",
+    "category": "生活",
+    "tags": [
+      "生活",
+      "Pizza",
+      "披萨",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/pizza.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Pizza/Flat/pizza_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-hamburger",
+    "name": "汉堡",
+    "category": "生活",
+    "tags": [
+      "生活",
+      "Hamburger",
+      "汉堡",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/hamburger.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Hamburger/Flat/hamburger_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-dog",
+    "name": "狗",
+    "category": "生活",
+    "tags": [
+      "生活",
+      "Dog",
+      "狗",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/dog.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Dog/Flat/dog_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-cat",
+    "name": "猫",
+    "category": "生活",
+    "tags": [
+      "生活",
+      "Cat",
+      "猫",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/cat.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Cat/Flat/cat_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-rabbit",
+    "name": "兔子",
+    "category": "生活",
+    "tags": [
+      "生活",
+      "Rabbit",
+      "兔子",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/rabbit.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Rabbit/Flat/rabbit_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-bird",
+    "name": "鸟",
+    "category": "生活",
+    "tags": [
+      "生活",
+      "Bird",
+      "鸟",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/bird.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Bird/Flat/bird_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-fish",
+    "name": "鱼",
+    "category": "生活",
+    "tags": [
+      "生活",
+      "Fish",
+      "鱼",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/fish.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Fish/Flat/fish_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-potted-plant",
+    "name": "盆栽",
+    "category": "生活",
+    "tags": [
+      "生活",
+      "Potted plant",
+      "盆栽",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/potted-plant.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Potted%20plant/Flat/potted_plant_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-seedling",
+    "name": "幼苗",
+    "category": "生活",
+    "tags": [
+      "生活",
+      "Seedling",
+      "幼苗",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/seedling.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Seedling/Flat/seedling_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-sunflower",
+    "name": "向日葵",
+    "category": "生活",
+    "tags": [
+      "生活",
+      "Sunflower",
+      "向日葵",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/sunflower.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Sunflower/Flat/sunflower_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-rose",
+    "name": "玫瑰",
+    "category": "生活",
+    "tags": [
+      "生活",
+      "Rose",
+      "玫瑰",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/rose.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Rose/Flat/rose_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-soccer-ball",
+    "name": "足球",
+    "category": "生活",
+    "tags": [
+      "生活",
+      "Soccer ball",
+      "足球",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/soccer-ball.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Soccer%20ball/Flat/soccer_ball_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-basketball",
+    "name": "篮球",
+    "category": "生活",
+    "tags": [
+      "生活",
+      "Basketball",
+      "篮球",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/basketball.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Basketball/Flat/basketball_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-tennis",
+    "name": "网球",
+    "category": "生活",
+    "tags": [
+      "生活",
+      "Tennis",
+      "网球",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/tennis.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Tennis/Flat/tennis_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-badminton",
+    "name": "羽毛球",
+    "category": "生活",
+    "tags": [
+      "生活",
+      "Badminton",
+      "羽毛球",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/badminton.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Badminton/Flat/badminton_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-video-game",
+    "name": "游戏",
+    "category": "生活",
+    "tags": [
+      "生活",
+      "Video game",
+      "游戏",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/video-game.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Video%20game/Flat/video_game_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-headphone",
+    "name": "耳机",
+    "category": "生活",
+    "tags": [
+      "生活",
+      "Headphone",
+      "耳机",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/headphone.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Headphone/Flat/headphone_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-camera",
+    "name": "相机",
+    "category": "生活",
+    "tags": [
+      "生活",
+      "Camera",
+      "相机",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/camera.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Camera/Flat/camera_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-television",
+    "name": "电视",
+    "category": "生活",
+    "tags": [
+      "生活",
+      "Television",
+      "电视",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/television.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Television/Flat/television_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-wrapped-gift",
+    "name": "礼物",
+    "category": "生活",
+    "tags": [
+      "生活",
+      "Wrapped gift",
+      "礼物",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/wrapped-gift.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Wrapped%20gift/Flat/wrapped_gift_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-balloon",
+    "name": "气球",
+    "category": "生活",
+    "tags": [
+      "生活",
+      "Balloon",
+      "气球",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/balloon.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Balloon/Flat/balloon_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-party-popper",
+    "name": "庆祝",
+    "category": "生活",
+    "tags": [
+      "生活",
+      "Party popper",
+      "庆祝",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/party-popper.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Party%20popper/Flat/party_popper_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-airplane",
+    "name": "飞机",
+    "category": "旅行",
+    "tags": [
+      "旅行",
+      "Airplane",
+      "飞机",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/airplane.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Airplane/Flat/airplane_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-airplane-departure",
+    "name": "起飞",
+    "category": "旅行",
+    "tags": [
+      "旅行",
+      "Airplane departure",
+      "起飞",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/airplane-departure.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Airplane%20departure/Flat/airplane_departure_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-airplane-arrival",
+    "name": "降落",
+    "category": "旅行",
+    "tags": [
+      "旅行",
+      "Airplane arrival",
+      "降落",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/airplane-arrival.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Airplane%20arrival/Flat/airplane_arrival_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-automobile",
+    "name": "汽车",
+    "category": "旅行",
+    "tags": [
+      "旅行",
+      "Automobile",
+      "汽车",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/automobile.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Automobile/Flat/automobile_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-taxi",
+    "name": "出租车",
+    "category": "旅行",
+    "tags": [
+      "旅行",
+      "Taxi",
+      "出租车",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/taxi.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Taxi/Flat/taxi_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-bus",
+    "name": "公交车",
+    "category": "旅行",
+    "tags": [
+      "旅行",
+      "Bus",
+      "公交车",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/bus.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Bus/Flat/bus_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-train",
+    "name": "火车",
+    "category": "旅行",
+    "tags": [
+      "旅行",
+      "Train",
+      "火车",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/train.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Train/Flat/train_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-high-speed-train",
+    "name": "高铁",
+    "category": "旅行",
+    "tags": [
+      "旅行",
+      "High-speed train",
+      "高铁",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/high-speed-train.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/High-speed%20train/Flat/high-speed_train_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-bicycle",
+    "name": "自行车",
+    "category": "旅行",
+    "tags": [
+      "旅行",
+      "Bicycle",
+      "自行车",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/bicycle.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Bicycle/Flat/bicycle_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-motor-scooter",
+    "name": "摩托车",
+    "category": "旅行",
+    "tags": [
+      "旅行",
+      "Motor scooter",
+      "摩托车",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/motor-scooter.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Motor%20scooter/Flat/motor_scooter_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-sailboat",
+    "name": "帆船",
+    "category": "旅行",
+    "tags": [
+      "旅行",
+      "Sailboat",
+      "帆船",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/sailboat.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Sailboat/Flat/sailboat_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-ship",
+    "name": "轮船",
+    "category": "旅行",
+    "tags": [
+      "旅行",
+      "Ship",
+      "轮船",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/ship.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Ship/Flat/ship_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-rocket",
+    "name": "火箭",
+    "category": "旅行",
+    "tags": [
+      "旅行",
+      "Rocket",
+      "火箭",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/rocket.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Rocket/Flat/rocket_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-helicopter",
+    "name": "直升机",
+    "category": "旅行",
+    "tags": [
+      "旅行",
+      "Helicopter",
+      "直升机",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/helicopter.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Helicopter/Flat/helicopter_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-luggage",
+    "name": "行李",
+    "category": "旅行",
+    "tags": [
+      "旅行",
+      "Luggage",
+      "行李",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/luggage.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Luggage/Flat/luggage_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-world-map",
+    "name": "世界地图",
+    "category": "旅行",
+    "tags": [
+      "旅行",
+      "World map",
+      "世界地图",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/world-map.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/World%20map/Flat/world_map_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-compass",
+    "name": "指南针",
+    "category": "旅行",
+    "tags": [
+      "旅行",
+      "Compass",
+      "指南针",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/compass.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Compass/Flat/compass_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-round-pushpin",
+    "name": "位置",
+    "category": "旅行",
+    "tags": [
+      "旅行",
+      "Round pushpin",
+      "位置",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/round-pushpin.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Round%20pushpin/Flat/round_pushpin_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-camping",
+    "name": "露营",
+    "category": "旅行",
+    "tags": [
+      "旅行",
+      "Camping",
+      "露营",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/camping.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Camping/Flat/camping_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-tent",
+    "name": "帐篷",
+    "category": "旅行",
+    "tags": [
+      "旅行",
+      "Tent",
+      "帐篷",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/tent.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Tent/Flat/tent_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-beach-with-umbrella",
+    "name": "海滩",
+    "category": "旅行",
+    "tags": [
+      "旅行",
+      "Beach with umbrella",
+      "海滩",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/beach-with-umbrella.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Beach%20with%20umbrella/Flat/beach_with_umbrella_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-desert-island",
+    "name": "海岛",
+    "category": "旅行",
+    "tags": [
+      "旅行",
+      "Desert island",
+      "海岛",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/desert-island.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Desert%20island/Flat/desert_island_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-mountain",
+    "name": "山峰",
+    "category": "旅行",
+    "tags": [
+      "旅行",
+      "Mountain",
+      "山峰",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/mountain.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Mountain/Flat/mountain_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-snow-capped-mountain",
+    "name": "雪山",
+    "category": "旅行",
+    "tags": [
+      "旅行",
+      "Snow-capped mountain",
+      "雪山",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/snow-capped-mountain.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Snow-capped%20mountain/Flat/snow-capped_mountain_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-mount-fuji",
+    "name": "富士山",
+    "category": "旅行",
+    "tags": [
+      "旅行",
+      "Mount fuji",
+      "富士山",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/mount-fuji.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Mount%20fuji/Flat/mount_fuji_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-national-park",
+    "name": "国家公园",
+    "category": "旅行",
+    "tags": [
+      "旅行",
+      "National park",
+      "国家公园",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/national-park.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/National%20park/Flat/national_park_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-desert",
+    "name": "沙漠",
+    "category": "旅行",
+    "tags": [
+      "旅行",
+      "Desert",
+      "沙漠",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/desert.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Desert/Flat/desert_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-sunrise",
+    "name": "日出",
+    "category": "旅行",
+    "tags": [
+      "旅行",
+      "Sunrise",
+      "日出",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/sunrise.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Sunrise/Flat/sunrise_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-sunset",
+    "name": "日落",
+    "category": "旅行",
+    "tags": [
+      "旅行",
+      "Sunset",
+      "日落",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/sunset.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Sunset/Flat/sunset_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-bridge-at-night",
+    "name": "夜景桥梁",
+    "category": "旅行",
+    "tags": [
+      "旅行",
+      "Bridge at night",
+      "夜景桥梁",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/bridge-at-night.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Bridge%20at%20night/Flat/bridge_at_night_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-ferris-wheel",
+    "name": "摩天轮",
+    "category": "旅行",
+    "tags": [
+      "旅行",
+      "Ferris wheel",
+      "摩天轮",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/ferris-wheel.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Ferris%20wheel/Flat/ferris_wheel_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-roller-coaster",
+    "name": "过山车",
+    "category": "旅行",
+    "tags": [
+      "旅行",
+      "Roller coaster",
+      "过山车",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/roller-coaster.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Roller%20coaster/Flat/roller_coaster_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-hotel",
+    "name": "酒店",
+    "category": "旅行",
+    "tags": [
+      "旅行",
+      "Hotel",
+      "酒店",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/hotel.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Hotel/Flat/hotel_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-castle",
+    "name": "城堡",
+    "category": "旅行",
+    "tags": [
+      "旅行",
+      "Castle",
+      "城堡",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/castle.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Castle/Flat/castle_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-stadium",
+    "name": "体育场",
+    "category": "旅行",
+    "tags": [
+      "旅行",
+      "Stadium",
+      "体育场",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/stadium.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Stadium/Flat/stadium_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-statue-of-liberty",
+    "name": "自由女神像",
+    "category": "旅行",
+    "tags": [
+      "旅行",
+      "Statue of liberty",
+      "自由女神像",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/statue-of-liberty.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Statue%20of%20liberty/Flat/statue_of_liberty_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-tokyo-tower",
+    "name": "东京塔",
+    "category": "旅行",
+    "tags": [
+      "旅行",
+      "Tokyo tower",
+      "东京塔",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/tokyo-tower.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Tokyo%20tower/Flat/tokyo_tower_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-ticket",
+    "name": "门票",
+    "category": "旅行",
+    "tags": [
+      "旅行",
+      "Ticket",
+      "门票",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/ticket.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Ticket/Flat/ticket_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-passport-control",
+    "name": "护照",
+    "category": "旅行",
+    "tags": [
+      "旅行",
+      "Passport control",
+      "护照",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/passport-control.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Passport%20control/Flat/passport_control_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-baggage-claim",
+    "name": "行李提取",
+    "category": "旅行",
+    "tags": [
+      "旅行",
+      "Baggage claim",
+      "行李提取",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/baggage-claim.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Baggage%20claim/Flat/baggage_claim_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-check-mark-button",
+    "name": "完成",
+    "category": "符号",
+    "tags": [
+      "符号",
+      "Check mark button",
+      "完成",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/check-mark-button.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Check%20mark%20button/Flat/check_mark_button_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-check-mark",
+    "name": "对勾",
+    "category": "符号",
+    "tags": [
+      "符号",
+      "Check mark",
+      "对勾",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/check-mark.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Check%20mark/Flat/check_mark_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-cross-mark",
+    "name": "错误",
+    "category": "符号",
+    "tags": [
+      "符号",
+      "Cross mark",
+      "错误",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/cross-mark.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Cross%20mark/Flat/cross_mark_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-warning",
+    "name": "警告",
+    "category": "符号",
+    "tags": [
+      "符号",
+      "Warning",
+      "警告",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/warning.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Warning/Flat/warning_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-prohibited",
+    "name": "禁止",
+    "category": "符号",
+    "tags": [
+      "符号",
+      "Prohibited",
+      "禁止",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/prohibited.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Prohibited/Flat/prohibited_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-recycling-symbol",
+    "name": "循环回收",
+    "category": "符号",
+    "tags": [
+      "符号",
+      "Recycling symbol",
+      "循环回收",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/recycling-symbol.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Recycling%20symbol/Flat/recycling_symbol_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-infinity",
+    "name": "无限",
+    "category": "符号",
+    "tags": [
+      "符号",
+      "Infinity",
+      "无限",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/infinity.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Infinity/Flat/infinity_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-heart-suit",
+    "name": "爱心",
+    "category": "符号",
+    "tags": [
+      "符号",
+      "Heart suit",
+      "爱心",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/heart-suit.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Heart%20suit/Flat/heart_suit_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-red-heart",
+    "name": "红心",
+    "category": "符号",
+    "tags": [
+      "符号",
+      "Red heart",
+      "红心",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/red-heart.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Red%20heart/Flat/red_heart_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-star",
+    "name": "星星",
+    "category": "符号",
+    "tags": [
+      "符号",
+      "Star",
+      "星星",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/star.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Star/Flat/star_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-glowing-star",
+    "name": "闪亮星",
+    "category": "符号",
+    "tags": [
+      "符号",
+      "Glowing star",
+      "闪亮星",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/glowing-star.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Glowing%20star/Flat/glowing_star_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-sparkles",
+    "name": "闪光",
+    "category": "符号",
+    "tags": [
+      "符号",
+      "Sparkles",
+      "闪光",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/sparkles.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Sparkles/Flat/sparkles_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-fire",
+    "name": "火焰",
+    "category": "符号",
+    "tags": [
+      "符号",
+      "Fire",
+      "火焰",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/fire.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Fire/Flat/fire_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-high-voltage",
+    "name": "闪电",
+    "category": "符号",
+    "tags": [
+      "符号",
+      "High voltage",
+      "闪电",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/high-voltage.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/High%20voltage/Flat/high_voltage_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-hundred-points",
+    "name": "满分",
+    "category": "符号",
+    "tags": [
+      "符号",
+      "Hundred points",
+      "满分",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/hundred-points.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Hundred%20points/Flat/hundred_points_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-1st-place-medal",
+    "name": "第一名",
+    "category": "符号",
+    "tags": [
+      "符号",
+      "1st place medal",
+      "第一名",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/1st-place-medal.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/1st%20place%20medal/Flat/1st_place_medal_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-2nd-place-medal",
+    "name": "第二名",
+    "category": "符号",
+    "tags": [
+      "符号",
+      "2nd place medal",
+      "第二名",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/2nd-place-medal.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/2nd%20place%20medal/Flat/2nd_place_medal_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-3rd-place-medal",
+    "name": "第三名",
+    "category": "符号",
+    "tags": [
+      "符号",
+      "3rd place medal",
+      "第三名",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/3rd-place-medal.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/3rd%20place%20medal/Flat/3rd_place_medal_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-trophy",
+    "name": "奖杯",
+    "category": "符号",
+    "tags": [
+      "符号",
+      "Trophy",
+      "奖杯",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/trophy.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Trophy/Flat/trophy_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-bullseye",
+    "name": "目标",
+    "category": "符号",
+    "tags": [
+      "符号",
+      "Bullseye",
+      "目标",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/bullseye.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Bullseye/Flat/bullseye_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-chequered-flag",
+    "name": "终点",
+    "category": "符号",
+    "tags": [
+      "符号",
+      "Chequered flag",
+      "终点",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/chequered-flag.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Chequered%20flag/Flat/chequered_flag_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-triangular-flag",
+    "name": "旗帜",
+    "category": "符号",
+    "tags": [
+      "符号",
+      "Triangular flag",
+      "旗帜",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/triangular-flag.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Triangular%20flag/Flat/triangular_flag_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-right-arrow",
+    "name": "向右",
+    "category": "符号",
+    "tags": [
+      "符号",
+      "Right arrow",
+      "向右",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/right-arrow.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Right%20arrow/Flat/right_arrow_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-left-arrow",
+    "name": "向左",
+    "category": "符号",
+    "tags": [
+      "符号",
+      "Left arrow",
+      "向左",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/left-arrow.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Left%20arrow/Flat/left_arrow_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-up-arrow",
+    "name": "向上",
+    "category": "符号",
+    "tags": [
+      "符号",
+      "Up arrow",
+      "向上",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/up-arrow.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Up%20arrow/Flat/up_arrow_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-down-arrow",
+    "name": "向下",
+    "category": "符号",
+    "tags": [
+      "符号",
+      "Down arrow",
+      "向下",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/down-arrow.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Down%20arrow/Flat/down_arrow_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-clockwise-vertical-arrows",
+    "name": "循环",
+    "category": "符号",
+    "tags": [
+      "符号",
+      "Clockwise vertical arrows",
+      "循环",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/clockwise-vertical-arrows.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Clockwise%20vertical%20arrows/Flat/clockwise_vertical_arrows_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-counterclockwise-arrows-button",
+    "name": "刷新",
+    "category": "符号",
+    "tags": [
+      "符号",
+      "Counterclockwise arrows button",
+      "刷新",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/counterclockwise-arrows-button.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Counterclockwise%20arrows%20button/Flat/counterclockwise_arrows_button_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-plus",
+    "name": "加号",
+    "category": "符号",
+    "tags": [
+      "符号",
+      "Plus",
+      "加号",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/plus.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Plus/Flat/plus_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-minus",
+    "name": "减号",
+    "category": "符号",
+    "tags": [
+      "符号",
+      "Minus",
+      "减号",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/minus.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Minus/Flat/minus_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-multiply",
+    "name": "乘号",
+    "category": "符号",
+    "tags": [
+      "符号",
+      "Multiply",
+      "乘号",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/multiply.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Multiply/Flat/multiply_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-divide",
+    "name": "除号",
+    "category": "符号",
+    "tags": [
+      "符号",
+      "Divide",
+      "除号",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/divide.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Divide/Flat/divide_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-heavy-equals-sign",
+    "name": "等号",
+    "category": "符号",
+    "tags": [
+      "符号",
+      "Heavy equals sign",
+      "等号",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/heavy-equals-sign.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Heavy%20equals%20sign/Flat/heavy_equals_sign_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-information",
+    "name": "信息",
+    "category": "符号",
+    "tags": [
+      "符号",
+      "Information",
+      "信息",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/information.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Information/Flat/information_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-speech-balloon",
+    "name": "对话",
+    "category": "符号",
+    "tags": [
+      "符号",
+      "Speech balloon",
+      "对话",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/speech-balloon.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Speech%20balloon/Flat/speech_balloon_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-thought-balloon",
+    "name": "想法",
+    "category": "符号",
+    "tags": [
+      "符号",
+      "Thought balloon",
+      "想法",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/thought-balloon.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Thought%20balloon/Flat/thought_balloon_flat.svg",
+    "license": "MIT",
+    "scene": false
+  },
+  {
+    "id": "fluent-bell",
+    "name": "通知",
+    "category": "符号",
+    "tags": [
+      "符号",
+      "Bell",
+      "通知",
+      "彩色"
+    ],
+    "stroke": [],
+    "src": "/illustrations/fluent/bell.svg",
+    "source": "https://raw.githubusercontent.com/microsoft/fluentui-emoji/main/assets/Bell/Flat/bell_flat.svg",
+    "license": "MIT",
+    "scene": false
+  }
+]

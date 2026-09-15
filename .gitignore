@@ -1,0 +1,38 @@
+node_modules/
+dist/
+.DS_Store
+*.local
+
+# MINDNB_REMOTE 本地 shim 的文件 Blob 替身目录
+.scratch/.remote-blob/
+.vercel
+.env*
+
+# Desktop build and automated test output
+dist-desktop/
+release/
+test-results/
+playwright-report/
+
+# Reproducible MCP journal acceptance outputs and isolated app profiles
+.scratch/mcp-journal/runtime-*/
+output/life-reset-journal/exports-*/
+output/life-reset-journal/latest.json
+output/life-reset-journal/index.html
+output/life-reset-journal/overview.png
+
+# Private research, agent traces and personal output (tracked history is separate)
+/.scratch/
+/.gstack/
+/.video_agent/
+/xiaohongshu-research/
+/output/
+*.pem
+*.key
+*.p12
+*.pfx
+*.mobileprovision
+!/.env.example
+
+# Extracted AppImage used by installed-package verification
+/squashfs-root/

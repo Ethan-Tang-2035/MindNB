@@ -1,0 +1,2 @@
+# Preserve upstream license bytes for recorded SHA-256 verification on every OS.
+docs/licenses/** -text

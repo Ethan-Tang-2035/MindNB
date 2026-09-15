@@ -1,0 +1,21 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>MindNB 左栏验收夹具</title>
+<style>body{font:16px system-ui;padding:50px;background:#f5f6f0;color:#263d32}button{padding:14px 24px;font:inherit;margin:12px}</style>
+<h1>左栏与纸页回归测试</h1><p>创建独立的本地测试文档：三张纸页、折叠分支、页外素材与裁切内容。</p><button id="create-fixture">创建测试文档</button>
+<script type="module">
+import {emptyTree,createNode} from '/src/model.ts';
+import {createPage,assignToPage,updatePage} from '/src/paper-pages.ts';
+import {INDEX_KEY,docKey} from '/src/docs.ts';
+document.querySelector('button').onclick=()=>{
+ const id='left-navigation-'+crypto.randomUUID();let map=emptyTree();map.theme='clear';map.paper='#F5F6F0';map.root.text='每周灵感手账';map.rootPosition={x:530,y:390};map.root.style={fontSize:42};
+ const branch=createNode('设计笔记');branch.children=[createNode('观察日常'),createNode('记录灵感')];branch.collapsed=true;map.root.children=[branch,createNode('开始行动')];
+ const title=createNode('阅读与练习');title.style={fontSize:36};const clipped=createNode('裁切范围外的内容');
+ map.topics=[{node:title,x:1650,y:320},{node:clipped,x:4400,y:320}];
+ const image={id:'test-image',seed:23,kind:'image',src:'data:image/svg+xml,'+encodeURIComponent('<svg xmlns="http://www.w3.org/2000/svg" width="240" height="160"><rect width="240" height="160" rx="16" fill="#E6CB85"/><circle cx="170" cy="50" r="24" fill="#F9F1CF"/><path d="M0 160L85 45l80 115M100 160l80-100 60 100" fill="#829B77"/></svg>'),x:1700,y:500,w:240,h:160};
+ map.objects=[image,{id:'test-outside',seed:2,kind:'sticker',icon:'star',x:550,y:1400,size:96}];
+ const a=createPage(map,{x:250,y:220,preset:'portrait'});map=assignToPage(a.map,a.id,[map.root.id]);map=updatePage(map,a.id,{name:'灵感 · 封面',paper:'#FFF5D9'});
+ const b=createPage(map,{x:1450,y:220,preset:'portrait'});map=assignToPage(b.map,b.id,[title.id,image.id]);map=updatePage(map,b.id,{name:'阅读 · 练习',paper:'#EEF4ED',paperStyle:'dots'});
+ const c=createPage(map,{x:2650,y:220,preset:'portrait'});map=assignToPage(c.map,c.id,[clipped.id]);map=updatePage(map,c.id,{name:'留白 · 裁切',paper:'#F4EDF8',overflow:'clip'});
+ const index=JSON.parse(localStorage.getItem(INDEX_KEY)||'[]');index.push({id,createdAt:Date.now(),updatedAt:Date.now(),nameOverride:'左栏自动化验收'});
+ localStorage.setItem(INDEX_KEY,JSON.stringify(index));localStorage.setItem(docKey(id),JSON.stringify(map));localStorage.setItem('mindnb:v2:view:'+id,JSON.stringify({coordinateVersion:2,tx:210,ty:135,k:.5,dx:0,dy:0}));location.href='/#/doc/'+id;
+}
+</script></html>
