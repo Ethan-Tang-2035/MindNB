@@ -14,7 +14,7 @@ MindNB is a free, open-source desktop editor for mind maps, visual notes and ill
 
 ## Download
 
-**Early preview, version 0.1.0.** Installers are being prepared. A build is available only when its file is attached to a published [GitHub Release](https://github.com/Ethan-Tang-2035/MindNB/releases). The table describes build targets, not verified availability. No public installer has been announced yet.
+**[Download MindNB 0.1.0 Preview](https://github.com/Ethan-Tang-2035/MindNB/releases/tag/v0.1.0).** Installers are available for the four targets below. All passed automated build, installation smoke and desktop checks. These are unsigned preview packages; macOS packages are not Apple-notarized. See the release notes for validation details and limits.
 
 | System | Architecture | Download file |
 | --- | --- | --- |
