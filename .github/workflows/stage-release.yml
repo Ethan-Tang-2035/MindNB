@@ -78,7 +78,8 @@ jobs:
           python3 - <<'PY'
           import hashlib, json, os, pathlib, subprocess
           repo, tag = os.environ['GH_REPO'], os.environ['RELEASE_TAG']
-          release = json.loads(subprocess.check_output(['gh', 'api', f'repos/{repo}/releases/tags/{tag}'], text=True))
+          draft = json.loads(subprocess.check_output(['gh', 'release', 'view', tag, '--json', 'databaseId'], text=True))
+          release = json.loads(subprocess.check_output(['gh', 'api', f"repos/{repo}/releases/{draft['databaseId']}"], text=True))
           assert release['draft'], 'Release must remain a draft for review'
           remote = {a['name']: a for a in release['assets']}
           local = {p.name: p for p in pathlib.Path('bundle').iterdir()}
