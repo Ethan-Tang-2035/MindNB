@@ -1,0 +1,93 @@
+name: Stage tested preview assets
+on:
+  workflow_dispatch:
+    inputs:
+      build_run_id:
+        description: Successful Release preview builds run ID
+        required: true
+        type: string
+      tag:
+        description: Existing version tag and draft release (for example v0.1.0)
+        required: true
+        type: string
+permissions:
+  actions: read
+  contents: write
+concurrency:
+  group: stage-release-${{ inputs.tag }}
+  cancel-in-progress: false
+jobs:
+  stage:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    env:
+      GH_TOKEN: ${{ github.token }}
+      GH_REPO: ${{ github.repository }}
+      BUILD_RUN_ID: ${{ inputs.build_run_id }}
+      RELEASE_TAG: ${{ inputs.tag }}
+    steps:
+      - name: Verify the successful build, tag and draft
+        run: |
+          python3 - <<'PY'
+          import json, os, re, subprocess
+          def gh(*args):
+              return json.loads(subprocess.check_output(['gh', *args], text=True))
+          repo, run_id, tag = (os.environ[k] for k in ('GH_REPO', 'BUILD_RUN_ID', 'RELEASE_TAG'))
+          assert re.fullmatch(r'[0-9]+', run_id), 'Invalid run ID'
+          assert re.fullmatch(r'v[0-9]+\.[0-9]+\.[0-9]+(?:-[A-Za-z0-9.-]+)?', tag), 'Invalid tag'
+          run = gh('api', f'repos/{repo}/actions/runs/{run_id}')
+          assert run['conclusion'] == 'success', 'Build did not succeed'
+          assert run['path'] == '.github/workflows/release.yml', 'Unexpected build workflow'
+          assert run['event'] in ('workflow_dispatch', 'push'), 'Unexpected build event'
+          assert run['head_repository']['full_name'] == repo, 'Build is from another repository'
+          ref = gh('api', f'repos/{repo}/git/ref/tags/{tag}')
+          assert ref['object']['type'] == 'commit', 'Use a lightweight tag for the tested commit'
+          assert ref['object']['sha'] == run['head_sha'], 'Tag does not match the tested commit'
+          release = gh('release', 'view', tag, '--json', 'isDraft,tagName')
+          assert release['isDraft'] and release['tagName'] == tag, 'Only draft releases may be staged'
+          print('Verified successful build, matching tag and draft release.')
+          PY
+      - name: Download the existing bundle without rebuilding
+        run: gh run download "$BUILD_RUN_ID" --name release-bundle --dir bundle
+      - name: Verify exact file set and checksums
+        run: |
+          python3 - <<'PY'
+          import hashlib, os, pathlib
+          root = pathlib.Path('bundle')
+          prefix = 'MindNB-' + os.environ['RELEASE_TAG'][1:]
+          suffixes = ['linux-x86_64.AppImage', 'mac-arm64.dmg', 'mac-arm64.zip', 'mac-x64.dmg', 'mac-x64.zip', 'win-x64.exe', 'win-x64.zip', 'source.zip']
+          archives = {prefix + '-' + suffix for suffix in suffixes}
+          expected = archives | {prefix + '-source-manifest.txt', 'SHA256SUMS.txt'}
+          assert {p.name for p in root.iterdir()} == expected, 'Unexpected bundle files'
+          checked = set()
+          for line in (root / 'SHA256SUMS.txt').read_text().splitlines():
+              digest, name = line.split(maxsplit=1)
+              name = name.lstrip('*')
+              assert name in archives and name not in checked, 'Unexpected checksum entry'
+              with (root / name).open('rb') as f:
+                  assert hashlib.file_digest(f, 'sha256').hexdigest() == digest, name
+              checked.add(name)
+          assert checked == archives, 'Missing checksums'
+          print('All eight archive checksums passed.')
+          PY
+      - name: Upload assets to the draft
+        run: gh release upload "$RELEASE_TAG" bundle/* --clobber
+      - name: Verify uploaded sizes and digests
+        run: |
+          python3 - <<'PY'
+          import hashlib, json, os, pathlib, subprocess
+          repo, tag = os.environ['GH_REPO'], os.environ['RELEASE_TAG']
+          release = json.loads(subprocess.check_output(['gh', 'api', f'repos/{repo}/releases/tags/{tag}'], text=True))
+          assert release['draft'], 'Release must remain a draft for review'
+          remote = {a['name']: a for a in release['assets']}
+          local = {p.name: p for p in pathlib.Path('bundle').iterdir()}
+          assert remote.keys() == local.keys(), 'Uploaded file set mismatch'
+          for name, path in local.items():
+              asset = remote[name]
+              assert asset['state'] == 'uploaded' and asset['size'] == path.stat().st_size, name
+              with path.open('rb') as f:
+                  digest = 'sha256:' + hashlib.file_digest(f, 'sha256').hexdigest()
+              assert asset['digest'] == digest, name
+          print('All ten draft assets verified. Publish after reviewing release notes.')
+          PY
